@@ -113,13 +113,39 @@
 
   .hidden { display: none !important; }
 
-  /* responsive */
-  @media (max-width: 720px) {
+  /* portrait móvil */
+  @media (max-width: 720px) and (orientation: portrait) {
     body { padding: 1rem 0.75rem; }
     .tab-btn { padding: 7px 14px; font-size: 0.82rem; }
     .filter-btn { font-size: 0.68rem; padding: 4px 9px; }
     .grid-wrapper { display: none; }
     .m-list { display: block; }
+  }
+
+  /* landscape móvil → modo screenshot */
+  @media (orientation: landscape) and (max-height: 500px) {
+    body { padding: 0.4rem 0.6rem; }
+    /* ocultar todo excepto la tabla de destacados */
+    header p, #status-bar, .tabs, .filters, .legend { display: none !important; }
+    #view-todos { display: none !important; }
+    #view-destacados { display: block !important; }
+    .m-list { display: none !important; }
+    .grid-wrapper { display: block !important; }
+    header { margin-bottom: 0.4rem; }
+    header h1 { font-size: 1rem; letter-spacing: 0.06em; }
+    /* tabla ultra-compacta */
+    table { min-width: unset; width: 100%; }
+    thead th { font-size: 0.52rem; padding: 4px 5px; letter-spacing: 0.06em; }
+    td { padding: 3px 5px; }
+    td.day-cell { white-space: nowrap; }
+    .day-label { font-size: 0.72rem; }
+    .date-label { font-size: 0.52rem; margin-top: 1px; }
+    .match-card { padding: 3px 6px; margin-bottom: 2px; border-radius: 3px; border-left-width: 2px; }
+    .match-card:hover { transform: none; }
+    /* solo nombres, sin hora ni venue */
+    .match-meta { display: none; }
+    .match-teams { font-size: 0.72rem; line-height: 1.1; }
+    .match-teams .vs { font-size: 0.58rem; margin: 0 2px; }
   }
 </style>
 </head>
