@@ -125,10 +125,10 @@
   /* landscape móvil → modo screenshot */
   @media (orientation: landscape) and (max-height: 500px) {
     body { padding: 0.4rem 0.6rem; }
-    /* ocultar todo excepto la tabla de destacados */
-    header p, #status-bar, .tabs, .filters, .legend { display: none !important; }
-    #view-todos { display: none !important; }
-    #view-destacados { display: block !important; }
+    /* ocultar chrome, mostrar solo tabla de la pestaña activa */
+    header p, #status-bar, .filters, .legend { display: none !important; }
+    .tabs { margin-bottom: 0.4rem; }
+    .tab-btn { padding: 4px 12px; font-size: 0.72rem; }
     .m-list { display: none !important; }
     .grid-wrapper { display: block !important; }
     header { margin-bottom: 0.4rem; }
