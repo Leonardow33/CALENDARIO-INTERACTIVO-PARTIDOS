@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Calendario de Partidos – Semana 19–25 Mayo 2026</title>
+<title>Calendario de Partidos</title>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -12,6 +12,7 @@
     --sudamericana: #0D7A4E;
     --champions: #001E62;
     --europa: #FF6600;
+    --premier: #3D195B;
     --bg: #0A0A0F;
     --surface: #13131A;
     --surface2: #1C1C27;
@@ -21,379 +22,334 @@
     --accent: #FFD700;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'Barlow', sans-serif;
-    min-height: 100vh;
-    padding: 2rem 1rem;
-  }
-  header {
-    text-align: center;
-    margin-bottom: 2.5rem;
-  }
-  header h1 {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: clamp(1.8rem, 4vw, 3rem);
-    font-weight: 800;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--accent);
-    line-height: 1;
-  }
-  header p {
-    font-size: 0.9rem;
-    color: var(--muted);
-    margin-top: 0.4rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-  }
- 
-  .filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: center;
-    margin-bottom: 2rem;
-  }
-  .filter-btn {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    padding: 6px 16px;
-    border-radius: 4px;
-    border: 1.5px solid var(--border);
-    background: var(--surface);
-    color: var(--muted);
-    cursor: pointer;
-    transition: all 0.2s;
-  }
+  body { background: var(--bg); color: var(--text); font-family: 'Barlow', sans-serif; min-height: 100vh; padding: 1.2rem 1rem; }
+
+  /* header */
+  header { text-align: center; margin-bottom: 1.2rem; }
+  header h1 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(1.4rem, 5vw, 2.8rem); font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); line-height: 1; }
+  header p { font-size: 0.75rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.08em; text-transform: uppercase; }
+
+  /* status */
+  #status-bar { text-align: center; padding: 0.4rem 1rem; font-size: 0.75rem; border-radius: 4px; margin-bottom: 0.8rem; display: none; }
+
+  /* tabs */
+  .tabs { display: flex; justify-content: center; margin-bottom: 1.2rem; border-bottom: 2px solid var(--border); }
+  .tab-btn { font-family: 'Barlow Condensed', sans-serif; font-size: 0.9rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 8px 20px; background: none; border: none; color: var(--muted); cursor: pointer; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.2s; }
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  /* filters */
+  .filters { display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; margin-bottom: 1rem; }
+  .filter-btn { font-family: 'Barlow Condensed', sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 12px; border-radius: 4px; border: 1.5px solid var(--border); background: var(--surface); color: var(--muted); cursor: pointer; transition: all 0.2s; }
   .filter-btn:hover { border-color: var(--accent); color: var(--text); }
-  .filter-btn.active { color: #000; border-color: transparent; font-weight: 800; }
-  .filter-btn[data-liga="all"].active { background: var(--accent); color: #000; }
-  .filter-btn[data-liga="Liga 1 Perú"].active { background: var(--liga1); color: #fff; }
-  .filter-btn[data-liga="Libertadores"].active { background: var(--libertadores); color: #fff; }
-  .filter-btn[data-liga="Sudamericana"].active { background: var(--sudamericana); color: #fff; }
+  .filter-btn.active { border-color: transparent; font-weight: 800; }
+  .filter-btn[data-liga="all"].active          { background: var(--accent);        color: #000; }
+  .filter-btn[data-liga="Liga 1 Perú"].active  { background: var(--liga1);         color: #fff; }
+  .filter-btn[data-liga="Libertadores"].active  { background: var(--libertadores);  color: #fff; }
+  .filter-btn[data-liga="Sudamericana"].active  { background: var(--sudamericana);  color: #fff; }
   .filter-btn[data-liga="Champions League"].active { background: var(--champions); color: #fff; }
-  .filter-btn[data-liga="Europa League"].active { background: var(--europa); color: #fff; }
- 
-  .grid-wrapper {
-    max-width: 1100px;
-    margin: 0 auto;
-    overflow-x: auto;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    min-width: 700px;
-  }
-  thead th {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 700;
-    font-size: 0.75rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--muted);
-    padding: 10px 14px;
-    text-align: left;
-    border-bottom: 1px solid var(--border);
-    white-space: nowrap;
-  }
-  thead th.day-col { width: 110px; }
-  thead th.liga-header {
-    text-align: center;
-    border-left: 1px solid var(--border);
-  }
-  .liga-header-liga1 { border-top: 3px solid var(--liga1) !important; }
-  .liga-header-lib { border-top: 3px solid var(--libertadores) !important; }
-  .liga-header-sud { border-top: 3px solid var(--sudamericana) !important; }
-  .liga-header-champ { border-top: 3px solid var(--champions) !important; }
-  .liga-header-euro { border-top: 3px solid var(--europa) !important; }
- 
-  tbody tr {
-    border-bottom: 1px solid var(--border);
-    transition: background 0.15s;
-  }
+  .filter-btn[data-liga="Europa League"].active { background: var(--europa);        color: #fff; }
+  .filter-btn[data-liga="Premier League"].active { background: var(--premier);      color: #fff; }
+
+  /* ── DESKTOP TABLE ── */
+  .grid-wrapper { max-width: 1200px; margin: 0 auto; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; min-width: 720px; }
+  thead th { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); padding: 9px 10px; text-align: left; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  thead th.day-col { width: 80px; }
+  thead th.liga-header { text-align: center; border-left: 1px solid var(--border); }
+  .liga-header-liga1   { border-top: 3px solid var(--liga1)        !important; }
+  .liga-header-lib     { border-top: 3px solid var(--libertadores)  !important; }
+  .liga-header-sud     { border-top: 3px solid var(--sudamericana)  !important; }
+  .liga-header-champ   { border-top: 3px solid var(--champions)     !important; }
+  .liga-header-euro    { border-top: 3px solid var(--europa)        !important; }
+  .liga-header-premier { border-top: 3px solid var(--premier)       !important; }
+  tbody tr { border-bottom: 1px solid var(--border); transition: background 0.15s; }
   tbody tr:hover { background: var(--surface2); }
- 
-  td {
-    padding: 10px 14px;
-    vertical-align: top;
-  }
-  td.day-cell {
-    white-space: nowrap;
-  }
-  .day-label {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 800;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    color: var(--accent);
-    display: block;
-    line-height: 1;
-  }
-  .date-label {
-    font-size: 0.75rem;
-    color: var(--muted);
-    display: block;
-    margin-top: 2px;
-  }
-  td.match-cell {
-    border-left: 1px solid var(--border);
-    vertical-align: top;
-  }
-  .match-card {
-    background: var(--surface);
-    border-radius: 6px;
-    padding: 8px 10px;
-    margin-bottom: 6px;
-    border-left: 3px solid transparent;
-    transition: transform 0.15s;
-  }
+  td { padding: 7px 10px; vertical-align: top; }
+  td.day-cell { white-space: nowrap; }
+  .day-label { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 0.95rem; text-transform: uppercase; color: var(--accent); display: block; line-height: 1; }
+  .date-label { font-size: 0.68rem; color: var(--muted); display: block; margin-top: 2px; }
+  td.match-cell { border-left: 1px solid var(--border); vertical-align: top; }
+  .match-card { background: var(--surface); border-radius: 5px; padding: 6px 8px; margin-bottom: 4px; border-left: 3px solid transparent; transition: transform 0.15s; }
   .match-card:last-child { margin-bottom: 0; }
   .match-card:hover { transform: translateX(2px); }
-  .match-card.liga1 { border-left-color: var(--liga1); }
+  .match-card.liga1        { border-left-color: var(--liga1); }
   .match-card.libertadores { border-left-color: var(--libertadores); }
   .match-card.sudamericana { border-left-color: var(--sudamericana); }
-  .match-card.champions { border-left-color: var(--champions); }
-  .match-card.europa { border-left-color: var(--europa); }
- 
-  .match-teams {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 700;
-    font-size: 0.9rem;
-    color: var(--text);
-    line-height: 1.2;
-  }
-  .match-teams .vs {
-    color: var(--muted);
-    font-weight: 400;
-    font-size: 0.75rem;
-    margin: 0 3px;
-  }
-  .match-meta {
-    display: flex;
-    gap: 8px;
-    margin-top: 4px;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .match-time {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 600;
-    font-size: 0.78rem;
-    color: var(--accent);
-    background: rgba(255,215,0,0.1);
-    padding: 1px 6px;
-    border-radius: 3px;
-  }
-  .match-venue {
-    font-size: 0.7rem;
-    color: var(--muted);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 160px;
-  }
-  .empty-cell { color: var(--surface); }
- 
-  .legend {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
-    margin-top: 2rem;
-  }
-  .legend-item {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 0.75rem;
-    color: var(--muted);
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-  }
-  .legend-dot {
-    width: 10px; height: 10px; border-radius: 2px;
-  }
- 
+  .match-card.champions    { border-left-color: var(--champions); }
+  .match-card.europa       { border-left-color: var(--europa); }
+  .match-card.premier      { border-left-color: var(--premier); }
+  .match-teams { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 0.84rem; color: var(--text); line-height: 1.2; }
+  .match-teams .vs { color: var(--muted); font-weight: 400; font-size: 0.68rem; margin: 0 2px; }
+  .match-meta { display: flex; gap: 5px; margin-top: 2px; align-items: center; flex-wrap: wrap; }
+  .match-time { font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 0.72rem; color: var(--accent); background: rgba(255,215,0,0.1); padding: 1px 4px; border-radius: 3px; }
+  .match-venue { font-size: 0.64rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 120px; }
+
+  /* ── MOBILE LIST ── */
+  .m-list { display: none; }
+  .m-day-header { display: flex; align-items: baseline; gap: 8px; padding: 10px 0 5px; border-bottom: 2px solid var(--border); margin-bottom: 2px; margin-top: 8px; }
+  .m-day-name { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1rem; text-transform: uppercase; color: var(--accent); }
+  .m-day-date { font-size: 0.72rem; color: var(--muted); }
+  .m-match { display: flex; align-items: stretch; gap: 0; border-bottom: 1px solid var(--border); }
+  .m-bar { width: 4px; min-width: 4px; border-radius: 2px; margin: 8px 10px 8px 0; }
+  .m-bar.liga1        { background: var(--liga1); }
+  .m-bar.libertadores { background: var(--libertadores); }
+  .m-bar.sudamericana { background: var(--sudamericana); }
+  .m-bar.champions    { background: var(--champions); }
+  .m-bar.europa       { background: var(--europa); }
+  .m-bar.premier      { background: var(--premier); }
+  .m-content { flex: 1; min-width: 0; padding: 8px 0; }
+  .m-teams { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 1rem; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .m-teams .vs { color: var(--muted); font-weight: 400; font-size: 0.75rem; margin: 0 3px; }
+  .m-info { display: flex; align-items: center; gap: 6px; margin-top: 2px; flex-wrap: wrap; }
+  .m-time { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 0.8rem; color: var(--accent); background: rgba(255,215,0,0.1); padding: 1px 6px; border-radius: 3px; }
+  .m-liga { font-size: 0.65rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  .m-empty { text-align: center; padding: 2rem 1rem; color: var(--muted); font-size: 0.85rem; }
+
+  /* legend */
+  .legend { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 1.5rem; }
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: 0.68rem; color: var(--muted); font-family: 'Barlow Condensed', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+  .legend-dot { width: 8px; height: 8px; border-radius: 2px; }
+
   .hidden { display: none !important; }
+
+  /* responsive */
+  @media (max-width: 720px) {
+    body { padding: 1rem 0.75rem; }
+    .tab-btn { padding: 7px 14px; font-size: 0.82rem; }
+    .filter-btn { font-size: 0.68rem; padding: 4px 9px; }
+    .grid-wrapper { display: none; }
+    .m-list { display: block; }
+  }
 </style>
 </head>
 <body>
- 
+
 <header>
   <h1>⚽ Calendario de Partidos</h1>
-  <p>Semana del 19 al 30 de Mayo de 2026 &nbsp;·&nbsp; Hora local Perú (GMT-5)</p>
+  <p id="header-range">Cargando…</p>
 </header>
- 
-<div class="filters">
-  <button class="filter-btn active" data-liga="all">Todas las ligas</button>
-  <button class="filter-btn" data-liga="Liga 1 Perú">Liga 1 Perú</button>
-  <button class="filter-btn" data-liga="Libertadores">Copa Libertadores</button>
-  <button class="filter-btn" data-liga="Sudamericana">Copa Sudamericana</button>
-  <button class="filter-btn" data-liga="Champions League">Champions League</button>
-  <button class="filter-btn" data-liga="Europa League">Europa League</button>
+<div id="status-bar"></div>
+
+<div class="tabs">
+  <button class="tab-btn active" data-tab="destacados">⭐ Destacados</button>
+  <button class="tab-btn" data-tab="todos">📅 Todos</button>
 </div>
- 
-<div class="grid-wrapper">
-<table id="cal-table">
-  <thead>
-    <tr>
-      <th class="day-col">Día</th>
-      <th class="liga-header liga-header-liga1" data-col="Liga 1 Perú">Liga 1 Perú</th>
-      <th class="liga-header liga-header-lib" data-col="Libertadores">Copa Libertadores</th>
-      <th class="liga-header liga-header-sud" data-col="Sudamericana">Copa Sudamericana</th>
-      <th class="liga-header liga-header-champ" data-col="Champions League">Champions League</th>
-      <th class="liga-header liga-header-euro" data-col="Europa League">Europa League</th>
-    </tr>
-  </thead>
-  <tbody id="cal-body"></tbody>
-</table>
+
+<!-- DESTACADOS -->
+<div id="view-destacados">
+  <!-- desktop -->
+  <div class="grid-wrapper">
+    <table>
+      <thead><tr>
+        <th class="day-col">Día</th>
+        <th class="liga-header liga-header-liga1"   data-col="Liga 1 Perú">Liga 1 Perú</th>
+        <th class="liga-header liga-header-lib"     data-col="Libertadores">Libertadores</th>
+        <th class="liga-header liga-header-sud"     data-col="Sudamericana">Sudamericana</th>
+        <th class="liga-header liga-header-champ"   data-col="Champions League">Champions</th>
+        <th class="liga-header liga-header-euro"    data-col="Europa League">Europa</th>
+        <th class="liga-header liga-header-premier" data-col="Premier League">Premier</th>
+      </tr></thead>
+      <tbody id="dest-body"></tbody>
+    </table>
+  </div>
+  <!-- mobile -->
+  <div class="m-list" id="m-dest"></div>
 </div>
- 
+
+<!-- TODOS -->
+<div id="view-todos" class="hidden">
+  <div class="filters">
+    <button class="filter-btn active" data-liga="all">Todas</button>
+    <button class="filter-btn" data-liga="Liga 1 Perú">Liga 1</button>
+    <button class="filter-btn" data-liga="Libertadores">Libertadores</button>
+    <button class="filter-btn" data-liga="Sudamericana">Sudamericana</button>
+    <button class="filter-btn" data-liga="Champions League">Champions</button>
+    <button class="filter-btn" data-liga="Europa League">Europa</button>
+    <button class="filter-btn" data-liga="Premier League">Premier</button>
+  </div>
+  <!-- desktop -->
+  <div class="grid-wrapper">
+    <table>
+      <thead><tr>
+        <th class="day-col">Día</th>
+        <th class="liga-header liga-header-liga1"   data-col="Liga 1 Perú">Liga 1 Perú</th>
+        <th class="liga-header liga-header-lib"     data-col="Libertadores">Libertadores</th>
+        <th class="liga-header liga-header-sud"     data-col="Sudamericana">Sudamericana</th>
+        <th class="liga-header liga-header-champ"   data-col="Champions League">Champions</th>
+        <th class="liga-header liga-header-euro"    data-col="Europa League">Europa</th>
+        <th class="liga-header liga-header-premier" data-col="Premier League">Premier</th>
+      </tr></thead>
+      <tbody id="cal-body"></tbody>
+    </table>
+  </div>
+  <!-- mobile -->
+  <div class="m-list" id="m-todos"></div>
+</div>
+
 <div class="legend">
   <div class="legend-item"><div class="legend-dot" style="background:var(--liga1)"></div>Liga 1 Perú</div>
-  <div class="legend-item"><div class="legend-dot" style="background:var(--libertadores)"></div>Copa Libertadores</div>
-  <div class="legend-item"><div class="legend-dot" style="background:var(--sudamericana)"></div>Copa Sudamericana</div>
-  <div class="legend-item"><div class="legend-dot" style="background:var(--champions)"></div>Champions League</div>
-  <div class="legend-item"><div class="legend-dot" style="background:var(--europa)"></div>Europa League</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--libertadores)"></div>Libertadores</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--sudamericana)"></div>Sudamericana</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--champions)"></div>Champions</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--europa)"></div>Europa</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--premier)"></div>Premier</div>
 </div>
- 
+
 <script>
-const days = [
-  { label: "MAR", date: "19 May" },
-  { label: "MIÉ", date: "20 May" },
-  { label: "JUE", date: "21 May" },
-  { label: "VIE", date: "22 May" },
-  { label: "SÁB", date: "23 May" },
-  { label: "DOM", date: "24 May" },
-  { label: "LUN", date: "25 May" },
-  { label: "MAR", date: "26 May" },
-  { label: "MIÉ", date: "27 May" },
-  { label: "JUE", date: "28 May" },
-  { label: "VIE", date: "29 May" },
-  { label: "SÁB", date: "30 May" },
-];
- 
-const ligas = ["Liga 1 Perú", "Libertadores", "Sudamericana", "Champions League", "Europa League"];
- 
-const matches = [
-  { day:"19 May", liga:"Libertadores", home:"Coquimbo Unido", away:"Dep. Tolima", time:"5:00 PM", venue:"Est. F. Sánchez, Coquimbo" },
-  { day:"19 May", liga:"Libertadores", home:"Fluminense", away:"Bolívar", time:"5:00 PM", venue:"Maracaná, Río de Janeiro" },
-  { day:"19 May", liga:"Libertadores", home:"Rosario Central", away:"Univ. Central", time:"5:00 PM", venue:"Gigante de Arroyito" },
-  { day:"19 May", liga:"Libertadores", home:"Always Ready", away:"Mirassol", time:"7:00 PM", venue:"Est. Tigo La Huerta" },
-  { day:"19 May", liga:"Libertadores", home:"Ind. Santa Fe", away:"Platense", time:"7:00 PM", venue:"El Campín, Bogotá" },
-  { day:"19 May", liga:"Libertadores", home:"Boca Juniors", away:"Cruzeiro", time:"7:30 PM", venue:"La Bombonera, Bs.As." },
-  { day:"19 May", liga:"Libertadores", home:"Ind. del Valle", away:"Libertad", time:"9:00 PM", venue:"Est. Banco Guayaquil" },
-  { day:"19 May", liga:"Sudamericana", home:"Cienciano", away:"Lanús", time:"5:00 PM", venue:"Inca Garcilaso, Cusco" },
-  { day:"20 May", liga:"Libertadores", home:"Nacional", away:"Universitario", time:"5:00 PM", venue:"Gran Parque Central" },
-  { day:"20 May", liga:"Libertadores", home:"Flamengo", away:"Estudiantes LP", time:"7:30 PM", venue:"Maracaná, Río de Janeiro" },
-  { day:"20 May", liga:"Libertadores", home:"Liga de Quito", away:"Lanús", time:"7:30 PM", venue:"Rodrigo Paz, Quito" },
-  { day:"20 May", liga:"Libertadores", home:"Palmeiras", away:"Cerro Porteño", time:"7:30 PM", venue:"Allianz Parque, São Paulo" },
-  { day:"20 May", liga:"Libertadores", home:"Atl. Junior", away:"Sporting Cristal", time:"9:00 PM", venue:"Romelio Martínez, Barranquilla" },
-  { day:"20 May", liga:"Libertadores", home:"Cusco FC", away:"Ind. Medellín", time:"9:00 PM", venue:"Inca Garcilaso, Cusco" },
-  { day:"20 May", liga:"Sudamericana", home:"Alianza Atlético", away:"América de Cali", time:"7:30 PM", venue:"Camp. del 36, Sullana" },
-  { day:"20 May", liga:"Europa League", home:"SC Freiburg", away:"Aston Villa", time:"2:00 PM", venue:"Vodafone Park, Estambul" },
-  { day:"21 May", liga:"Libertadores", home:"Dep. La Guaira", away:"Ind. Rivadavia", time:"5:00 PM", venue:"Est. Olímpico UCV, Caracas" },
-  { day:"21 May", liga:"Libertadores", home:"Peñarol", away:"Corinthians", time:"7:30 PM", venue:"Est. Campeón del Siglo" },
-  { day:"21 May", liga:"Libertadores", home:"U. Católica", away:"Barcelona SC", time:"7:30 PM", venue:"San Carlos de Apoquindo" },
-  { day:"22 May", liga:"Liga 1 Perú", home:"Juan Pablo II", away:"Melgar", time:"3:00 PM", venue:"Complejo JP II, Chongoyape" },
-  { day:"22 May", liga:"Sudamericana", home:"Racing Club", away:"Botafogo", time:"7:30 PM", venue:"Est. Pdte. Perón, Bs.As." },
-  { day:"23 May", liga:"Liga 1 Perú", home:"UTC", away:"Sport Boys", time:"12:45 PM", venue:"Est. Héroes San Ramón" },
-  { day:"23 May", liga:"Liga 1 Perú", home:"Dep. Moquegua", away:"Universitario", time:"3:00 PM", venue:"Est. 25 de Noviembre" },
-  { day:"23 May", liga:"Liga 1 Perú", home:"Cusco FC", away:"Atlético Grau", time:"5:15 PM", venue:"Inca Garcilaso, Cusco" },
-  { day:"23 May", liga:"Liga 1 Perú", home:"Alianza Lima", away:"Los Chankas", time:"8:30 PM", venue:"Est. Alejandro Villanueva" },
-  { day:"24 May", liga:"Liga 1 Perú", home:"Sporting Cristal", away:"ADT", time:"11:00 AM", venue:"Est. Alberto Gallardo" },
-  { day:"24 May", liga:"Liga 1 Perú", home:"Sport Huancayo", away:"Cienciano del Cusco", time:"1:15 PM", venue:"Est. Huancayo" },
-  { day:"24 May", liga:"Liga 1 Perú", home:"Alianza Atlético", away:"FC Cajamarca", time:"3:30 PM", venue:"Camp. del 36, Sullana" },
-  { day:"30 May", liga:"Champions League", home:"PSG", away:"Arsenal", time:"11:00 AM", venue:"Puskás Aréna, Budapest" },
-];
- 
-const ligaClass = {
-  "Liga 1 Perú": "liga1",
-  "Libertadores": "libertadores",
-  "Sudamericana": "sudamericana",
-  "Champions League": "champions",
-  "Europa League": "europa"
-};
- 
-function buildTable(activeFilter) {
-  const tbody = document.getElementById("cal-body");
+const LIGA_NAMES = ["Liga 1 Perú","Libertadores","Sudamericana","Champions League","Europa League","Premier League"];
+const LIGA_CLASS = { "Liga 1 Perú":"liga1","Libertadores":"libertadores","Sudamericana":"sudamericana","Champions League":"champions","Europa League":"europa","Premier League":"premier" };
+const LIGA_SHORT = { "Liga 1 Perú":"Liga 1","Libertadores":"Libertadores","Sudamericana":"Sudamericana","Champions League":"Champions","Europa League":"Europa League","Premier League":"Premier League" };
+const DAYS_ES   = ["DOM","LUN","MAR","MIÉ","JUE","VIE","SÁB"];
+const MONTHS_ES = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
+
+let globalMatches = [], globalDays = [];
+
+function dayLabel(d) { return `${d.getDate()} ${MONTHS_ES[d.getMonth()]}`; }
+
+function buildDateRange() {
+  const today = new Date(); today.setHours(0,0,0,0);
+  const dow = today.getDay();
+  const monday = new Date(today);
+  monday.setDate(today.getDate() - (dow === 0 ? 6 : dow - 1));
+  return Array.from({length:7}, (_,i) => { const d = new Date(monday); d.setDate(monday.getDate()+i); return d; });
+}
+
+async function loadMatches(dateRange) {
+  const rangeStart = dateRange[0].getTime();
+  const rangeEnd   = dateRange[dateRange.length-1].getTime() + 24*3600*1000;
+  const res = await fetch(`./partidos.json?v=${Date.now()}`);
+  if (!res.ok) throw new Error('No se pudo cargar partidos.json');
+  const json = await res.json();
+  return (json.matches ?? []).filter(m => {
+    const [day, mon] = m.day.split(' ');
+    const d = new Date(new Date().getFullYear(), MONTHS_ES.indexOf(mon), parseInt(day));
+    return d.getTime() >= rangeStart && d.getTime() < rangeEnd;
+  });
+}
+
+// ── tabla (desktop) ───────────────────────────────────────────────────────────
+function buildTable(filter, matches, tbodyId) {
+  const tbody = document.getElementById(tbodyId);
   tbody.innerHTML = "";
- 
-  days.forEach(day => {
-    const dayMatches = matches.filter(m => m.day === day.date);
-    if (!dayMatches.length) return;
- 
-    const filteredCheck = activeFilter === "all"
-      ? dayMatches
-      : dayMatches.filter(m => m.liga === activeFilter);
-    if (!filteredCheck.length) return;
- 
+  globalDays.forEach(day => {
+    const dateStr    = dayLabel(day);
+    const dayMatches = matches.filter(m => m.day === dateStr);
+    const visible    = filter === "all" ? dayMatches : dayMatches.filter(m => m.liga === filter);
+    if (!visible.length) return;
     const tr = document.createElement("tr");
- 
     const tdDay = document.createElement("td");
     tdDay.className = "day-cell";
-    tdDay.innerHTML = `<span class="day-label">${day.label}</span><span class="date-label">${day.date}</span>`;
+    tdDay.innerHTML = `<span class="day-label">${DAYS_ES[day.getDay()]}</span><span class="date-label">${dateStr}</span>`;
     tr.appendChild(tdDay);
- 
-    ligas.forEach(liga => {
+    LIGA_NAMES.forEach(liga => {
       const td = document.createElement("td");
       td.className = "match-cell";
       td.setAttribute("data-col", liga);
- 
-      if (activeFilter !== "all" && activeFilter !== liga) {
-        td.classList.add("hidden");
-        tr.appendChild(td);
-        return;
-      }
- 
+      if (filter !== "all" && filter !== liga) { td.classList.add("hidden"); tr.appendChild(td); return; }
       const ligaMatches = dayMatches.filter(m => m.liga === liga);
-      if (ligaMatches.length === 0) {
+      if (!ligaMatches.length) {
         td.innerHTML = `<span style="color:var(--border)">—</span>`;
       } else {
         ligaMatches.forEach(m => {
           const card = document.createElement("div");
-          card.className = `match-card ${ligaClass[liga]}`;
-          card.innerHTML = `
-            <div class="match-teams">${m.home}<span class="vs">vs</span>${m.away}</div>
-            <div class="match-meta">
-              <span class="match-time">${m.time}</span>
-              <span class="match-venue">${m.venue}</span>
-            </div>`;
+          card.className = `match-card ${LIGA_CLASS[liga]}`;
+          card.innerHTML = `<div class="match-teams">${m.home}<span class="vs">vs</span>${m.away}</div>
+            <div class="match-meta"><span class="match-time">${m.time}</span><span class="match-venue">${m.venue}</span></div>`;
           td.appendChild(card);
         });
       }
       tr.appendChild(td);
     });
- 
     tbody.appendChild(tr);
   });
+  if (!tbody.children.length)
+    tbody.innerHTML = `<tr><td colspan="7" style="text-align:center;padding:2rem;color:var(--muted)">No hay partidos para este período.</td></tr>`;
 }
- 
-buildTable("all");
- 
+
+// ── lista compacta (móvil) ────────────────────────────────────────────────────
+function buildMobileList(filter, matches, containerId) {
+  const container = document.getElementById(containerId);
+  container.innerHTML = "";
+  const filtered = filter === "all" ? matches : matches.filter(m => m.liga === filter);
+  if (!filtered.length) { container.innerHTML = `<div class="m-empty">No hay partidos para mostrar.</div>`; return; }
+  globalDays.forEach(day => {
+    const dateStr    = dayLabel(day);
+    const dayMatches = filtered.filter(m => m.day === dateStr);
+    if (!dayMatches.length) return;
+    const header = document.createElement("div");
+    header.className = "m-day-header";
+    header.innerHTML = `<span class="m-day-name">${DAYS_ES[day.getDay()]}</span><span class="m-day-date">${dateStr}</span>`;
+    container.appendChild(header);
+    dayMatches.forEach(m => {
+      const cls = LIGA_CLASS[m.liga] || "";
+      const row = document.createElement("div");
+      row.className = "m-match";
+      row.innerHTML = `<div class="m-bar ${cls}"></div>
+        <div class="m-content">
+          <div class="m-teams">${m.home}<span class="vs">vs</span>${m.away}</div>
+          <div class="m-info"><span class="m-time">${m.time}</span><span class="m-liga">${LIGA_SHORT[m.liga]||m.liga}</span></div>
+        </div>`;
+      container.appendChild(row);
+    });
+  });
+}
+
+// ── render ambas vistas ───────────────────────────────────────────────────────
+function renderAll(filter, matches, tbodyId, mobileId) {
+  buildTable(filter, matches, tbodyId);
+  buildMobileList(filter, matches, mobileId);
+}
+
+// ── tabs ──────────────────────────────────────────────────────────────────────
+function switchTab(tab) {
+  document.getElementById("view-destacados").classList.toggle("hidden", tab !== "destacados");
+  document.getElementById("view-todos").classList.toggle("hidden", tab !== "todos");
+  document.querySelectorAll(".tab-btn").forEach(b => b.classList.toggle("active", b.dataset.tab === tab));
+}
+
+// ── status ────────────────────────────────────────────────────────────────────
+function showStatus(msg, isError=false) {
+  const el = document.getElementById("status-bar");
+  el.innerHTML = msg;
+  el.style.background = isError ? "rgba(220,50,50,0.15)" : "rgba(255,215,0,0.08)";
+  el.style.color      = isError ? "#ff6b6b" : "var(--muted)";
+  el.style.display    = msg ? "block" : "none";
+}
+
+// ── init ──────────────────────────────────────────────────────────────────────
+async function init() {
+  globalDays = buildDateRange();
+  const first = globalDays[0], last = globalDays[globalDays.length-1];
+  document.getElementById("header-range").textContent =
+    `${first.getDate()} ${MONTHS_ES[first.getMonth()]} – ${last.getDate()} ${MONTHS_ES[last.getMonth()]} ${last.getFullYear()} · Hora Perú (GMT-5)`;
+  try {
+    globalMatches = await loadMatches(globalDays);
+    const dest = globalMatches.filter(m => m.importante);
+    renderAll("all", dest,          "dest-body", "m-dest");
+    renderAll("all", globalMatches, "cal-body",  "m-todos");
+  } catch(e) { showStatus('Error cargando partidos: ' + e.message, true); }
+}
+
+// ── eventos ───────────────────────────────────────────────────────────────────
+document.querySelectorAll(".tab-btn").forEach(btn =>
+  btn.addEventListener("click", () => switchTab(btn.dataset.tab))
+);
+
 document.querySelectorAll(".filter-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
     const liga = btn.dataset.liga;
-    buildTable(liga);
- 
+    renderAll(liga, globalMatches, "cal-body", "m-todos");
     document.querySelectorAll("thead th[data-col]").forEach(th => {
-      if (liga === "all" || th.dataset.col === liga) {
-        th.classList.remove("hidden");
-      } else {
-        th.classList.add("hidden");
-      }
+      if (liga === "all" || th.dataset.col === liga) th.classList.remove("hidden");
+      else th.classList.add("hidden");
     });
   });
 });
+
+init();
 </script>
 </body>
 </html>
