@@ -27,6 +27,26 @@ jobs:
               print("ERROR: RAPIDAPI_KEY no configurada en GitHub Secrets")
               sys.exit(1)
 
+          # Verificar que el API key funciona
+          try:
+              test = requests.get(
+                  "https://v3.football.api-sports.io/status",
+                  headers={"x-apisports-key": API_KEY},
+                  timeout=10
+              ).json()
+              resp = test.get('response', {})
+              acc  = resp.get('account', {})
+              reqs = resp.get('requests', {})
+              errs = test.get('errors', {})
+              print(f"API key: {acc.get('email', 'desconocido')}")
+              print(f"Requests hoy: {reqs.get('current',0)}/{reqs.get('limit_day',0)}")
+              if errs:
+                  print(f"ERROR en API key: {errs}")
+                  sys.exit(1)
+          except Exception as e:
+              print(f"ERROR verificando API key: {e}")
+              sys.exit(1)
+
           MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 
           # Temporada según tipo de liga
@@ -70,24 +90,6 @@ jobs:
               sunday = monday + timedelta(days=6)
               return monday.strftime('%Y-%m-%d'), sunday.strftime('%Y-%m-%d')
 
-          def fetch(league_id, season, from_date, to_date):
-              r = requests.get(
-                  "https://v3.football.api-sports.io/fixtures",
-                  headers={
-                      "x-apisports-key": API_KEY
-                  },
-                  params={
-                      "league": league_id, "season": season,
-                      "from": from_date, "to": to_date,
-                      "timezone": "America/Lima"
-                  },
-                  timeout=15
-              )
-              r.raise_for_status()
-              data = r.json()
-              if data.get('errors'):
-                  print(f"  API error: {data['errors']}")
-              return data.get('response', [])
 
           def fmt_time(dt_str):
               dt = datetime.fromisoformat(dt_str)
@@ -104,7 +106,21 @@ jobs:
           matches = []
           for league_id, season, liga in LEAGUES:
               try:
-                  fixtures = fetch(league_id, season, from_date, to_date)
+                  raw = requests.get(
+                      "https://v3.football.api-sports.io/fixtures",
+                      headers={"x-apisports-key": API_KEY},
+                      params={"league": league_id, "season": season,
+                              "from": from_date, "to": to_date,
+                              "timezone": "America/Lima"},
+                      timeout=15
+                  )
+                  raw.raise_for_status()
+                  data     = raw.json()
+                  errors   = data.get('errors', {})
+                  fixtures = data.get('response', [])
+                  if errors:
+                      print(f"  {liga} (id={league_id} s={season}): API error → {errors}")
+                      continue
                   for f in fixtures:
                       m = {
                           "day":   fmt_day(f['fixture']['date']),
@@ -117,7 +133,7 @@ jobs:
                       if is_important(f, liga):
                           m['importante'] = True
                       matches.append(m)
-                  print(f"  {liga}: {len(fixtures)} partidos")
+                  print(f"  {liga} (id={league_id} s={season}): {len(fixtures)} partidos")
               except Exception as e:
                   print(f"  {liga}: ERROR - {e}")
 
