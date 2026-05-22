@@ -1,0 +1,149 @@
+name: Actualizar Partidos Semana
+
+on:
+  schedule:
+    - cron: '0 11 * * 1'   # Lunes 6:00 AM Lima (UTC-5)
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch partidos desde API-Football
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: |
+          pip install requests -q
+          python3 - << 'PYEOF'
+          import json, os, sys, requests
+          from datetime import datetime, timedelta, timezone
+
+          API_KEY = os.environ.get('RAPIDAPI_KEY', '')
+          if not API_KEY:
+              print("ERROR: RAPIDAPI_KEY no configurada en GitHub Secrets")
+              sys.exit(1)
+
+          MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+
+          # Temporada según tipo de liga
+          now   = datetime.now(timezone.utc)
+          year  = now.year
+          month = now.month
+          euro_season = year - 1 if month < 7 else year
+          sa_season   = year
+
+          LEAGUES = [
+              (268, sa_season,   'Liga 1 Perú'),
+              (13,  sa_season,   'Libertadores'),
+              (14,  sa_season,   'Sudamericana'),
+              (2,   euro_season, 'Champions League'),
+              (3,   euro_season, 'Europa League'),
+              (39,  euro_season, 'Premier League'),
+          ]
+
+          # Partidos de estos equipos se marcan automáticamente como importantes
+          IMPORTANT_TEAMS = {
+              'Alianza Lima', 'Universitario de Deportes', 'Universitario',
+              'Sporting Cristal', 'Melgar', 'Cienciano', 'Cusco FC',
+              'Alianza Atlético', 'Atlético Junior',
+              'Boca Juniors', 'River Plate', 'Flamengo', 'Palmeiras',
+              'Peñarol', 'Nacional', 'São Paulo', 'Corinthians',
+              'Estudiantes LP', 'Fluminense',
+          }
+          ALWAYS_IMPORTANT = {'Champions League'}
+
+          def is_important(fixture_data, liga):
+              if liga in ALWAYS_IMPORTANT:
+                  return True
+              home = fixture_data['teams']['home']['name']
+              away = fixture_data['teams']['away']['name']
+              return home in IMPORTANT_TEAMS or away in IMPORTANT_TEAMS
+
+          def get_week_range():
+              lima = datetime.now(timezone.utc) - timedelta(hours=5)
+              today = lima.replace(hour=0, minute=0, second=0, microsecond=0)
+              monday = today - timedelta(days=today.weekday())
+              sunday = monday + timedelta(days=6)
+              return monday.strftime('%Y-%m-%d'), sunday.strftime('%Y-%m-%d')
+
+          def fetch(league_id, season, from_date, to_date):
+              r = requests.get(
+                  "https://api-football-v1.p.rapidapi.com/v3/fixtures",
+                  headers={
+                      "X-RapidAPI-Key": API_KEY,
+                      "X-RapidAPI-Host": "api-football-v1.p.rapidapi.com"
+                  },
+                  params={
+                      "league": league_id, "season": season,
+                      "from": from_date, "to": to_date,
+                      "timezone": "America/Lima"
+                  },
+                  timeout=15
+              )
+              r.raise_for_status()
+              data = r.json()
+              if data.get('errors'):
+                  print(f"  API error: {data['errors']}")
+              return data.get('response', [])
+
+          def fmt_time(dt_str):
+              dt = datetime.fromisoformat(dt_str)
+              h  = dt.hour % 12 or 12
+              return f"{h}:{dt.strftime('%M')} {'AM' if dt.hour < 12 else 'PM'}"
+
+          def fmt_day(dt_str):
+              dt = datetime.fromisoformat(dt_str)
+              return f"{dt.day} {MONTHS[dt.month - 1]}"
+
+          from_date, to_date = get_week_range()
+          print(f"Semana: {from_date} → {to_date}")
+
+          matches = []
+          for league_id, season, liga in LEAGUES:
+              try:
+                  fixtures = fetch(league_id, season, from_date, to_date)
+                  for f in fixtures:
+                      m = {
+                          "day":   fmt_day(f['fixture']['date']),
+                          "liga":  liga,
+                          "home":  f['teams']['home']['name'],
+                          "away":  f['teams']['away']['name'],
+                          "time":  fmt_time(f['fixture']['date']),
+                          "venue": (f['fixture'].get('venue') or {}).get('name') or '',
+                      }
+                      if is_important(f, liga):
+                          m['importante'] = True
+                      matches.append(m)
+                  print(f"  {liga}: {len(fixtures)} partidos")
+              except Exception as e:
+                  print(f"  {liga}: ERROR - {e}")
+
+          # Ordenar por día y hora
+          mo = {m: i for i, m in enumerate(MONTHS)}
+          matches.sort(key=lambda m: (
+              mo.get(m['day'].split()[1], 0),
+              int(m['day'].split()[0]),
+              m['time']
+          ))
+
+          with open('partidos.json', 'w', encoding='utf-8') as f:
+              json.dump({
+                  "_actualizado": from_date,
+                  "_nota": "Generado automáticamente. Agrega importante:true manualmente si quieres.",
+                  "matches": matches
+              }, f, ensure_ascii=False, indent=2)
+
+          print(f"\nTotal: {len(matches)} partidos → partidos.json")
+          PYEOF
+
+      - name: Commit si hubo cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add partidos.json
+          git diff --cached --quiet || \
+            (git commit -m "chore: partidos semana $(date +%Y-%m-%d)" && git pull --rebase && git push)
