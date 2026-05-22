@@ -113,6 +113,106 @@
 
   .hidden { display: none !important; }
 
+  /* ── DRUM PICKER ─────────────────────────────────────── */
+  #view-dia { max-width: 520px; margin: 0 auto; }
+
+  .drum-viewport {
+    position: relative;
+    height: 190px;
+    overflow: hidden;
+    cursor: grab;
+    touch-action: none;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .drum-viewport:active { cursor: grabbing; }
+
+  .drum-fade-top {
+    position: absolute; top: 0; left: 0; right: 0; height: 72px;
+    background: linear-gradient(to bottom, var(--bg) 0%, transparent 100%);
+    z-index: 2; pointer-events: none;
+  }
+  .drum-fade-bot {
+    position: absolute; bottom: 0; left: 0; right: 0; height: 72px;
+    background: linear-gradient(to top, var(--bg) 0%, transparent 100%);
+    z-index: 2; pointer-events: none;
+  }
+  .drum-line {
+    position: absolute; left: 15%; right: 15%; height: 1px;
+    background: rgba(255,215,0,0.35); z-index: 3; pointer-events: none;
+  }
+  .drum-line.t { top: calc(50% - 26px); }
+  .drum-line.b { bottom: calc(50% - 26px); }
+
+  .drum-scene {
+    perspective: 340px;
+    height: 100%;
+    display: flex; align-items: center; justify-content: center;
+  }
+  #drumTrack {
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 46px;
+    transition: transform 0.38s cubic-bezier(.25,.46,.45,.94);
+  }
+  .drum-item {
+    position: absolute;
+    top: 0; left: 0; right: 0; height: 46px;
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+    backface-visibility: hidden;
+    pointer-events: none;
+    transition: color 0.2s;
+  }
+  .drum-item .dday  { font-size: 1.3rem; font-weight: 800; }
+  .drum-item .ddate { font-size: 0.85rem; font-weight: 500; }
+
+  /* day matches */
+  #drumMatchArea {
+    padding: 0 0.5rem;
+    transition: opacity 0.22s ease, transform 0.22s ease;
+    min-height: 120px;
+  }
+  #drumMatchArea.fade {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  .dm-card {
+    background: var(--surface);
+    border-radius: 10px;
+    padding: 11px 14px;
+    margin-bottom: 9px;
+    border-left: 4px solid var(--border);
+    display: flex; align-items: flex-start; justify-content: space-between;
+    gap: 8px;
+  }
+  .dm-card.liga1        { border-left-color: var(--liga1); }
+  .dm-card.libertadores { border-left-color: var(--libertadores); }
+  .dm-card.sudamericana { border-left-color: var(--sudamericana); }
+  .dm-card.champions    { border-left-color: var(--champions); }
+  .dm-card.europa       { border-left-color: var(--europa); }
+  .dm-card.premier      { border-left-color: var(--premier); }
+
+  .dm-main { flex: 1; min-width: 0; }
+  .dm-teams {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800; font-size: 1.05rem;
+    color: var(--text); line-height: 1.2;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .dm-teams .vs { color: var(--muted); font-weight: 400; font-size: 0.78rem; margin: 0 4px; }
+  .dm-meta { display: flex; align-items: center; gap: 6px; margin-top: 3px; flex-wrap: wrap; }
+  .dm-time {
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 0.8rem;
+    color: var(--accent); background: rgba(255,215,0,0.1); padding: 2px 7px; border-radius: 4px;
+  }
+  .dm-liga { font-size: 0.64rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+  .dm-venue { font-size: 0.63rem; color: var(--muted); }
+  .dm-star { font-size: 0.85rem; flex-shrink: 0; align-self: center; }
+  .dm-empty { text-align: center; padding: 2.5rem 1rem; color: var(--muted); font-size: 0.9rem; }
+
   /* portrait móvil */
   @media (max-width: 720px) and (orientation: portrait) {
     body { padding: 1rem 0.75rem; }
@@ -160,6 +260,7 @@
 <div class="tabs">
   <button class="tab-btn active" data-tab="destacados">⭐ Destacados</button>
   <button class="tab-btn" data-tab="todos">📅 Todos</button>
+  <button class="tab-btn" data-tab="dia">🥁 Por Día</button>
 </div>
 
 <!-- DESTACADOS -->
@@ -211,6 +312,20 @@
   </div>
   <!-- mobile -->
   <div class="m-list" id="m-todos"></div>
+</div>
+
+<!-- POR DÍA -->
+<div id="view-dia" class="hidden">
+  <div class="drum-viewport" id="drumViewport">
+    <div class="drum-fade-top"></div>
+    <div class="drum-fade-bot"></div>
+    <div class="drum-line t"></div>
+    <div class="drum-line b"></div>
+    <div class="drum-scene">
+      <div id="drumTrack"></div>
+    </div>
+  </div>
+  <div id="drumMatchArea"></div>
 </div>
 
 <div class="legend">
@@ -331,7 +446,153 @@ function renderAll(filter, matches, tbodyId, mobileId) {
 function switchTab(tab) {
   document.getElementById("view-destacados").classList.toggle("hidden", tab !== "destacados");
   document.getElementById("view-todos").classList.toggle("hidden", tab !== "todos");
+  document.getElementById("view-dia").classList.toggle("hidden", tab !== "dia");
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.toggle("active", b.dataset.tab === tab));
+}
+
+// ── DRUM PICKER ───────────────────────────────────────────────────────────────
+const DRUM_STEP = 22;   // grados entre días
+const DRUM_R    = 112;  // radio del cilindro en px
+
+let drumIdx      = 0;
+let drumDragging = false;
+let drumStartY   = 0;
+let drumRawIdx   = 0;  // valor continuo durante el drag
+
+function buildDrum() {
+  const track = document.getElementById('drumTrack');
+  track.innerHTML = '';
+  globalDays.forEach((day, i) => {
+    const el = document.createElement('div');
+    el.className = 'drum-item';
+    el.dataset.i = i;
+    el.style.transform = `rotateX(${i * DRUM_STEP}deg) translateZ(${DRUM_R}px)`;
+    el.innerHTML = `<span class="dday">${DAYS_ES[day.getDay()]}</span><span class="ddate">${dayLabel(day)}</span>`;
+    el.addEventListener('click', () => setDrumDay(i));
+    track.appendChild(el);
+  });
+
+  // hoy por defecto
+  const today = new Date(); today.setHours(0,0,0,0);
+  const todayIdx = globalDays.findIndex(d => d.getTime() === today.getTime());
+  drumIdx = todayIdx >= 0 ? todayIdx : 0;
+  drumRawIdx = drumIdx;
+
+  track.style.transition = 'none';
+  applyDrumTransform(drumIdx);
+  updateDrumStyles(drumIdx);
+  renderDrumMatches(drumIdx);
+
+  // touch
+  const vp = document.getElementById('drumViewport');
+  vp.addEventListener('touchstart', e => {
+    drumDragging = true;
+    drumStartY   = e.touches[0].clientY;
+    drumRawIdx   = drumIdx;
+    document.getElementById('drumTrack').style.transition = 'none';
+  }, { passive: true });
+
+  vp.addEventListener('touchmove', e => {
+    if (!drumDragging) return;
+    const dy   = drumStartY - e.touches[0].clientY;
+    const raw  = drumRawIdx + dy / 52;
+    const clamped = Math.max(0, Math.min(globalDays.length - 1, raw));
+    applyDrumTransform(clamped);
+    updateDrumStyles(clamped);
+  }, { passive: true });
+
+  vp.addEventListener('touchend', e => {
+    if (!drumDragging) return;
+    drumDragging = false;
+    const dy     = drumStartY - e.changedTouches[0].clientY;
+    const raw    = drumRawIdx + dy / 52;
+    const snapped = Math.round(Math.max(0, Math.min(globalDays.length - 1, raw)));
+    document.getElementById('drumTrack').style.transition = 'transform 0.38s cubic-bezier(.25,.46,.45,.94)';
+    setDrumDay(snapped);
+  }, { passive: true });
+
+  // mouse drag (desktop)
+  vp.addEventListener('mousedown', e => {
+    drumDragging = true;
+    drumStartY   = e.clientY;
+    drumRawIdx   = drumIdx;
+    document.getElementById('drumTrack').style.transition = 'none';
+  });
+  window.addEventListener('mousemove', e => {
+    if (!drumDragging) return;
+    const dy      = drumStartY - e.clientY;
+    const clamped = Math.max(0, Math.min(globalDays.length - 1, drumRawIdx + dy / 52));
+    applyDrumTransform(clamped);
+    updateDrumStyles(clamped);
+  });
+  window.addEventListener('mouseup', e => {
+    if (!drumDragging) return;
+    drumDragging = false;
+    const dy     = drumStartY - e.clientY;
+    const snapped = Math.round(Math.max(0, Math.min(globalDays.length - 1, drumRawIdx + dy / 52)));
+    document.getElementById('drumTrack').style.transition = 'transform 0.38s cubic-bezier(.25,.46,.45,.94)';
+    setDrumDay(snapped);
+  });
+
+  // teclado
+  document.addEventListener('keydown', e => {
+    if (document.getElementById('view-dia').classList.contains('hidden')) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') setDrumDay(drumIdx + 1);
+    if (e.key === 'ArrowUp'   || e.key === 'ArrowLeft')  setDrumDay(drumIdx - 1);
+  });
+}
+
+function applyDrumTransform(idx) {
+  document.getElementById('drumTrack').style.transform = `rotateX(${-idx * DRUM_STEP}deg)`;
+}
+
+function updateDrumStyles(currentIdx) {
+  document.querySelectorAll('.drum-item').forEach((el, i) => {
+    const diff = Math.abs(i - currentIdx);
+    const isActive = diff < 0.5;
+    el.style.color   = isActive ? 'var(--accent)' : diff < 1.5 ? 'var(--text)' : diff < 2.5 ? 'var(--muted)' : 'rgba(136,136,153,0.3)';
+    el.querySelector('.dday').style.fontSize  = isActive ? '1.25rem' : diff < 1.5 ? '1rem' : '0.78rem';
+    el.querySelector('.ddate').style.fontSize = isActive ? '0.88rem' : '0.7rem';
+  });
+}
+
+function setDrumDay(idx) {
+  drumIdx = Math.max(0, Math.min(globalDays.length - 1, Math.round(idx)));
+  applyDrumTransform(drumIdx);
+  updateDrumStyles(drumIdx);
+  renderDrumMatches(drumIdx);
+}
+
+function renderDrumMatches(idx) {
+  const area     = document.getElementById('drumMatchArea');
+  const day      = globalDays[idx];
+  const dateStr  = dayLabel(day);
+  const matches  = globalMatches.filter(m => m.day === dateStr);
+
+  area.classList.add('fade');
+  setTimeout(() => {
+    if (!matches.length) {
+      area.innerHTML = '<div class="dm-empty">Sin partidos este día 🏖️</div>';
+    } else {
+      area.innerHTML = matches
+        .sort((a,b) => a.time.localeCompare(b.time))
+        .map(m => {
+          const cls = LIGA_CLASS[m.liga] || '';
+          return `<div class="dm-card ${cls}">
+            <div class="dm-main">
+              <div class="dm-teams">${m.home}<span class="vs">vs</span>${m.away}</div>
+              <div class="dm-meta">
+                <span class="dm-time">${m.time}</span>
+                <span class="dm-liga">${LIGA_SHORT[m.liga] || m.liga}</span>
+                ${m.venue ? `<span class="dm-venue">${m.venue}</span>` : ''}
+              </div>
+            </div>
+            ${m.importante ? '<span class="dm-star">⭐</span>' : ''}
+          </div>`;
+        }).join('');
+    }
+    area.classList.remove('fade');
+  }, 200);
 }
 
 // ── status ────────────────────────────────────────────────────────────────────
@@ -354,6 +615,7 @@ async function init() {
     const dest = globalMatches.filter(m => m.importante);
     renderAll("all", dest,          "dest-body", "m-dest");
     renderAll("all", globalMatches, "cal-body",  "m-todos");
+    buildDrum();
   } catch(e) { showStatus('Error cargando partidos: ' + e.message, true); }
 }
 
