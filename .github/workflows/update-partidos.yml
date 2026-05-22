@@ -72,10 +72,9 @@ jobs:
 
           def fetch(league_id, season, from_date, to_date):
               r = requests.get(
-                  "https://api-football-v1.p.rapidapi.com/v3/fixtures",
+                  "https://v3.football.api-sports.io/fixtures",
                   headers={
-                      "X-RapidAPI-Key": API_KEY,
-                      "X-RapidAPI-Host": "api-football-v1.p.rapidapi.com"
+                      "x-apisports-key": API_KEY
                   },
                   params={
                       "league": league_id, "season": season,
