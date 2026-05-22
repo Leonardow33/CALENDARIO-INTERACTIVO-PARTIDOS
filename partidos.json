@@ -1,53 +1,5 @@
 {
   "_actualizado": "2026-05-18",
-  "_nota": "Agrega importante:true a los partidos que quieres en la pestaña Destacados.",
-  "matches": [
-    { "day": "19 May", "liga": "Libertadores", "home": "Coquimbo Unido",  "away": "Dep. Tolima",      "time": "5:00 PM", "venue": "Est. F. Sánchez, Coquimbo" },
-    { "day": "19 May", "liga": "Libertadores", "home": "Fluminense",      "away": "Bolívar",           "time": "5:00 PM", "venue": "Maracaná, Río de Janeiro" },
-    { "day": "19 May", "liga": "Libertadores", "home": "Rosario Central", "away": "Univ. Central",     "time": "5:00 PM", "venue": "Gigante de Arroyito" },
-    { "day": "19 May", "liga": "Libertadores", "home": "Always Ready",    "away": "Mirassol",          "time": "7:00 PM", "venue": "Est. Tigo La Huerta" },
-    { "day": "19 May", "liga": "Libertadores", "home": "Ind. Santa Fe",   "away": "Platense",          "time": "7:00 PM", "venue": "El Campín, Bogotá" },
-    { "day": "19 May", "liga": "Libertadores", "home": "Boca Juniors",    "away": "Cruzeiro",          "time": "7:30 PM", "venue": "La Bombonera, Bs.As.", "importante": true },
-    { "day": "19 May", "liga": "Libertadores", "home": "Ind. del Valle",  "away": "Libertad",          "time": "9:00 PM", "venue": "Est. Banco Guayaquil" },
-    { "day": "19 May", "liga": "Sudamericana", "home": "Cienciano",       "away": "Lanús",             "time": "5:00 PM", "venue": "Inca Garcilaso, Cusco", "importante": true },
-
-    { "day": "20 May", "liga": "Libertadores", "home": "Nacional",        "away": "Universitario",     "time": "5:00 PM", "venue": "Gran Parque Central", "importante": true },
-    { "day": "20 May", "liga": "Libertadores", "home": "Flamengo",        "away": "Estudiantes LP",    "time": "7:30 PM", "venue": "Maracaná, Río de Janeiro", "importante": true },
-    { "day": "20 May", "liga": "Libertadores", "home": "Liga de Quito",   "away": "Lanús",             "time": "7:30 PM", "venue": "Rodrigo Paz, Quito" },
-    { "day": "20 May", "liga": "Libertadores", "home": "Palmeiras",       "away": "Cerro Porteño",     "time": "7:30 PM", "venue": "Allianz Parque, São Paulo", "importante": true },
-    { "day": "20 May", "liga": "Libertadores", "home": "Atl. Junior",     "away": "Sporting Cristal",  "time": "9:00 PM", "venue": "Romelio Martínez, Barranquilla", "importante": true },
-    { "day": "20 May", "liga": "Libertadores", "home": "Cusco FC",        "away": "Ind. Medellín",     "time": "9:00 PM", "venue": "Inca Garcilaso, Cusco", "importante": true },
-    { "day": "20 May", "liga": "Sudamericana", "home": "Alianza Atlético","away": "América de Cali",   "time": "7:30 PM", "venue": "Camp. del 36, Sullana", "importante": true },
-    { "day": "20 May", "liga": "Europa League","home": "SC Freiburg",      "away": "Aston Villa",       "time": "2:00 PM", "venue": "Vodafone Park, Estambul" },
-
-    { "day": "21 May", "liga": "Libertadores", "home": "Dep. La Guaira",  "away": "Ind. Rivadavia",    "time": "5:00 PM", "venue": "Est. Olímpico UCV, Caracas" },
-    { "day": "21 May", "liga": "Libertadores", "home": "Peñarol",         "away": "Corinthians",       "time": "7:30 PM", "venue": "Est. Campeón del Siglo", "importante": true },
-    { "day": "21 May", "liga": "Libertadores", "home": "U. Católica",     "away": "Barcelona SC",      "time": "7:30 PM", "venue": "San Carlos de Apoquindo" },
-
-    { "day": "22 May", "liga": "Liga 1 Perú",  "home": "Juan Pablo II",   "away": "Melgar",            "time": "3:00 PM", "venue": "Complejo JP II, Chongoyape" },
-    { "day": "22 May", "liga": "Sudamericana", "home": "Racing Club",     "away": "Botafogo",          "time": "7:30 PM", "venue": "Est. Pdte. Perón, Bs.As.", "importante": true },
-
-    { "day": "23 May", "liga": "Liga 1 Perú",  "home": "UTC",             "away": "Sport Boys",        "time": "12:45 PM","venue": "Est. Héroes San Ramón" },
-    { "day": "23 May", "liga": "Liga 1 Perú",  "home": "Dep. Moquegua",   "away": "Universitario",     "time": "3:00 PM", "venue": "Est. 25 de Noviembre", "importante": true },
-    { "day": "23 May", "liga": "Liga 1 Perú",  "home": "Cusco FC",        "away": "Atlético Grau",     "time": "5:15 PM", "venue": "Inca Garcilaso, Cusco" },
-    { "day": "23 May", "liga": "Liga 1 Perú",  "home": "Alianza Lima",    "away": "Los Chankas",       "time": "8:30 PM", "venue": "Est. Alejandro Villanueva", "importante": true },
-
-    { "day": "24 May", "liga": "Liga 1 Perú",  "home": "Sporting Cristal","away": "ADT",               "time": "11:00 AM","venue": "Est. Alberto Gallardo", "importante": true },
-    { "day": "24 May", "liga": "Liga 1 Perú",  "home": "Sport Huancayo",  "away": "Cienciano",         "time": "1:15 PM", "venue": "Est. Huancayo" },
-    { "day": "24 May", "liga": "Liga 1 Perú",  "home": "Alianza Atlético","away": "FC Cajamarca",      "time": "3:30 PM", "venue": "Camp. del 36, Sullana" },
-
-    { "day": "18 May", "liga": "Premier League","home": "Arsenal",              "away": "Burnley",               "time": "2:00 PM", "venue": "Emirates Stadium, Londres" },
-    { "day": "19 May", "liga": "Premier League","home": "AFC Bournemouth",      "away": "Manchester City",        "time": "1:30 PM", "venue": "Vitality Stadium, Bournemouth" },
-    { "day": "19 May", "liga": "Premier League","home": "Chelsea",              "away": "Tottenham Hotspur",      "time": "2:15 PM", "venue": "Stamford Bridge, Londres", "importante": true },
-    { "day": "24 May", "liga": "Premier League","home": "Brighton & Hove Albion","away": "Manchester United",     "time": "10:00 AM","venue": "American Express Stadium, Falmer", "importante": true },
-    { "day": "24 May", "liga": "Premier League","home": "Burnley",              "away": "Wolverhampton Wanderers","time": "10:00 AM","venue": "Turf Moor, Burnley" },
-    { "day": "24 May", "liga": "Premier League","home": "Crystal Palace",       "away": "Arsenal",               "time": "10:00 AM","venue": "Selhurst Park, Londres", "importante": true },
-    { "day": "24 May", "liga": "Premier League","home": "Fulham",               "away": "Newcastle United",       "time": "10:00 AM","venue": "Craven Cottage, Londres" },
-    { "day": "24 May", "liga": "Premier League","home": "Liverpool",            "away": "Brentford",              "time": "10:00 AM","venue": "Anfield, Liverpool", "importante": true },
-    { "day": "24 May", "liga": "Premier League","home": "Manchester City",      "away": "Aston Villa",            "time": "10:00 AM","venue": "Etihad Stadium, Manchester", "importante": true },
-    { "day": "24 May", "liga": "Premier League","home": "Nottingham Forest",    "away": "AFC Bournemouth",        "time": "10:00 AM","venue": "The City Ground, Nottingham" },
-    { "day": "24 May", "liga": "Premier League","home": "Sunderland",           "away": "Chelsea",                "time": "10:00 AM","venue": "Stadium of Light, Sunderland", "importante": true },
-    { "day": "24 May", "liga": "Premier League","home": "Tottenham Hotspur",    "away": "Everton",                "time": "10:00 AM","venue": "Tottenham Hotspur Stadium, Londres" },
-    { "day": "24 May", "liga": "Premier League","home": "West Ham United",      "away": "Leeds United",           "time": "10:00 AM","venue": "London Stadium, Londres" }
-  ]
+  "_nota": "Generado automáticamente. Agrega importante:true manualmente si quieres.",
+  "matches": []
 }
