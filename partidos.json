@@ -1,5 +1,455 @@
 {
   "_actualizado": "2026-05-18",
-  "_nota": "Generado automáticamente. Agrega importante:true manualmente si quieres.",
-  "matches": []
+  "_nota": "Generado automáticamente vía ESPN API. Agrega importante:true manualmente si quieres.",
+  "matches": [
+    {
+      "day": "18 May",
+      "liga": "Premier League",
+      "home": "Arsenal",
+      "away": "Burnley",
+      "time": "2:00 PM",
+      "venue": "Emirates Stadium"
+    },
+    {
+      "day": "19 May",
+      "liga": "Premier League",
+      "home": "AFC Bournemouth",
+      "away": "Manchester City",
+      "time": "1:30 PM",
+      "venue": "Vitality Stadium"
+    },
+    {
+      "day": "19 May",
+      "liga": "Premier League",
+      "home": "Chelsea",
+      "away": "Tottenham Hotspur",
+      "time": "2:15 PM",
+      "venue": "Stamford Bridge"
+    },
+    {
+      "day": "19 May",
+      "liga": "Libertadores",
+      "home": "Coquimbo Unido",
+      "away": "Deportes Tolima",
+      "time": "5:00 PM",
+      "venue": "Estadio Francisco Sánchez Rumoroso"
+    },
+    {
+      "day": "19 May",
+      "liga": "Libertadores",
+      "home": "Fluminense",
+      "away": "Bolívar",
+      "time": "5:00 PM",
+      "venue": "Estadio do Maracana",
+      "importante": true
+    },
+    {
+      "day": "19 May",
+      "liga": "Libertadores",
+      "home": "Rosario Central",
+      "away": "Universidad Central",
+      "time": "5:00 PM",
+      "venue": "Gigante de Arroyito"
+    },
+    {
+      "day": "19 May",
+      "liga": "Sudamericana",
+      "home": "Audax Italiano",
+      "away": "Barracas Central",
+      "time": "5:00 PM",
+      "venue": "Estadio Municipal de La Florida"
+    },
+    {
+      "day": "19 May",
+      "liga": "Sudamericana",
+      "home": "Montevideo City Torque",
+      "away": "Deportivo Riestra",
+      "time": "5:00 PM",
+      "venue": "Estadio Centenario"
+    },
+    {
+      "day": "19 May",
+      "liga": "Libertadores",
+      "home": "Always Ready",
+      "away": "Mirassol",
+      "time": "7:00 PM",
+      "venue": "Estadio Tigo La Huerta"
+    },
+    {
+      "day": "19 May",
+      "liga": "Libertadores",
+      "home": "Independiente Santa Fe",
+      "away": "Platense",
+      "time": "7:00 PM",
+      "venue": "Estadio Nemesio Camacho El Campín"
+    },
+    {
+      "day": "19 May",
+      "liga": "Libertadores",
+      "home": "Boca Juniors",
+      "away": "Cruzeiro",
+      "time": "7:30 PM",
+      "venue": "Alberto José Armando (La Bombonera)",
+      "importante": true
+    },
+    {
+      "day": "19 May",
+      "liga": "Sudamericana",
+      "home": "São Paulo",
+      "away": "Millonarios",
+      "time": "7:30 PM",
+      "venue": "Estádio Cícero Pompeu de Toledo",
+      "importante": true
+    },
+    {
+      "day": "19 May",
+      "liga": "Libertadores",
+      "home": "Independiente del Valle",
+      "away": "Libertad",
+      "time": "9:00 PM",
+      "venue": "Estadio Banco Guayaquil"
+    },
+    {
+      "day": "19 May",
+      "liga": "Sudamericana",
+      "home": "América de Cali",
+      "away": "Tigre",
+      "time": "9:00 PM",
+      "venue": "Pascual Guerrero"
+    },
+    {
+      "day": "19 May",
+      "liga": "Sudamericana",
+      "home": "Deportivo Cuenca",
+      "away": "Deportivo Recoleta",
+      "time": "9:00 PM",
+      "venue": "Banco del Austro Alejandro Serrano Aguil"
+    },
+    {
+      "day": "20 May",
+      "liga": "Europa League",
+      "home": "SC Freiburg",
+      "away": "Aston Villa",
+      "time": "2:00 PM",
+      "venue": "Vodafone Park"
+    },
+    {
+      "day": "20 May",
+      "liga": "Libertadores",
+      "home": "Nacional",
+      "away": "Universitario",
+      "time": "5:00 PM",
+      "venue": "Gran Parque Central",
+      "importante": true
+    },
+    {
+      "day": "20 May",
+      "liga": "Sudamericana",
+      "home": "Boston River",
+      "away": "O'Higgins",
+      "time": "5:00 PM",
+      "venue": "Estadio Centenario"
+    },
+    {
+      "day": "20 May",
+      "liga": "Sudamericana",
+      "home": "Club Olimpia",
+      "away": "Vasco da Gama",
+      "time": "5:00 PM",
+      "venue": "Defensores del Chaco"
+    },
+    {
+      "day": "20 May",
+      "liga": "Sudamericana",
+      "home": "Santos",
+      "away": "San Lorenzo",
+      "time": "5:00 PM",
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)"
+    },
+    {
+      "day": "20 May",
+      "liga": "Sudamericana",
+      "home": "Grêmio",
+      "away": "Palestino",
+      "time": "7:00 PM",
+      "venue": "Arena do Grêmio"
+    },
+    {
+      "day": "20 May",
+      "liga": "Sudamericana",
+      "home": "Independiente Petrolero",
+      "away": "Botafogo",
+      "time": "7:00 PM",
+      "venue": "Estadio Tigo La Huerta"
+    },
+    {
+      "day": "20 May",
+      "liga": "Libertadores",
+      "home": "Flamengo",
+      "away": "Estudiantes de La Plata",
+      "time": "7:30 PM",
+      "venue": "Estadio do Maracana",
+      "importante": true
+    },
+    {
+      "day": "20 May",
+      "liga": "Libertadores",
+      "home": "Liga de Quito",
+      "away": "Lanús",
+      "time": "7:30 PM",
+      "venue": "Rodrigo Paz Delgado"
+    },
+    {
+      "day": "20 May",
+      "liga": "Libertadores",
+      "home": "Palmeiras",
+      "away": "Cerro Porteño",
+      "time": "7:30 PM",
+      "venue": "Allianz Parque",
+      "importante": true
+    },
+    {
+      "day": "20 May",
+      "liga": "Sudamericana",
+      "home": "River Plate",
+      "away": "Red Bull Bragantino",
+      "time": "7:30 PM",
+      "venue": "Estadio Más Monumental",
+      "importante": true
+    },
+    {
+      "day": "20 May",
+      "liga": "Libertadores",
+      "home": "Atlético Junior",
+      "away": "Sporting Cristal",
+      "time": "9:00 PM",
+      "venue": "Romelio Martínez",
+      "importante": true
+    },
+    {
+      "day": "20 May",
+      "liga": "Libertadores",
+      "home": "Cusco FC",
+      "away": "Independiente Medellín",
+      "time": "9:00 PM",
+      "venue": "Estadio Inca Garcilaso de la Vega",
+      "importante": true
+    },
+    {
+      "day": "21 May",
+      "liga": "Libertadores",
+      "home": "Deportivo La Guaira",
+      "away": "Independiente Rivadavia",
+      "time": "5:00 PM",
+      "venue": "Estadio Olímpico de la UCV"
+    },
+    {
+      "day": "21 May",
+      "liga": "Sudamericana",
+      "home": "Academia Puerto Cabello",
+      "away": "Juventud",
+      "time": "5:00 PM",
+      "venue": "Estadio Misael Delgado"
+    },
+    {
+      "day": "21 May",
+      "liga": "Sudamericana",
+      "home": "Atlético-MG",
+      "away": "Cienciano del Cusco",
+      "time": "5:00 PM",
+      "venue": "Arena MRV"
+    },
+    {
+      "day": "21 May",
+      "liga": "Sudamericana",
+      "home": "Racing Club",
+      "away": "Caracas FC",
+      "time": "7:00 PM",
+      "venue": "Presidente Perón (Cilindro de Avellaneda)"
+    },
+    {
+      "day": "21 May",
+      "liga": "Libertadores",
+      "home": "Peñarol",
+      "away": "Corinthians",
+      "time": "7:30 PM",
+      "venue": "Estadio Campeón del Siglo",
+      "importante": true
+    },
+    {
+      "day": "21 May",
+      "liga": "Libertadores",
+      "home": "Universidad Católica",
+      "away": "Barcelona SC",
+      "time": "7:30 PM",
+      "venue": "Estadio San Carlos de Apoquindo"
+    },
+    {
+      "day": "21 May",
+      "liga": "Sudamericana",
+      "home": "Blooming",
+      "away": "Carabobo",
+      "time": "7:30 PM",
+      "venue": "Estadio Ramón Tahuichi"
+    },
+    {
+      "day": "21 May",
+      "liga": "Sudamericana",
+      "home": "Macará",
+      "away": "Alianza Atlético",
+      "time": "9:00 PM",
+      "venue": "Estadio Bellavista",
+      "importante": true
+    },
+    {
+      "day": "22 May",
+      "liga": "Liga 1 Perú",
+      "home": "Juan Pablo II",
+      "away": "Melgar",
+      "time": "3:00 PM",
+      "venue": "Complejo Deportivo Juan Pablo II",
+      "importante": true
+    },
+    {
+      "day": "23 May",
+      "liga": "Liga 1 Perú",
+      "home": "Deportivo Moquegua",
+      "away": "Universitario",
+      "time": "12:45 PM",
+      "venue": "Estadio 25 de Noviembre",
+      "importante": true
+    },
+    {
+      "day": "23 May",
+      "liga": "Liga 1 Perú",
+      "home": "UTC",
+      "away": "Sport Boys",
+      "time": "3:00 PM",
+      "venue": "Estadio Héroes de San Ramón"
+    },
+    {
+      "day": "23 May",
+      "liga": "Liga 1 Perú",
+      "home": "Cusco FC",
+      "away": "Atlético Grau",
+      "time": "5:15 PM",
+      "venue": "Estadio Inca Garcilaso de la Vega",
+      "importante": true
+    },
+    {
+      "day": "23 May",
+      "liga": "Liga 1 Perú",
+      "home": "Alianza Lima",
+      "away": "Los Chankas",
+      "time": "8:30 PM",
+      "venue": "Estadio Alejandro Villanueva",
+      "importante": true
+    },
+    {
+      "day": "24 May",
+      "liga": "Premier League",
+      "home": "Brighton & Hove Albion",
+      "away": "Manchester United",
+      "time": "10:00 AM",
+      "venue": "American Express Stadium"
+    },
+    {
+      "day": "24 May",
+      "liga": "Premier League",
+      "home": "Burnley",
+      "away": "Wolverhampton Wanderers",
+      "time": "10:00 AM",
+      "venue": "Turf Moor"
+    },
+    {
+      "day": "24 May",
+      "liga": "Premier League",
+      "home": "Crystal Palace",
+      "away": "Arsenal",
+      "time": "10:00 AM",
+      "venue": "Selhurst Park"
+    },
+    {
+      "day": "24 May",
+      "liga": "Premier League",
+      "home": "Fulham",
+      "away": "Newcastle United",
+      "time": "10:00 AM",
+      "venue": "Craven Cottage"
+    },
+    {
+      "day": "24 May",
+      "liga": "Premier League",
+      "home": "Liverpool",
+      "away": "Brentford",
+      "time": "10:00 AM",
+      "venue": "Anfield"
+    },
+    {
+      "day": "24 May",
+      "liga": "Premier League",
+      "home": "Manchester City",
+      "away": "Aston Villa",
+      "time": "10:00 AM",
+      "venue": "Etihad Stadium"
+    },
+    {
+      "day": "24 May",
+      "liga": "Premier League",
+      "home": "Nottingham Forest",
+      "away": "AFC Bournemouth",
+      "time": "10:00 AM",
+      "venue": "The City Ground"
+    },
+    {
+      "day": "24 May",
+      "liga": "Premier League",
+      "home": "Sunderland",
+      "away": "Chelsea",
+      "time": "10:00 AM",
+      "venue": "Stadium of Light"
+    },
+    {
+      "day": "24 May",
+      "liga": "Premier League",
+      "home": "Tottenham Hotspur",
+      "away": "Everton",
+      "time": "10:00 AM",
+      "venue": "Tottenham Hotspur Stadium"
+    },
+    {
+      "day": "24 May",
+      "liga": "Premier League",
+      "home": "West Ham United",
+      "away": "Leeds United",
+      "time": "10:00 AM",
+      "venue": "London Stadium"
+    },
+    {
+      "day": "24 May",
+      "liga": "Liga 1 Perú",
+      "home": "Sporting Cristal",
+      "away": "ADT",
+      "time": "11:00 AM",
+      "venue": "Estadio Alberto Gallardo",
+      "importante": true
+    },
+    {
+      "day": "24 May",
+      "liga": "Liga 1 Perú",
+      "home": "Sport Huancayo",
+      "away": "Cienciano del Cusco",
+      "time": "1:15 PM",
+      "venue": "Estadio Huancayo"
+    },
+    {
+      "day": "24 May",
+      "liga": "Liga 1 Perú",
+      "home": "Alianza Atlético",
+      "away": "FC Cajamarca",
+      "time": "3:30 PM",
+      "venue": "Estadio Campeones del '36",
+      "importante": true
+    }
+  ]
 }
