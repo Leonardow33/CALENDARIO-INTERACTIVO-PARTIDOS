@@ -13,61 +13,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch partidos desde API-Football
-        env:
-          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      - name: Fetch partidos desde ESPN API
         run: |
           pip install requests -q
           python3 - << 'PYEOF'
-          import json, os, sys, requests
+          import json, sys, requests
           from datetime import datetime, timedelta, timezone
-
-          API_KEY = os.environ.get('RAPIDAPI_KEY', '')
-          if not API_KEY:
-              print("ERROR: RAPIDAPI_KEY no configurada en GitHub Secrets")
-              sys.exit(1)
-
-          # Verificar que el API key funciona
-          try:
-              test = requests.get(
-                  "https://v3.football.api-sports.io/status",
-                  headers={"x-apisports-key": API_KEY},
-                  timeout=10
-              ).json()
-              resp = test.get('response', {})
-              acc  = resp.get('account', {})
-              reqs = resp.get('requests', {})
-              errs = test.get('errors', {})
-              print(f"API key: {acc.get('email', 'desconocido')}")
-              print(f"Requests hoy: {reqs.get('current',0)}/{reqs.get('limit_day',0)}")
-              if errs:
-                  print(f"ERROR en API key: {errs}")
-                  sys.exit(1)
-          except Exception as e:
-              print(f"ERROR verificando API key: {e}")
-              sys.exit(1)
 
           MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 
-          # Temporada según tipo de liga
-          now   = datetime.now(timezone.utc)
-          year  = now.year
-          month = now.month
-          euro_season = year - 1 if month < 7 else year
-          sa_season   = year
-
           LEAGUES = [
-              (268, sa_season,   'Liga 1 Perú'),
-              (13,  sa_season,   'Libertadores'),
-              (14,  sa_season,   'Sudamericana'),
-              (2,   euro_season, 'Champions League'),
-              (3,   euro_season, 'Europa League'),
-              (39,  euro_season, 'Premier League'),
+              ('per.1',                 'Liga 1 Perú'),
+              ('conmebol.libertadores', 'Libertadores'),
+              ('conmebol.sudamericana', 'Sudamericana'),
+              ('uefa.champions',        'Champions League'),
+              ('uefa.europa',           'Europa League'),
+              ('eng.1',                 'Premier League'),
           ]
 
-          # Partidos de estos equipos se marcan automáticamente como importantes
           IMPORTANT_TEAMS = {
-              'Alianza Lima', 'Universitario de Deportes', 'Universitario',
+              'Alianza Lima', 'Universitario', 'Universitario de Deportes',
               'Sporting Cristal', 'Melgar', 'Cienciano', 'Cusco FC',
               'Alianza Atlético', 'Atlético Junior',
               'Boca Juniors', 'River Plate', 'Flamengo', 'Palmeiras',
@@ -76,68 +41,67 @@ jobs:
           }
           ALWAYS_IMPORTANT = {'Champions League'}
 
-          def is_important(fixture_data, liga):
-              if liga in ALWAYS_IMPORTANT:
-                  return True
-              home = fixture_data['teams']['home']['name']
-              away = fixture_data['teams']['away']['name']
-              return home in IMPORTANT_TEAMS or away in IMPORTANT_TEAMS
-
           def get_week_range():
               lima = datetime.now(timezone.utc) - timedelta(hours=5)
               today = lima.replace(hour=0, minute=0, second=0, microsecond=0)
               monday = today - timedelta(days=today.weekday())
               sunday = monday + timedelta(days=6)
-              return monday.strftime('%Y-%m-%d'), sunday.strftime('%Y-%m-%d')
-
+              return monday, sunday
 
           def fmt_time(dt_str):
-              dt = datetime.fromisoformat(dt_str)
-              h  = dt.hour % 12 or 12
-              return f"{h}:{dt.strftime('%M')} {'AM' if dt.hour < 12 else 'PM'}"
+              if dt_str.endswith('Z'):
+                  dt_str = dt_str[:-1] + '+00:00'
+              dt_lima = datetime.fromisoformat(dt_str).astimezone(timezone.utc) - timedelta(hours=5)
+              h = dt_lima.hour % 12 or 12
+              return f"{h}:{dt_lima.strftime('%M')} {'AM' if dt_lima.hour < 12 else 'PM'}"
 
           def fmt_day(dt_str):
-              dt = datetime.fromisoformat(dt_str)
-              return f"{dt.day} {MONTHS[dt.month - 1]}"
+              if dt_str.endswith('Z'):
+                  dt_str = dt_str[:-1] + '+00:00'
+              dt_lima = datetime.fromisoformat(dt_str).astimezone(timezone.utc) - timedelta(hours=5)
+              return f"{dt_lima.day} {MONTHS[dt_lima.month - 1]}"
 
-          from_date, to_date = get_week_range()
-          print(f"Semana: {from_date} → {to_date}")
+          def is_important(home, away, liga):
+              if liga in ALWAYS_IMPORTANT:
+                  return True
+              return home in IMPORTANT_TEAMS or away in IMPORTANT_TEAMS
+
+          monday, sunday = get_week_range()
+          from_str = monday.strftime('%Y%m%d')
+          to_str   = sunday.strftime('%Y%m%d')
+          print(f"Semana: {monday.strftime('%Y-%m-%d')} → {sunday.strftime('%Y-%m-%d')}")
 
           matches = []
-          for league_id, season, liga in LEAGUES:
+          for slug, liga in LEAGUES:
               try:
-                  raw = requests.get(
-                      "https://v3.football.api-sports.io/fixtures",
-                      headers={"x-apisports-key": API_KEY},
-                      params={"league": league_id, "season": season,
-                              "from": from_date, "to": to_date,
-                              "timezone": "America/Lima"},
-                      timeout=15
-                  )
-                  raw.raise_for_status()
-                  data     = raw.json()
-                  errors   = data.get('errors', {})
-                  fixtures = data.get('response', [])
-                  if errors:
-                      print(f"  {liga} (id={league_id} s={season}): API error → {errors}")
-                      continue
-                  for f in fixtures:
+                  url  = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard"
+                  resp = requests.get(url, params={"dates": f"{from_str}-{to_str}"}, timeout=15)
+                  resp.raise_for_status()
+                  events = resp.json().get('events', [])
+                  count  = 0
+                  for ev in events:
+                      comp        = (ev.get('competitions') or [{}])[0]
+                      competitors = comp.get('competitors', [])
+                      home  = next((c['team']['displayName'] for c in competitors if c.get('homeAway') == 'home'), '')
+                      away  = next((c['team']['displayName'] for c in competitors if c.get('homeAway') == 'away'), '')
+                      dt    = ev.get('date', '')
+                      venue = (comp.get('venue') or {}).get('fullName', '')
                       m = {
-                          "day":   fmt_day(f['fixture']['date']),
+                          "day":   fmt_day(dt),
                           "liga":  liga,
-                          "home":  f['teams']['home']['name'],
-                          "away":  f['teams']['away']['name'],
-                          "time":  fmt_time(f['fixture']['date']),
-                          "venue": (f['fixture'].get('venue') or {}).get('name') or '',
+                          "home":  home,
+                          "away":  away,
+                          "time":  fmt_time(dt),
+                          "venue": venue,
                       }
-                      if is_important(f, liga):
+                      if is_important(home, away, liga):
                           m['importante'] = True
                       matches.append(m)
-                  print(f"  {liga} (id={league_id} s={season}): {len(fixtures)} partidos")
+                      count += 1
+                  print(f"  {liga} ({slug}): {count} partidos")
               except Exception as e:
-                  print(f"  {liga}: ERROR - {e}")
+                  print(f"  {liga} ({slug}): ERROR - {e}")
 
-          # Ordenar por día y hora
           mo = {m: i for i, m in enumerate(MONTHS)}
           matches.sort(key=lambda m: (
               mo.get(m['day'].split()[1], 0),
@@ -147,8 +111,8 @@ jobs:
 
           with open('partidos.json', 'w', encoding='utf-8') as f:
               json.dump({
-                  "_actualizado": from_date,
-                  "_nota": "Generado automáticamente. Agrega importante:true manualmente si quieres.",
+                  "_actualizado": monday.strftime('%Y-%m-%d'),
+                  "_nota": "Generado automáticamente vía ESPN API. Agrega importante:true manualmente si quieres.",
                   "matches": matches
               }, f, ensure_ascii=False, indent=2)
 
