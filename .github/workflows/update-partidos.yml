@@ -67,48 +67,60 @@ jobs:
                   return True
               return home in IMPORTANT_TEAMS or away in IMPORTANT_TEAMS
 
-          monday, sunday = get_week_range()
-          print(f"Semana: {monday.strftime('%Y-%m-%d')} → {sunday.strftime('%Y-%m-%d')}")
+          def fetch_week(monday):
+              seen_ids = set()
+              matches = []
+              for day_offset in range(7):
+                  day = monday + timedelta(days=day_offset)
+                  ds  = day.strftime('%Y%m%d')
+                  for slug, liga in LEAGUES:
+                      try:
+                          url  = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard"
+                          resp = requests.get(url, params={"dates": ds}, timeout=15)
+                          resp.raise_for_status()
+                          events = resp.json().get('events', [])
+                          count  = 0
+                          for ev in events:
+                              eid = ev.get('id', '')
+                              if eid in seen_ids:
+                                  continue
+                              seen_ids.add(eid)
+                              comp        = (ev.get('competitions') or [{}])[0]
+                              competitors = comp.get('competitors', [])
+                              home  = next((c['team']['displayName'] for c in competitors if c.get('homeAway') == 'home'), '')
+                              away  = next((c['team']['displayName'] for c in competitors if c.get('homeAway') == 'away'), '')
+                              dt    = ev.get('date', '')
+                              venue = (comp.get('venue') or {}).get('fullName', '')
+                              m = {
+                                  "day":   fmt_day(dt),
+                                  "liga":  liga,
+                                  "home":  home,
+                                  "away":  away,
+                                  "time":  fmt_time(dt),
+                                  "venue": venue,
+                              }
+                              if is_important(home, away, liga):
+                                  m['importante'] = True
+                              matches.append(m)
+                              count += 1
+                          if count:
+                              print(f"  {day.strftime('%a %d/%m')} {liga}: {count} partidos")
+                      except Exception as e:
+                          print(f"  {day.strftime('%a %d/%m')} {liga} ({slug}): ERROR - {e}")
+              return matches
 
-          seen_ids = set()
+          monday, _ = get_week_range()
           matches = []
-          for day_offset in range(7):
-              day = monday + timedelta(days=day_offset)
-              ds  = day.strftime('%Y%m%d')
-              for slug, liga in LEAGUES:
-                  try:
-                      url  = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard"
-                      resp = requests.get(url, params={"dates": ds}, timeout=15)
-                      resp.raise_for_status()
-                      events = resp.json().get('events', [])
-                      count  = 0
-                      for ev in events:
-                          eid = ev.get('id', '')
-                          if eid in seen_ids:
-                              continue
-                          seen_ids.add(eid)
-                          comp        = (ev.get('competitions') or [{}])[0]
-                          competitors = comp.get('competitors', [])
-                          home  = next((c['team']['displayName'] for c in competitors if c.get('homeAway') == 'home'), '')
-                          away  = next((c['team']['displayName'] for c in competitors if c.get('homeAway') == 'away'), '')
-                          dt    = ev.get('date', '')
-                          venue = (comp.get('venue') or {}).get('fullName', '')
-                          m = {
-                              "day":   fmt_day(dt),
-                              "liga":  liga,
-                              "home":  home,
-                              "away":  away,
-                              "time":  fmt_time(dt),
-                              "venue": venue,
-                          }
-                          if is_important(home, away, liga):
-                              m['importante'] = True
-                          matches.append(m)
-                          count += 1
-                      if count:
-                          print(f"  {day.strftime('%a %d/%m')} {liga}: {count} partidos")
-                  except Exception as e:
-                      print(f"  {day.strftime('%a %d/%m')} {liga} ({slug}): ERROR - {e}")
+          week_label = monday
+
+          for week_offset in range(5):
+              w = monday + timedelta(weeks=week_offset)
+              print(f"Semana: {w.strftime('%Y-%m-%d')} → {(w + timedelta(6)).strftime('%Y-%m-%d')}")
+              matches = fetch_week(w)
+              if matches:
+                  week_label = w
+                  break
+              print("  (sin partidos, probando semana siguiente...)")
 
           mo = {m: i for i, m in enumerate(MONTHS)}
           matches.sort(key=lambda m: (
@@ -119,7 +131,7 @@ jobs:
 
           with open('partidos.json', 'w', encoding='utf-8') as f:
               json.dump({
-                  "_actualizado": monday.strftime('%Y-%m-%d'),
+                  "_actualizado": week_label.strftime('%Y-%m-%d'),
                   "_nota": "Generado automáticamente vía ESPN API. Agrega importante:true manualmente si quieres.",
                   "matches": matches
               }, f, ensure_ascii=False, indent=2)

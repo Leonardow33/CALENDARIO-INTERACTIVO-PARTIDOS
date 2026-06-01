@@ -1,5 +1,114 @@
 {
-  "_actualizado": "2026-06-01",
+  "_actualizado": "2026-06-08",
   "_nota": "Generado automaticamente via ESPN API.",
-  "matches": []
+  "matches": [
+    {
+      "day": "11 Jun",
+      "liga": "Mundial 2026",
+      "home": "Mexico",
+      "away": "South Africa",
+      "time": "2:00 PM",
+      "venue": "Estadio Banorte",
+      "importante": true
+    },
+    {
+      "day": "11 Jun",
+      "liga": "Mundial 2026",
+      "home": "South Korea",
+      "away": "Czechia",
+      "time": "9:00 PM",
+      "venue": "Estadio Akron",
+      "importante": true
+    },
+    {
+      "day": "12 Jun",
+      "liga": "Mundial 2026",
+      "home": "Canada",
+      "away": "Bosnia-Herzegovina",
+      "time": "2:00 PM",
+      "venue": "BMO Field",
+      "importante": true
+    },
+    {
+      "day": "12 Jun",
+      "liga": "Mundial 2026",
+      "home": "United States",
+      "away": "Paraguay",
+      "time": "8:00 PM",
+      "venue": "SoFi Stadium",
+      "importante": true
+    },
+    {
+      "day": "13 Jun",
+      "liga": "Mundial 2026",
+      "home": "Australia",
+      "away": "Türkiye",
+      "time": "11:00 PM",
+      "venue": "BC Place",
+      "importante": true
+    },
+    {
+      "day": "13 Jun",
+      "liga": "Mundial 2026",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "time": "2:00 PM",
+      "venue": "Levi's Stadium",
+      "importante": true
+    },
+    {
+      "day": "13 Jun",
+      "liga": "Mundial 2026",
+      "home": "Brazil",
+      "away": "Morocco",
+      "time": "5:00 PM",
+      "venue": "MetLife Stadium",
+      "importante": true
+    },
+    {
+      "day": "13 Jun",
+      "liga": "Mundial 2026",
+      "home": "Haiti",
+      "away": "Scotland",
+      "time": "8:00 PM",
+      "venue": "Gillette Stadium",
+      "importante": true
+    },
+    {
+      "day": "14 Jun",
+      "liga": "Mundial 2026",
+      "home": "Germany",
+      "away": "Curacao",
+      "time": "12:00 PM",
+      "venue": "NRG Stadium",
+      "importante": true
+    },
+    {
+      "day": "14 Jun",
+      "liga": "Mundial 2026",
+      "home": "Netherlands",
+      "away": "Japan",
+      "time": "3:00 PM",
+      "venue": "AT&T Stadium",
+      "importante": true
+    },
+    {
+      "day": "14 Jun",
+      "liga": "Mundial 2026",
+      "home": "Ivory Coast",
+      "away": "Ecuador",
+      "time": "6:00 PM",
+      "venue": "Lincoln Financial Field",
+      "importante": true
+    },
+    {
+      "day": "14 Jun",
+      "liga": "Mundial 2026",
+      "home": "Sweden",
+      "away": "Tunisia",
+      "time": "9:00 PM",
+      "venue": "Estadio BBVA",
+      "importante": true
+    }
+  ]
 }
