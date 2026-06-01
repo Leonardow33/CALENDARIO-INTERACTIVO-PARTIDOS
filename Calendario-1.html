@@ -362,11 +362,13 @@ async function loadMatches(dateRange) {
   const res = await fetch(`./partidos.json?v=${Date.now()}`);
   if (!res.ok) throw new Error('No se pudo cargar partidos.json');
   const json = await res.json();
-  return (json.matches ?? []).filter(m => {
+  const allMatches = json.matches ?? [];
+  const inRange = allMatches.filter(m => {
     const [day, mon] = m.day.split(' ');
     const d = new Date(new Date().getFullYear(), MONTHS_ES.indexOf(mon), parseInt(day));
     return d.getTime() >= rangeStart && d.getTime() < rangeEnd;
   });
+  return { matches: inRange, allMatches, actualizado: json._actualizado || null };
 }
 
 // ── tabla (desktop) ───────────────────────────────────────────────────────────
@@ -605,13 +607,28 @@ function showStatus(msg, isError=false) {
 }
 
 // ── init ──────────────────────────────────────────────────────────────────────
+function buildDateRangeFromMonday(monday) {
+  return Array.from({length:7}, (_,i) => { const d = new Date(monday); d.setDate(monday.getDate()+i); return d; });
+}
+
 async function init() {
   globalDays = buildDateRange();
-  const first = globalDays[0], last = globalDays[globalDays.length-1];
-  document.getElementById("header-range").textContent =
-    `${first.getDate()} ${MONTHS_ES[first.getMonth()]} – ${last.getDate()} ${MONTHS_ES[last.getMonth()]} ${last.getFullYear()} · Hora Perú (GMT-5)`;
   try {
-    globalMatches = await loadMatches(globalDays);
+    let { matches, allMatches, actualizado } = await loadMatches(globalDays);
+
+    // Si la semana actual no tiene partidos, usar la semana del JSON
+    if (!matches.length && allMatches.length && actualizado) {
+      const [y, m, d] = actualizado.split('-').map(Number);
+      const monday = new Date(y, m-1, d);
+      globalDays = buildDateRangeFromMonday(monday);
+      matches = allMatches;
+    }
+
+    globalMatches = matches;
+    const first = globalDays[0], last = globalDays[globalDays.length-1];
+    document.getElementById("header-range").textContent =
+      `${first.getDate()} ${MONTHS_ES[first.getMonth()]} – ${last.getDate()} ${MONTHS_ES[last.getMonth()]} ${last.getFullYear()} · Hora Perú (GMT-5)`;
+
     const dest = globalMatches.filter(m => m.importante);
     renderAll("all", dest,          "dest-body", "m-dest");
     renderAll("all", globalMatches, "cal-body",  "m-todos");
