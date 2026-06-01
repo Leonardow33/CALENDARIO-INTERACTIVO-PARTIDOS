@@ -1,6 +1,6 @@
 {
   "_actualizado": "2026-06-08",
-  "_nota": "Generado automaticamente via ESPN API.",
+  "_nota": "Generado automáticamente vía ESPN API. Agrega importante:true manualmente si quieres.",
   "matches": [
     {
       "day": "11 Jun",
@@ -8,8 +8,7 @@
       "home": "Mexico",
       "away": "South Africa",
       "time": "2:00 PM",
-      "venue": "Estadio Banorte",
-      "importante": true
+      "venue": "Estadio Banorte"
     },
     {
       "day": "11 Jun",
@@ -17,8 +16,7 @@
       "home": "South Korea",
       "away": "Czechia",
       "time": "9:00 PM",
-      "venue": "Estadio Akron",
-      "importante": true
+      "venue": "Estadio Akron"
     },
     {
       "day": "12 Jun",
@@ -26,8 +24,7 @@
       "home": "Canada",
       "away": "Bosnia-Herzegovina",
       "time": "2:00 PM",
-      "venue": "BMO Field",
-      "importante": true
+      "venue": "BMO Field"
     },
     {
       "day": "12 Jun",
@@ -35,8 +32,7 @@
       "home": "United States",
       "away": "Paraguay",
       "time": "8:00 PM",
-      "venue": "SoFi Stadium",
-      "importante": true
+      "venue": "SoFi Stadium"
     },
     {
       "day": "13 Jun",
@@ -44,8 +40,7 @@
       "home": "Australia",
       "away": "Türkiye",
       "time": "11:00 PM",
-      "venue": "BC Place",
-      "importante": true
+      "venue": "BC Place"
     },
     {
       "day": "13 Jun",
@@ -53,8 +48,7 @@
       "home": "Qatar",
       "away": "Switzerland",
       "time": "2:00 PM",
-      "venue": "Levi's Stadium",
-      "importante": true
+      "venue": "Levi's Stadium"
     },
     {
       "day": "13 Jun",
@@ -62,8 +56,7 @@
       "home": "Brazil",
       "away": "Morocco",
       "time": "5:00 PM",
-      "venue": "MetLife Stadium",
-      "importante": true
+      "venue": "MetLife Stadium"
     },
     {
       "day": "13 Jun",
@@ -71,8 +64,7 @@
       "home": "Haiti",
       "away": "Scotland",
       "time": "8:00 PM",
-      "venue": "Gillette Stadium",
-      "importante": true
+      "venue": "Gillette Stadium"
     },
     {
       "day": "14 Jun",
@@ -80,8 +72,7 @@
       "home": "Germany",
       "away": "Curacao",
       "time": "12:00 PM",
-      "venue": "NRG Stadium",
-      "importante": true
+      "venue": "NRG Stadium"
     },
     {
       "day": "14 Jun",
@@ -89,8 +80,7 @@
       "home": "Netherlands",
       "away": "Japan",
       "time": "3:00 PM",
-      "venue": "AT&T Stadium",
-      "importante": true
+      "venue": "AT&T Stadium"
     },
     {
       "day": "14 Jun",
@@ -98,8 +88,7 @@
       "home": "Ivory Coast",
       "away": "Ecuador",
       "time": "6:00 PM",
-      "venue": "Lincoln Financial Field",
-      "importante": true
+      "venue": "Lincoln Financial Field"
     },
     {
       "day": "14 Jun",
@@ -107,8 +96,7 @@
       "home": "Sweden",
       "away": "Tunisia",
       "time": "9:00 PM",
-      "venue": "Estadio BBVA",
-      "importante": true
+      "venue": "Estadio BBVA"
     }
   ]
 }
