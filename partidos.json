@@ -1,6 +1,6 @@
 {
   "_actualizado": "2026-06-01",
-  "_nota": "Generado automaticamente via ESPN API.",
+  "_nota": "ESPN API.",
   "matches": [
     {
       "day": "1 Jun",
@@ -8,7 +8,8 @@
       "home": "Bulgaria",
       "away": "Montenegro",
       "time": "11:00 AM",
-      "venue": "Hristo Botev Stadium, Plovdiv"
+      "venue": "Hristo Botev Stadium, Plovdiv",
+      "sport": "futbol"
     },
     {
       "day": "1 Jun",
@@ -16,7 +17,8 @@
       "home": "Slovakia",
       "away": "Malta",
       "time": "11:00 AM",
-      "venue": "MOL Aréna"
+      "venue": "MOL Aréna",
+      "sport": "futbol"
     },
     {
       "day": "1 Jun",
@@ -24,7 +26,8 @@
       "home": "Norway",
       "away": "Sweden",
       "time": "12:00 PM",
-      "venue": "Ullevaal Stadion"
+      "venue": "Ullevaal Stadion",
+      "sport": "futbol"
     },
     {
       "day": "1 Jun",
@@ -32,7 +35,8 @@
       "home": "Türkiye",
       "away": "North Macedonia",
       "time": "12:30 PM",
-      "venue": "Ulker Stadyumu"
+      "venue": "Ulker Stadyumu",
+      "sport": "futbol"
     },
     {
       "day": "1 Jun",
@@ -40,7 +44,8 @@
       "home": "Austria",
       "away": "Tunisia",
       "time": "1:45 PM",
-      "venue": "Ernst-Happel-Stadion"
+      "venue": "Ernst-Happel-Stadion",
+      "sport": "futbol"
     },
     {
       "day": "1 Jun",
@@ -49,6 +54,7 @@
       "away": "Costa Rica",
       "time": "6:00 PM",
       "venue": "Estadio Nemesio Camacho El Campín",
+      "sport": "futbol",
       "importante": true
     },
     {
@@ -57,7 +63,8 @@
       "home": "Canada",
       "away": "Uzbekistan",
       "time": "8:00 PM",
-      "venue": "Commonwealth Stadium"
+      "venue": "Commonwealth Stadium",
+      "sport": "futbol"
     },
     {
       "day": "2 Jun",
@@ -65,7 +72,8 @@
       "home": "Viola Turini",
       "away": "Miriana Tona",
       "time": "10:10 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -73,7 +81,8 @@
       "home": "Tyra Caterina Grant",
       "away": "Lisa Zaar",
       "time": "10:15 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -81,7 +90,8 @@
       "home": "You Xiaodi",
       "away": "Leyre Romero Gormaz",
       "time": "10:20 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -89,15 +99,8 @@
       "home": "Dominika Salkova",
       "away": "Ana Konjuh",
       "time": "10:20 AM",
-      "venue": "Women's Singles"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Makarska Open",
-      "home": "Teodora Kostovic",
-      "away": "Simona Waltert",
-      "time": "10:45 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -105,7 +108,8 @@
       "home": "Katie Swan",
       "away": "Ajla Tomljanovic",
       "time": "10:50 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -113,7 +117,8 @@
       "home": "Joanna Garland",
       "away": "Gabriela Knutson",
       "time": "10:50 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -121,7 +126,17 @@
       "home": "Noma Noha Akugue",
       "away": "Miriam Bulgaru",
       "time": "10:50 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "2 Jun",
+      "liga": "Makarska Open",
+      "home": "Teodora Kostovic",
+      "away": "Simona Waltert",
+      "time": "10:55 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -129,7 +144,8 @@
       "home": "Croatia",
       "away": "Belgium",
       "time": "11:00 AM",
-      "venue": "Stadion HNK Rijeka"
+      "venue": "Stadion HNK Rijeka",
+      "sport": "futbol"
     },
     {
       "day": "2 Jun",
@@ -137,7 +153,8 @@
       "home": "Maddison Inglis",
       "away": "Celine Naef",
       "time": "11:00 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -145,7 +162,8 @@
       "home": "Dang Yiming",
       "away": "Laura Mair",
       "time": "11:00 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -153,7 +171,8 @@
       "home": "Alina Charaeva",
       "away": "Alexandra Eala",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -161,7 +180,8 @@
       "home": "Elvina Kalieva",
       "away": "Mika Stojsavljevic",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -169,7 +189,8 @@
       "home": "Lisa Pigato",
       "away": "Darya Astakhova",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -177,7 +198,8 @@
       "home": "Giorgia Pedone",
       "away": "Mayar Sherif",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -185,7 +207,8 @@
       "home": "Sofia Costoulas",
       "away": "Tatiana Pieri",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -193,7 +216,8 @@
       "home": "Nika Radisic",
       "away": "Chloe Paquet",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -201,7 +225,8 @@
       "home": "Tatiana Prozorova",
       "away": "Carole Monnet",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -209,7 +234,8 @@
       "home": "Maya Joint",
       "away": "Katarzyna Kawa",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -217,7 +243,8 @@
       "home": "Mia Ristic",
       "away": "Lola Radivojevic",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -225,7 +252,8 @@
       "home": "Tara Wuerth",
       "away": "Rebecca Sramkova",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -233,7 +261,8 @@
       "home": "Laura Samson",
       "away": "Andrea Lazaro Garcia",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -241,7 +270,8 @@
       "home": "Lucija Ciric Bagaric",
       "away": "Barbora Palicova",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -249,7 +279,8 @@
       "home": "Darja Semenistaja",
       "away": "Tena Lukas",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -257,7 +288,8 @@
       "home": "Linda Fruhvirtova",
       "away": "Tatjana Maria",
       "time": "11:20 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -265,7 +297,8 @@
       "home": "Himeno Sakatsume",
       "away": "Ashlyn Krueger",
       "time": "11:30 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -273,7 +306,8 @@
       "home": "Alicia Dudeney",
       "away": "Taylah Preston",
       "time": "11:30 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -281,7 +315,8 @@
       "home": "Georgia",
       "away": "Romania",
       "time": "12:00 PM",
-      "venue": "Mikheil Meskhi Stadioni"
+      "venue": "Mikheil Meskhi Stadioni",
+      "sport": "futbol"
     },
     {
       "day": "2 Jun",
@@ -289,7 +324,8 @@
       "home": "Morocco",
       "away": "Madagascar",
       "time": "12:00 PM",
-      "venue": "Stade Prince Moulay Abdallah"
+      "venue": "Stade Prince Moulay Abdallah",
+      "sport": "futbol"
     },
     {
       "day": "2 Jun",
@@ -297,7 +333,8 @@
       "home": "Lucia Bronzetti",
       "away": "Vittoria Paganetti",
       "time": "1:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -305,7 +342,8 @@
       "home": "Victoria Jimenez Kasintseva",
       "away": "Sara Sorribes Tormo",
       "time": "1:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -313,7 +351,8 @@
       "home": "Joao Fonseca",
       "away": "Jakub Mensik",
       "time": "1:15 PM",
-      "venue": "Men's Singles"
+      "venue": "Men's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -321,7 +360,8 @@
       "home": "Wales",
       "away": "Ghana",
       "time": "1:45 PM",
-      "venue": "Cardiff City Stadium"
+      "venue": "Cardiff City Stadium",
+      "sport": "futbol"
     },
     {
       "day": "2 Jun",
@@ -329,15 +369,8 @@
       "home": "Haiti",
       "away": "New Zealand",
       "time": "7:00 PM",
-      "venue": "Chase Stadium"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Lexus Birmingham Open",
-      "home": "Hanne Vandewinkel",
-      "away": "Kayla Day",
-      "time": "8:10 AM",
-      "venue": "Women's Singles"
+      "venue": "Chase Stadium",
+      "sport": "futbol"
     },
     {
       "day": "2 Jun",
@@ -345,7 +378,8 @@
       "home": "Kajsa Rinaldo Persson",
       "away": "Leolia Jeanjean",
       "time": "8:40 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "2 Jun",
@@ -353,7 +387,8 @@
       "home": "Jule Niemeier",
       "away": "Caijsa Hennemann",
       "time": "9:30 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "3 Jun",
@@ -361,7 +396,8 @@
       "home": "Mirra Andreeva",
       "away": "Marta Kostyuk",
       "time": "11:00 PM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "3 Jun",
@@ -369,7 +405,8 @@
       "home": "Gibraltar",
       "away": "British Virgin Islands",
       "time": "12:00 PM",
-      "venue": "Europa Point Stadium"
+      "venue": "Europa Point Stadium",
+      "sport": "futbol"
     },
     {
       "day": "3 Jun",
@@ -377,7 +414,8 @@
       "home": "Albania",
       "away": "Israel",
       "time": "1:00 PM",
-      "venue": "Air Albania Stadium"
+      "venue": "Air Albania Stadium",
+      "sport": "futbol"
     },
     {
       "day": "3 Jun",
@@ -385,7 +423,8 @@
       "home": "Congo DR",
       "away": "Denmark",
       "time": "1:00 PM",
-      "venue": "Stade Maurice Dufrasne"
+      "venue": "Stade Maurice Dufrasne",
+      "sport": "futbol"
     },
     {
       "day": "3 Jun",
@@ -393,7 +432,8 @@
       "home": "Matteo Arnaldi",
       "away": "Matteo Berrettini",
       "time": "1:15 PM",
-      "venue": "Men's Singles"
+      "venue": "Men's Singles",
+      "sport": "tenis"
     },
     {
       "day": "3 Jun",
@@ -401,7 +441,8 @@
       "home": "Luxembourg",
       "away": "Italy",
       "time": "1:45 PM",
-      "venue": "Stade de Luxembourg"
+      "venue": "Stade de Luxembourg",
+      "sport": "futbol"
     },
     {
       "day": "3 Jun",
@@ -409,7 +450,8 @@
       "home": "Netherlands",
       "away": "Algeria",
       "time": "1:45 PM",
-      "venue": "De Kuip"
+      "venue": "De Kuip",
+      "sport": "futbol"
     },
     {
       "day": "3 Jun",
@@ -417,7 +459,8 @@
       "home": "Poland",
       "away": "Nigeria",
       "time": "1:45 PM",
-      "venue": "PGE Narodowy"
+      "venue": "PGE Narodowy",
+      "sport": "futbol"
     },
     {
       "day": "3 Jun",
@@ -425,7 +468,8 @@
       "home": "Maja Chwalinska",
       "away": "Anna Kalinskaya",
       "time": "4:00 AM",
-      "venue": "Women's Singles"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "3 Jun",
@@ -434,6 +478,7 @@
       "away": "Aryna Sabalenka",
       "time": "5:30 AM",
       "venue": "Women's Singles",
+      "sport": "tenis",
       "importante": true
     },
     {
@@ -442,7 +487,8 @@
       "home": "Philippines",
       "away": "Guam",
       "time": "6:30 AM",
-      "venue": "Rizal Memorial Stadium"
+      "venue": "Rizal Memorial Stadium",
+      "sport": "futbol"
     },
     {
       "day": "3 Jun",
@@ -450,7 +496,8 @@
       "home": "Flavio Cobolli",
       "away": "Felix Auger-Aliassime",
       "time": "7:00 AM",
-      "venue": "Men's Singles"
+      "venue": "Men's Singles",
+      "sport": "tenis"
     },
     {
       "day": "3 Jun",
@@ -458,7 +505,8 @@
       "home": "Kyrgyz Republic",
       "away": "Kenya",
       "time": "7:30 AM",
-      "venue": "Dolen Omurzakov Stadium"
+      "venue": "Dolen Omurzakov Stadium",
+      "sport": "futbol"
     },
     {
       "day": "3 Jun",
@@ -466,7 +514,8 @@
       "home": "Panama",
       "away": "Dominican Republic",
       "time": "7:45 PM",
-      "venue": "Estadio Rommel Fernández Gutiérrez"
+      "venue": "Estadio Rommel Fernández Gutiérrez",
+      "sport": "futbol"
     },
     {
       "day": "3 Jun",
@@ -474,7 +523,8 @@
       "home": "South Korea",
       "away": "El Salvador",
       "time": "8:00 PM",
-      "venue": ""
+      "venue": "",
+      "sport": "futbol"
     },
     {
       "day": "4 Jun",
@@ -482,7 +532,8 @@
       "home": "Iran",
       "away": "Mali",
       "time": "10:30 AM",
-      "venue": "Mardan Stadyumu"
+      "venue": "Mardan Stadyumu",
+      "sport": "futbol"
     },
     {
       "day": "4 Jun",
@@ -490,7 +541,8 @@
       "home": "Burundi",
       "away": "Equatorial Guinea",
       "time": "11:00 AM",
-      "venue": "Stade de Marrakech"
+      "venue": "Stade de Marrakech",
+      "sport": "futbol"
     },
     {
       "day": "4 Jun",
@@ -498,7 +550,8 @@
       "home": "Northern Ireland",
       "away": "Guinea",
       "time": "11:00 AM",
-      "venue": "Municipal de La Línea de la Concepción"
+      "venue": "Municipal de La Línea de la Concepción",
+      "sport": "futbol"
     },
     {
       "day": "4 Jun",
@@ -506,7 +559,8 @@
       "home": "Slovenia",
       "away": "Cyprus",
       "time": "11:00 AM",
-      "venue": "Stadion Stozice"
+      "venue": "Stadion Stozice",
+      "sport": "futbol"
     },
     {
       "day": "4 Jun",
@@ -514,7 +568,8 @@
       "home": "Tanzania",
       "away": "Uganda",
       "time": "11:00 PM",
-      "venue": ""
+      "venue": "",
+      "sport": "futbol"
     },
     {
       "day": "4 Jun",
@@ -522,7 +577,8 @@
       "home": "Andorra",
       "away": "Liechtenstein",
       "time": "12:00 PM",
-      "venue": "Estadi de la FAF d'Encamp"
+      "venue": "Estadi de la FAF d'Encamp",
+      "sport": "futbol"
     },
     {
       "day": "4 Jun",
@@ -530,7 +586,8 @@
       "home": "Sweden",
       "away": "Greece",
       "time": "12:00 PM",
-      "venue": "Friends Arena"
+      "venue": "Friends Arena",
+      "sport": "futbol"
     },
     {
       "day": "4 Jun",
@@ -538,7 +595,8 @@
       "home": "Spain",
       "away": "Iraq",
       "time": "2:00 PM",
-      "venue": "Riazor"
+      "venue": "Riazor",
+      "sport": "futbol"
     },
     {
       "day": "4 Jun",
@@ -546,7 +604,8 @@
       "home": "France",
       "away": "Ivory Coast",
       "time": "2:10 PM",
-      "venue": "Stade de la Beaujoire"
+      "venue": "Stade de la Beaujoire",
+      "sport": "futbol"
     },
     {
       "day": "4 Jun",
@@ -554,7 +613,8 @@
       "home": "Cambodia",
       "away": "Bhutan",
       "time": "7:00 AM",
-      "venue": "National Olympic Stadium"
+      "venue": "National Olympic Stadium",
+      "sport": "futbol"
     },
     {
       "day": "4 Jun",
@@ -562,7 +622,8 @@
       "home": "Czechia",
       "away": "Guatemala",
       "time": "7:00 PM",
-      "venue": "Red Bull Arena"
+      "venue": "Red Bull Arena",
+      "sport": "futbol"
     },
     {
       "day": "4 Jun",
@@ -570,7 +631,8 @@
       "home": "Lesotho",
       "away": "Kenya",
       "time": "8:00 AM",
-      "venue": "Lucas Masterpieces Moripe Stadium"
+      "venue": "Lucas Masterpieces Moripe Stadium",
+      "sport": "futbol"
     },
     {
       "day": "4 Jun",
@@ -578,7 +640,8 @@
       "home": "Mexico",
       "away": "Serbia",
       "time": "9:00 PM",
-      "venue": "Estadio Nemesio Díez Riega"
+      "venue": "Estadio Nemesio Díez Riega",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -586,7 +649,8 @@
       "home": "Belarus",
       "away": "Syria",
       "time": "11:00 AM",
-      "venue": ""
+      "venue": "",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -594,7 +658,8 @@
       "home": "Georgia",
       "away": "Bahrain",
       "time": "11:00 AM",
-      "venue": "Mikheil Meskhi Stadioni"
+      "venue": "Mikheil Meskhi Stadioni",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -602,7 +667,8 @@
       "home": "Slovakia",
       "away": "Montenegro",
       "time": "11:30 AM",
-      "venue": "Košická futbalová aréna (KFA)"
+      "venue": "Košická futbalová aréna (KFA)",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -610,7 +676,8 @@
       "home": "Moldova",
       "away": "Bulgaria",
       "time": "12:00 PM",
-      "venue": "Stadionul Zimbru"
+      "venue": "Stadionul Zimbru",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -618,7 +685,8 @@
       "home": "Russia",
       "away": "Burkina Faso",
       "time": "12:00 PM",
-      "venue": "Volgograd Arena"
+      "venue": "Volgograd Arena",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -626,7 +694,8 @@
       "home": "San Marino",
       "away": "Bangladesh",
       "time": "12:00 PM",
-      "venue": "San Marino Stadium"
+      "venue": "San Marino Stadium",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -634,7 +703,8 @@
       "home": "Hungary",
       "away": "Finland",
       "time": "12:45 PM",
-      "venue": "Puskás Aréna"
+      "venue": "Puskás Aréna",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -642,7 +712,8 @@
       "home": "Azerbaijan",
       "away": "Malta",
       "time": "1:00 PM",
-      "venue": "Szombathelyi Haladás Stadion"
+      "venue": "Szombathelyi Haladás Stadion",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -651,6 +722,7 @@
       "away": "Nicaragua",
       "time": "5:15 PM",
       "venue": "Defensores del Chaco",
+      "sport": "futbol",
       "importante": true
     },
     {
@@ -659,7 +731,8 @@
       "home": "Puerto Rico",
       "away": "Saudi Arabia",
       "time": "6:00 PM",
-      "venue": "Q2 Stadium"
+      "venue": "Q2 Stadium",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -667,7 +740,8 @@
       "home": "Singapore",
       "away": "China",
       "time": "6:30 AM",
-      "venue": "Jalan Besar Stadium"
+      "venue": "Jalan Besar Stadium",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -675,7 +749,8 @@
       "home": "Canada",
       "away": "Republic of Ireland",
       "time": "6:30 PM",
-      "venue": "Stade Saputo"
+      "venue": "Stade Saputo",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -683,7 +758,8 @@
       "home": "Angola",
       "away": "Botswana",
       "time": "7:00 AM",
-      "venue": ""
+      "venue": "",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -691,7 +767,8 @@
       "home": "Hong Kong",
       "away": "Mongolia",
       "time": "7:00 AM",
-      "venue": "Hong Kong Stadium"
+      "venue": "Hong Kong Stadium",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -700,6 +777,7 @@
       "away": "Peru",
       "time": "7:00 PM",
       "venue": "Nu Stadium",
+      "sport": "futbol",
       "importante": true
     },
     {
@@ -708,7 +786,8 @@
       "home": "Thailand",
       "away": "Kuwait",
       "time": "7:30 AM",
-      "venue": "BG Stadium"
+      "venue": "BG Stadium",
+      "sport": "futbol"
     },
     {
       "day": "5 Jun",
@@ -716,7 +795,8 @@
       "home": "Indonesia",
       "away": "Oman",
       "time": "8:00 AM",
-      "venue": "Gelora Bung Karno Stadium"
+      "venue": "Gelora Bung Karno Stadium",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -724,7 +804,8 @@
       "home": "Armenia",
       "away": "Kazakhstan",
       "time": "11:00 AM",
-      "venue": "Vazgen Sargsyan Republican Stadium"
+      "venue": "Vazgen Sargsyan Republican Stadium",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -732,7 +813,8 @@
       "home": "Comoros",
       "away": "Rwanda",
       "time": "11:00 AM",
-      "venue": "Stade de Marrakech"
+      "venue": "Stade de Marrakech",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -740,7 +822,8 @@
       "home": "Gibraltar",
       "away": "Cayman Islands",
       "time": "12:00 PM",
-      "venue": "Europa Point Stadium"
+      "venue": "Europa Point Stadium",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -749,6 +832,7 @@
       "away": "Chile",
       "time": "12:45 PM",
       "venue": "Estádio do Jamor",
+      "sport": "futbol",
       "importante": true
     },
     {
@@ -757,7 +841,8 @@
       "home": "Romania",
       "away": "Wales",
       "time": "12:45 PM",
-      "venue": "Stadionul Steaua"
+      "venue": "Stadionul Steaua",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -765,7 +850,8 @@
       "home": "Albania",
       "away": "Luxembourg",
       "time": "1:00 PM",
-      "venue": "Air Albania Stadium"
+      "venue": "Air Albania Stadium",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -773,7 +859,8 @@
       "home": "United States",
       "away": "Germany",
       "time": "1:30 PM",
-      "venue": "Soldier Field"
+      "venue": "Soldier Field",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -781,7 +868,8 @@
       "home": "Australia",
       "away": "Switzerland",
       "time": "2:00 PM",
-      "venue": "Snapdragon Stadium"
+      "venue": "Snapdragon Stadium",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -789,7 +877,8 @@
       "home": "Panama",
       "away": "Bosnia-Herzegovina",
       "time": "2:00 PM",
-      "venue": "Energizer Park"
+      "venue": "Energizer Park",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -798,6 +887,7 @@
       "away": "Scotland",
       "time": "3:00 PM",
       "venue": "Red Bull Arena",
+      "sport": "futbol",
       "importante": true
     },
     {
@@ -806,7 +896,8 @@
       "home": "England",
       "away": "New Zealand",
       "time": "3:00 PM",
-      "venue": "Raymond James Stadium"
+      "venue": "Raymond James Stadium",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -814,7 +905,8 @@
       "home": "Qatar",
       "away": "El Salvador",
       "time": "3:00 PM",
-      "venue": "BMO Stadium"
+      "venue": "BMO Stadium",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -823,6 +915,7 @@
       "away": "Egypt",
       "time": "5:00 PM",
       "venue": "Huntington Bank Field",
+      "sport": "futbol",
       "importante": true
     },
     {
@@ -832,6 +925,7 @@
       "away": "Türkiye",
       "time": "5:00 PM",
       "venue": "Chase Stadium",
+      "sport": "futbol",
       "importante": true
     },
     {
@@ -840,7 +934,8 @@
       "home": "Myanmar",
       "away": "Guam",
       "time": "6:30 AM",
-      "venue": "Rizal Memorial Stadium"
+      "venue": "Rizal Memorial Stadium",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -848,7 +943,8 @@
       "home": "Ethiopia",
       "away": "Malawi",
       "time": "7:00 AM",
-      "venue": "Addis Ababa Stadium"
+      "venue": "Addis Ababa Stadium",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -857,6 +953,7 @@
       "away": "Honduras",
       "time": "7:00 PM",
       "venue": "Kyle Field",
+      "sport": "futbol",
       "importante": true
     },
     {
@@ -865,7 +962,8 @@
       "home": "Curaçao",
       "away": "Aruba",
       "time": "7:00 PM",
-      "venue": "Stadion Ergilio Hato"
+      "venue": "Stadion Ergilio Hato",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -873,7 +971,8 @@
       "home": "Belgium",
       "away": "Tunisia",
       "time": "8:00 AM",
-      "venue": "King Baudouin Stadium"
+      "venue": "King Baudouin Stadium",
+      "sport": "futbol"
     },
     {
       "day": "6 Jun",
@@ -881,7 +980,8 @@
       "home": "Palestine",
       "away": "Kenya",
       "time": "9:30 AM",
-      "venue": "Dolen Omurzakov Stadium"
+      "venue": "Dolen Omurzakov Stadium",
+      "sport": "futbol"
     },
     {
       "day": "7 Jun",
@@ -889,7 +989,8 @@
       "home": "Denmark",
       "away": "Ukraine",
       "time": "11:30 AM",
-      "venue": "Nature Energy Park"
+      "venue": "Nature Energy Park",
+      "sport": "futbol"
     },
     {
       "day": "7 Jun",
@@ -897,7 +998,8 @@
       "home": "Kosovo",
       "away": "Andorra",
       "time": "12:00 PM",
-      "venue": "Stadiumi Fadil Vokrri"
+      "venue": "Stadiumi Fadil Vokrri",
+      "sport": "futbol"
     },
     {
       "day": "7 Jun",
@@ -905,7 +1007,8 @@
       "home": "Croatia",
       "away": "Slovenia",
       "time": "1:45 PM",
-      "venue": "Stadion Andjelko Herjavec"
+      "venue": "Stadion Andjelko Herjavec",
+      "sport": "futbol"
     },
     {
       "day": "7 Jun",
@@ -913,7 +1016,8 @@
       "home": "Greece",
       "away": "Italy",
       "time": "2:00 PM",
-      "venue": "Pankritio Stadium"
+      "venue": "Pankritio Stadium",
+      "sport": "futbol"
     },
     {
       "day": "7 Jun",
@@ -921,7 +1025,8 @@
       "home": "Morocco",
       "away": "Norway",
       "time": "2:00 PM",
-      "venue": "Red Bull Arena"
+      "venue": "Red Bull Arena",
+      "sport": "futbol"
     },
     {
       "day": "7 Jun",
@@ -930,6 +1035,7 @@
       "away": "Guatemala",
       "time": "3:00 PM",
       "venue": "ScottsMiracle-Gro Field",
+      "sport": "futbol",
       "importante": true
     },
     {
@@ -939,6 +1045,7 @@
       "away": "Jordan",
       "time": "6:00 PM",
       "venue": "Snapdragon Stadium",
+      "sport": "futbol",
       "importante": true
     },
     {
@@ -947,7 +1054,8 @@
       "home": "Kenya",
       "away": "Lesotho",
       "time": "8:00 AM",
-      "venue": "Lucas Masterpieces Moripe Stadium"
+      "venue": "Lucas Masterpieces Moripe Stadium",
+      "sport": "futbol"
     },
     {
       "day": "7 Jun",
@@ -955,7 +1063,8 @@
       "home": "Liechtenstein",
       "away": "Cyprus",
       "time": "8:00 AM",
-      "venue": "Rheinpark Stadion"
+      "venue": "Rheinpark Stadion",
+      "sport": "futbol"
     }
   ]
 }

@@ -106,6 +106,7 @@ jobs:
                                   "away":  away,
                                   "time":  fmt_time(dt),
                                   "venue": venue,
+                                  "sport": "futbol",
                               }
                               if is_important(home, away, liga):
                                   m['importante'] = True
@@ -159,6 +160,7 @@ jobs:
                                       "away":  p2,
                                       "time":  fmt_time(dt_str),
                                       "venue": cat,
+                                      "sport": "tenis",
                                   }
                                   if p1 in TENNIS_IMPORTANT or p2 in TENNIS_IMPORTANT:
                                       m['importante'] = True
