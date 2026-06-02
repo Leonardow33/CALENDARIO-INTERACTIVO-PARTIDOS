@@ -45,6 +45,11 @@ jobs:
           }
           ALWAYS_IMPORTANT = {'Champions League', 'Mundial 2026'}
 
+          TENNIS_IMPORTANT = {
+              'Carlos Alcaraz', 'Jannik Sinner', 'Novak Djokovic', 'Rafael Nadal',
+              'Iga Swiatek', 'Aryna Sabalenka', 'Coco Gauff', 'Elena Rybakina',
+          }
+
           def get_week_range():
               lima = datetime.now(timezone.utc) - timedelta(hours=5)
               today = lima.replace(hour=0, minute=0, second=0, microsecond=0)
@@ -112,6 +117,58 @@ jobs:
                           print(f"  {day.strftime('%a %d/%m')} {liga} ({slug}): ERROR - {e}")
               return matches
 
+          def fetch_tennis_week(monday):
+              seen_ids = set()
+              matches = []
+              sunday = monday + timedelta(days=6)
+              for slug in ['atp', 'wta']:
+                  try:
+                      url  = f"https://site.api.espn.com/apis/site/v2/sports/tennis/{slug}/scoreboard"
+                      resp = requests.get(url, timeout=15)
+                      resp.raise_for_status()
+                      for ev in resp.json().get('events', []):
+                          tournament = ev.get('name', '')
+                          for g in ev.get('groupings', []):
+                              cat = g['grouping']['displayName']
+                              if 'Singles' not in cat:
+                                  continue
+                              for comp in g.get('competitions', []):
+                                  eid = comp.get('id', '')
+                                  if eid in seen_ids:
+                                      continue
+                                  state = comp.get('status', {}).get('type', {}).get('state', '')
+                                  if state == 'post':
+                                      continue
+                                  dt_str = comp.get('date', '')
+                                  if not dt_str:
+                                      continue
+                                  d = datetime.fromisoformat(dt_str.replace('Z', '+00:00')).astimezone(timezone.utc) - timedelta(hours=5)
+                                  d_date = d.replace(hour=0, minute=0, second=0, microsecond=0)
+                                  if not (monday <= d_date <= sunday):
+                                      continue
+                                  comps = comp.get('competitors', [])
+                                  p1 = comps[0].get('athlete', {}).get('displayName', '') if len(comps) > 0 else ''
+                                  p2 = comps[1].get('athlete', {}).get('displayName', '') if len(comps) > 1 else ''
+                                  if not p1 or not p2 or p1 == 'TBD' or p2 == 'TBD':
+                                      continue
+                                  seen_ids.add(eid)
+                                  m = {
+                                      "day":   fmt_day(dt_str),
+                                      "liga":  tournament,
+                                      "home":  p1,
+                                      "away":  p2,
+                                      "time":  fmt_time(dt_str),
+                                      "venue": cat,
+                                  }
+                                  if p1 in TENNIS_IMPORTANT or p2 in TENNIS_IMPORTANT:
+                                      m['importante'] = True
+                                  matches.append(m)
+                  except Exception as e:
+                      print(f"  Tennis {slug}: ERROR - {e}")
+              if matches:
+                  print(f"  Tenis: {len(matches)} partidos")
+              return matches
+
           monday, _ = get_week_range()
           matches = []
           week_label = monday
@@ -120,6 +177,7 @@ jobs:
               w = monday + timedelta(weeks=week_offset)
               print(f"Semana: {w.strftime('%Y-%m-%d')} → {(w + timedelta(6)).strftime('%Y-%m-%d')}")
               matches = fetch_week(w)
+              matches += fetch_tennis_week(w)
               if matches:
                   week_label = w
                   break
