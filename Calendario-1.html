@@ -456,6 +456,11 @@ function switchTab(tab) {
 const DRUM_STEP = 22;   // grados entre días
 const DRUM_R    = 112;  // radio del cilindro en px
 
+function wrapDrum(raw) {
+  const n = globalDays.length;
+  return n > 0 ? ((Math.round(raw) % n) + n) % n : 0;
+}
+
 let drumIdx      = 0;
 let drumDragging = false;
 let drumStartY   = 0;
@@ -498,9 +503,8 @@ function buildDrum() {
     if (!drumDragging) return;
     const dy   = drumStartY - e.touches[0].clientY;
     const raw  = drumRawIdx + dy / 52;
-    const clamped = Math.max(0, Math.min(globalDays.length - 1, raw));
-    applyDrumTransform(clamped);
-    updateDrumStyles(clamped);
+    applyDrumTransform(raw);
+    updateDrumStyles(wrapDrum(raw));
   }, { passive: true });
 
   vp.addEventListener('touchend', e => {
@@ -508,9 +512,8 @@ function buildDrum() {
     drumDragging = false;
     const dy     = drumStartY - e.changedTouches[0].clientY;
     const raw    = drumRawIdx + dy / 52;
-    const snapped = Math.round(Math.max(0, Math.min(globalDays.length - 1, raw)));
     document.getElementById('drumTrack').style.transition = 'transform 0.38s cubic-bezier(.25,.46,.45,.94)';
-    setDrumDay(snapped);
+    setDrumDay(wrapDrum(raw));
   }, { passive: true });
 
   // mouse drag (desktop)
@@ -523,17 +526,17 @@ function buildDrum() {
   window.addEventListener('mousemove', e => {
     if (!drumDragging) return;
     const dy      = drumStartY - e.clientY;
-    const clamped = Math.max(0, Math.min(globalDays.length - 1, drumRawIdx + dy / 52));
-    applyDrumTransform(clamped);
-    updateDrumStyles(clamped);
+    const raw     = drumRawIdx + dy / 52;
+    applyDrumTransform(raw);
+    updateDrumStyles(wrapDrum(raw));
   });
   window.addEventListener('mouseup', e => {
     if (!drumDragging) return;
     drumDragging = false;
     const dy     = drumStartY - e.clientY;
-    const snapped = Math.round(Math.max(0, Math.min(globalDays.length - 1, drumRawIdx + dy / 52)));
+    const raw    = drumRawIdx + dy / 52;
     document.getElementById('drumTrack').style.transition = 'transform 0.38s cubic-bezier(.25,.46,.45,.94)';
-    setDrumDay(snapped);
+    setDrumDay(wrapDrum(raw));
   });
 
   // teclado
@@ -559,7 +562,8 @@ function updateDrumStyles(currentIdx) {
 }
 
 function setDrumDay(idx) {
-  drumIdx = Math.max(0, Math.min(globalDays.length - 1, Math.round(idx)));
+  drumIdx    = wrapDrum(idx);
+  drumRawIdx = drumIdx;
   applyDrumTransform(drumIdx);
   updateDrumStyles(drumIdx);
   renderDrumMatches(drumIdx);
