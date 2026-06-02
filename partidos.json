@@ -1,102 +1,664 @@
 {
-  "_actualizado": "2026-06-08",
-  "_nota": "Generado automáticamente vía ESPN API. Agrega importante:true manualmente si quieres.",
+  "_actualizado": "2026-06-01",
+  "_nota": "Generado automaticamente via ESPN API.",
   "matches": [
     {
-      "day": "11 Jun",
-      "liga": "Mundial 2026",
-      "home": "Mexico",
-      "away": "South Africa",
-      "time": "2:00 PM",
-      "venue": "Estadio Banorte"
+      "day": "1 Jun",
+      "liga": "Amistosos",
+      "home": "Bulgaria",
+      "away": "Montenegro",
+      "time": "11:00 AM",
+      "venue": "Hristo Botev Stadium, Plovdiv"
     },
     {
-      "day": "11 Jun",
-      "liga": "Mundial 2026",
-      "home": "South Korea",
-      "away": "Czechia",
-      "time": "9:00 PM",
-      "venue": "Estadio Akron"
+      "day": "1 Jun",
+      "liga": "Amistosos",
+      "home": "Slovakia",
+      "away": "Malta",
+      "time": "11:00 AM",
+      "venue": "MOL Aréna"
     },
     {
-      "day": "12 Jun",
-      "liga": "Mundial 2026",
+      "day": "1 Jun",
+      "liga": "Amistosos",
+      "home": "Norway",
+      "away": "Sweden",
+      "time": "12:00 PM",
+      "venue": "Ullevaal Stadion"
+    },
+    {
+      "day": "1 Jun",
+      "liga": "Amistosos",
+      "home": "Türkiye",
+      "away": "North Macedonia",
+      "time": "12:30 PM",
+      "venue": "Ulker Stadyumu"
+    },
+    {
+      "day": "1 Jun",
+      "liga": "Amistosos",
+      "home": "Austria",
+      "away": "Tunisia",
+      "time": "1:45 PM",
+      "venue": "Ernst-Happel-Stadion"
+    },
+    {
+      "day": "1 Jun",
+      "liga": "Amistosos",
+      "home": "Colombia",
+      "away": "Costa Rica",
+      "time": "6:00 PM",
+      "venue": "Estadio Nemesio Camacho El Campín",
+      "importante": true
+    },
+    {
+      "day": "1 Jun",
+      "liga": "Amistosos",
       "home": "Canada",
-      "away": "Bosnia-Herzegovina",
-      "time": "2:00 PM",
-      "venue": "BMO Field"
-    },
-    {
-      "day": "12 Jun",
-      "liga": "Mundial 2026",
-      "home": "United States",
-      "away": "Paraguay",
+      "away": "Uzbekistan",
       "time": "8:00 PM",
-      "venue": "SoFi Stadium"
+      "venue": "Commonwealth Stadium"
     },
     {
-      "day": "13 Jun",
-      "liga": "Mundial 2026",
-      "home": "Australia",
-      "away": "Türkiye",
+      "day": "2 Jun",
+      "liga": "Amistosos",
+      "home": "Croatia",
+      "away": "Belgium",
+      "time": "11:00 AM",
+      "venue": "Stadion HNK Rijeka"
+    },
+    {
+      "day": "2 Jun",
+      "liga": "Amistosos",
+      "home": "Georgia",
+      "away": "Romania",
+      "time": "12:00 PM",
+      "venue": "Mikheil Meskhi Stadioni"
+    },
+    {
+      "day": "2 Jun",
+      "liga": "Amistosos",
+      "home": "Morocco",
+      "away": "Madagascar",
+      "time": "12:00 PM",
+      "venue": "Stade Prince Moulay Abdallah"
+    },
+    {
+      "day": "2 Jun",
+      "liga": "Amistosos",
+      "home": "Wales",
+      "away": "Ghana",
+      "time": "1:45 PM",
+      "venue": "Cardiff City Stadium"
+    },
+    {
+      "day": "2 Jun",
+      "liga": "Amistosos",
+      "home": "Haiti",
+      "away": "New Zealand",
+      "time": "7:00 PM",
+      "venue": "Chase Stadium"
+    },
+    {
+      "day": "3 Jun",
+      "liga": "Amistosos",
+      "home": "Gibraltar",
+      "away": "British Virgin Islands",
+      "time": "12:00 PM",
+      "venue": "Europa Point Stadium"
+    },
+    {
+      "day": "3 Jun",
+      "liga": "Amistosos",
+      "home": "Albania",
+      "away": "Israel",
+      "time": "1:00 PM",
+      "venue": "Air Albania Stadium"
+    },
+    {
+      "day": "3 Jun",
+      "liga": "Amistosos",
+      "home": "Congo DR",
+      "away": "Denmark",
+      "time": "1:00 PM",
+      "venue": "Stade Maurice Dufrasne"
+    },
+    {
+      "day": "3 Jun",
+      "liga": "Amistosos",
+      "home": "Luxembourg",
+      "away": "Italy",
+      "time": "1:45 PM",
+      "venue": "Stade de Luxembourg"
+    },
+    {
+      "day": "3 Jun",
+      "liga": "Amistosos",
+      "home": "Netherlands",
+      "away": "Algeria",
+      "time": "1:45 PM",
+      "venue": "De Kuip"
+    },
+    {
+      "day": "3 Jun",
+      "liga": "Amistosos",
+      "home": "Poland",
+      "away": "Nigeria",
+      "time": "1:45 PM",
+      "venue": "PGE Narodowy"
+    },
+    {
+      "day": "3 Jun",
+      "liga": "Amistosos",
+      "home": "Philippines",
+      "away": "Guam",
+      "time": "6:30 AM",
+      "venue": "Rizal Memorial Stadium"
+    },
+    {
+      "day": "3 Jun",
+      "liga": "Amistosos",
+      "home": "Kyrgyz Republic",
+      "away": "Kenya",
+      "time": "7:30 AM",
+      "venue": "Dolen Omurzakov Stadium"
+    },
+    {
+      "day": "3 Jun",
+      "liga": "Amistosos",
+      "home": "Panama",
+      "away": "Dominican Republic",
+      "time": "7:45 PM",
+      "venue": "Estadio Rommel Fernández Gutiérrez"
+    },
+    {
+      "day": "3 Jun",
+      "liga": "Amistosos",
+      "home": "South Korea",
+      "away": "El Salvador",
+      "time": "8:00 PM",
+      "venue": ""
+    },
+    {
+      "day": "4 Jun",
+      "liga": "Amistosos",
+      "home": "Iran",
+      "away": "Mali",
+      "time": "10:30 AM",
+      "venue": "Mardan Stadyumu"
+    },
+    {
+      "day": "4 Jun",
+      "liga": "Amistosos",
+      "home": "Burundi",
+      "away": "Equatorial Guinea",
+      "time": "11:00 AM",
+      "venue": "Stade de Marrakech"
+    },
+    {
+      "day": "4 Jun",
+      "liga": "Amistosos",
+      "home": "Northern Ireland",
+      "away": "Guinea",
+      "time": "11:00 AM",
+      "venue": "Municipal de La Línea de la Concepción"
+    },
+    {
+      "day": "4 Jun",
+      "liga": "Amistosos",
+      "home": "Slovenia",
+      "away": "Cyprus",
+      "time": "11:00 AM",
+      "venue": "Stadion Stozice"
+    },
+    {
+      "day": "4 Jun",
+      "liga": "Amistosos",
+      "home": "Tanzania",
+      "away": "Uganda",
       "time": "11:00 PM",
-      "venue": "BC Place"
+      "venue": ""
     },
     {
-      "day": "13 Jun",
-      "liga": "Mundial 2026",
-      "home": "Qatar",
+      "day": "4 Jun",
+      "liga": "Amistosos",
+      "home": "Andorra",
+      "away": "Liechtenstein",
+      "time": "12:00 PM",
+      "venue": "Estadi de la FAF d'Encamp"
+    },
+    {
+      "day": "4 Jun",
+      "liga": "Amistosos",
+      "home": "Sweden",
+      "away": "Greece",
+      "time": "12:00 PM",
+      "venue": "Friends Arena"
+    },
+    {
+      "day": "4 Jun",
+      "liga": "Amistosos",
+      "home": "Spain",
+      "away": "Iraq",
+      "time": "2:00 PM",
+      "venue": "Riazor"
+    },
+    {
+      "day": "4 Jun",
+      "liga": "Amistosos",
+      "home": "France",
+      "away": "Ivory Coast",
+      "time": "2:10 PM",
+      "venue": "Stade de la Beaujoire"
+    },
+    {
+      "day": "4 Jun",
+      "liga": "Amistosos",
+      "home": "Cambodia",
+      "away": "Bhutan",
+      "time": "7:00 AM",
+      "venue": "National Olympic Stadium"
+    },
+    {
+      "day": "4 Jun",
+      "liga": "Amistosos",
+      "home": "Czechia",
+      "away": "Guatemala",
+      "time": "7:00 PM",
+      "venue": "Red Bull Arena"
+    },
+    {
+      "day": "4 Jun",
+      "liga": "Amistosos",
+      "home": "Lesotho",
+      "away": "Kenya",
+      "time": "8:00 AM",
+      "venue": "Lucas Masterpieces Moripe Stadium"
+    },
+    {
+      "day": "4 Jun",
+      "liga": "Amistosos",
+      "home": "Mexico",
+      "away": "Serbia",
+      "time": "9:00 PM",
+      "venue": "Estadio Nemesio Díez Riega"
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Belarus",
+      "away": "Syria",
+      "time": "11:00 AM",
+      "venue": ""
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Georgia",
+      "away": "Bahrain",
+      "time": "11:00 AM",
+      "venue": "Mikheil Meskhi Stadioni"
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Slovakia",
+      "away": "Montenegro",
+      "time": "11:30 AM",
+      "venue": "Košická futbalová aréna (KFA)"
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Moldova",
+      "away": "Bulgaria",
+      "time": "12:00 PM",
+      "venue": "Stadionul Zimbru"
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Russia",
+      "away": "Burkina Faso",
+      "time": "12:00 PM",
+      "venue": "Volgograd Arena"
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "San Marino",
+      "away": "Bangladesh",
+      "time": "12:00 PM",
+      "venue": "San Marino Stadium"
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Hungary",
+      "away": "Finland",
+      "time": "12:45 PM",
+      "venue": "Puskás Aréna"
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Azerbaijan",
+      "away": "Malta",
+      "time": "1:00 PM",
+      "venue": "Szombathelyi Haladás Stadion"
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Paraguay",
+      "away": "Nicaragua",
+      "time": "5:15 PM",
+      "venue": "Defensores del Chaco",
+      "importante": true
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Puerto Rico",
+      "away": "Saudi Arabia",
+      "time": "6:00 PM",
+      "venue": "Q2 Stadium"
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Singapore",
+      "away": "China",
+      "time": "6:30 AM",
+      "venue": "Jalan Besar Stadium"
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Canada",
+      "away": "Republic of Ireland",
+      "time": "6:30 PM",
+      "venue": "Stade Saputo"
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Angola",
+      "away": "Botswana",
+      "time": "7:00 AM",
+      "venue": ""
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Hong Kong",
+      "away": "Mongolia",
+      "time": "7:00 AM",
+      "venue": "Hong Kong Stadium"
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Haiti",
+      "away": "Peru",
+      "time": "7:00 PM",
+      "venue": "Nu Stadium",
+      "importante": true
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Thailand",
+      "away": "Kuwait",
+      "time": "7:30 AM",
+      "venue": "BG Stadium"
+    },
+    {
+      "day": "5 Jun",
+      "liga": "Amistosos",
+      "home": "Indonesia",
+      "away": "Oman",
+      "time": "8:00 AM",
+      "venue": "Gelora Bung Karno Stadium"
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Armenia",
+      "away": "Kazakhstan",
+      "time": "11:00 AM",
+      "venue": "Vazgen Sargsyan Republican Stadium"
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Comoros",
+      "away": "Rwanda",
+      "time": "11:00 AM",
+      "venue": "Stade de Marrakech"
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Gibraltar",
+      "away": "Cayman Islands",
+      "time": "12:00 PM",
+      "venue": "Europa Point Stadium"
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Portugal",
+      "away": "Chile",
+      "time": "12:45 PM",
+      "venue": "Estádio do Jamor",
+      "importante": true
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Romania",
+      "away": "Wales",
+      "time": "12:45 PM",
+      "venue": "Stadionul Steaua"
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Albania",
+      "away": "Luxembourg",
+      "time": "1:00 PM",
+      "venue": "Air Albania Stadium"
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "United States",
+      "away": "Germany",
+      "time": "1:30 PM",
+      "venue": "Soldier Field"
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Australia",
       "away": "Switzerland",
       "time": "2:00 PM",
-      "venue": "Levi's Stadium"
+      "venue": "Snapdragon Stadium"
     },
     {
-      "day": "13 Jun",
-      "liga": "Mundial 2026",
-      "home": "Brazil",
-      "away": "Morocco",
-      "time": "5:00 PM",
-      "venue": "MetLife Stadium"
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Panama",
+      "away": "Bosnia-Herzegovina",
+      "time": "2:00 PM",
+      "venue": "Energizer Park"
     },
     {
-      "day": "13 Jun",
-      "liga": "Mundial 2026",
-      "home": "Haiti",
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Bolivia",
       "away": "Scotland",
-      "time": "8:00 PM",
-      "venue": "Gillette Stadium"
-    },
-    {
-      "day": "14 Jun",
-      "liga": "Mundial 2026",
-      "home": "Germany",
-      "away": "Curacao",
-      "time": "12:00 PM",
-      "venue": "NRG Stadium"
-    },
-    {
-      "day": "14 Jun",
-      "liga": "Mundial 2026",
-      "home": "Netherlands",
-      "away": "Japan",
       "time": "3:00 PM",
-      "venue": "AT&T Stadium"
+      "venue": "Red Bull Arena",
+      "importante": true
     },
     {
-      "day": "14 Jun",
-      "liga": "Mundial 2026",
-      "home": "Ivory Coast",
-      "away": "Ecuador",
-      "time": "6:00 PM",
-      "venue": "Lincoln Financial Field"
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "England",
+      "away": "New Zealand",
+      "time": "3:00 PM",
+      "venue": "Raymond James Stadium"
     },
     {
-      "day": "14 Jun",
-      "liga": "Mundial 2026",
-      "home": "Sweden",
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Qatar",
+      "away": "El Salvador",
+      "time": "3:00 PM",
+      "venue": "BMO Stadium"
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Brazil",
+      "away": "Egypt",
+      "time": "5:00 PM",
+      "venue": "Huntington Bank Field",
+      "importante": true
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Venezuela",
+      "away": "Türkiye",
+      "time": "5:00 PM",
+      "venue": "Chase Stadium",
+      "importante": true
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Myanmar",
+      "away": "Guam",
+      "time": "6:30 AM",
+      "venue": "Rizal Memorial Stadium"
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Ethiopia",
+      "away": "Malawi",
+      "time": "7:00 AM",
+      "venue": "Addis Ababa Stadium"
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Argentina",
+      "away": "Honduras",
+      "time": "7:00 PM",
+      "venue": "Kyle Field",
+      "importante": true
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Curaçao",
+      "away": "Aruba",
+      "time": "7:00 PM",
+      "venue": "Stadion Ergilio Hato"
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Belgium",
       "away": "Tunisia",
-      "time": "9:00 PM",
-      "venue": "Estadio BBVA"
+      "time": "8:00 AM",
+      "venue": "King Baudouin Stadium"
+    },
+    {
+      "day": "6 Jun",
+      "liga": "Amistosos",
+      "home": "Palestine",
+      "away": "Kenya",
+      "time": "9:30 AM",
+      "venue": "Dolen Omurzakov Stadium"
+    },
+    {
+      "day": "7 Jun",
+      "liga": "Amistosos",
+      "home": "Denmark",
+      "away": "Ukraine",
+      "time": "11:30 AM",
+      "venue": "Nature Energy Park"
+    },
+    {
+      "day": "7 Jun",
+      "liga": "Amistosos",
+      "home": "Kosovo",
+      "away": "Andorra",
+      "time": "12:00 PM",
+      "venue": "Stadiumi Fadil Vokrri"
+    },
+    {
+      "day": "7 Jun",
+      "liga": "Amistosos",
+      "home": "Croatia",
+      "away": "Slovenia",
+      "time": "1:45 PM",
+      "venue": "Stadion Andjelko Herjavec"
+    },
+    {
+      "day": "7 Jun",
+      "liga": "Amistosos",
+      "home": "Greece",
+      "away": "Italy",
+      "time": "2:00 PM",
+      "venue": "Pankritio Stadium"
+    },
+    {
+      "day": "7 Jun",
+      "liga": "Amistosos",
+      "home": "Morocco",
+      "away": "Norway",
+      "time": "2:00 PM",
+      "venue": "Red Bull Arena"
+    },
+    {
+      "day": "7 Jun",
+      "liga": "Amistosos",
+      "home": "Ecuador",
+      "away": "Guatemala",
+      "time": "3:00 PM",
+      "venue": "ScottsMiracle-Gro Field",
+      "importante": true
+    },
+    {
+      "day": "7 Jun",
+      "liga": "Amistosos",
+      "home": "Colombia",
+      "away": "Jordan",
+      "time": "6:00 PM",
+      "venue": "Snapdragon Stadium",
+      "importante": true
+    },
+    {
+      "day": "7 Jun",
+      "liga": "Amistosos",
+      "home": "Kenya",
+      "away": "Lesotho",
+      "time": "8:00 AM",
+      "venue": "Lucas Masterpieces Moripe Stadium"
+    },
+    {
+      "day": "7 Jun",
+      "liga": "Amistosos",
+      "home": "Liechtenstein",
+      "away": "Cyprus",
+      "time": "8:00 AM",
+      "venue": "Rheinpark Stadion"
     }
   ]
 }

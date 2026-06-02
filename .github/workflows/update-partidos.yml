@@ -24,6 +24,7 @@ jobs:
 
           LEAGUES = [
               ('fifa.world',            'Mundial 2026'),
+              ('fifa.friendly',         'Amistosos'),
               ('per.1',                 'Liga 1 Perú'),
               ('conmebol.libertadores', 'Libertadores'),
               ('conmebol.sudamericana', 'Sudamericana'),
@@ -39,8 +40,10 @@ jobs:
               'Boca Juniors', 'River Plate', 'Flamengo', 'Palmeiras',
               'Peñarol', 'Nacional', 'São Paulo', 'Corinthians',
               'Estudiantes LP', 'Fluminense',
+              'Peru', 'Colombia', 'Argentina', 'Brazil', 'Chile', 'Uruguay',
+              'Ecuador', 'Bolivia', 'Paraguay', 'Venezuela',
           }
-          ALWAYS_IMPORTANT = {'Champions League'}
+          ALWAYS_IMPORTANT = {'Champions League', 'Mundial 2026'}
 
           def get_week_range():
               lima = datetime.now(timezone.utc) - timedelta(hours=5)
