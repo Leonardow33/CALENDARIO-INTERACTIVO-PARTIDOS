@@ -1,944 +1,641 @@
 {
-  "_actualizado": "2026-06-01",
-  "_nota": "ESPN API.",
+  "_actualizado": "2026-06-08",
+  "_nota": "Generado automáticamente vía ESPN API. Agrega importante:true manualmente si quieres.",
   "matches": [
     {
-      "day": "1 Jun",
-      "liga": "Amistosos",
-      "home": "Bulgaria",
-      "away": "Montenegro",
-      "time": "11:00 AM",
-      "venue": "Hristo Botev Stadium, Plovdiv",
-      "sport": "futbol"
+      "day": "8 Jun",
+      "liga": "Libéma Open",
+      "home": "Elias Ymer",
+      "away": "Ugo Humbert",
+      "time": "10:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
     },
     {
-      "day": "1 Jun",
-      "liga": "Amistosos",
-      "home": "Slovakia",
-      "away": "Malta",
-      "time": "11:00 AM",
-      "venue": "MOL Aréna",
-      "sport": "futbol"
-    },
-    {
-      "day": "1 Jun",
-      "liga": "Amistosos",
-      "home": "Norway",
-      "away": "Sweden",
-      "time": "12:00 PM",
-      "venue": "Ullevaal Stadion",
-      "sport": "futbol"
-    },
-    {
-      "day": "1 Jun",
-      "liga": "Amistosos",
-      "home": "Türkiye",
-      "away": "North Macedonia",
-      "time": "12:30 PM",
-      "venue": "Ulker Stadyumu",
-      "sport": "futbol"
-    },
-    {
-      "day": "1 Jun",
-      "liga": "Amistosos",
-      "home": "Austria",
-      "away": "Tunisia",
-      "time": "1:45 PM",
-      "venue": "Ernst-Happel-Stadion",
-      "sport": "futbol"
-    },
-    {
-      "day": "1 Jun",
-      "liga": "Amistosos",
-      "home": "Colombia",
-      "away": "Costa Rica",
-      "time": "6:00 PM",
-      "venue": "Estadio Nemesio Camacho El Campín",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "1 Jun",
-      "liga": "Amistosos",
-      "home": "Canada",
-      "away": "Uzbekistan",
-      "time": "8:00 PM",
-      "venue": "Commonwealth Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Open delle Puglie Trofeo",
-      "home": "Viola Turini",
-      "away": "Miriana Tona",
-      "time": "10:10 AM",
+      "day": "8 Jun",
+      "liga": "Lexus Ilkley Open",
+      "home": "Sinja Kraus",
+      "away": "Linda Klimovicova",
+      "time": "10:00 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Open delle Puglie Trofeo",
-      "home": "Tyra Caterina Grant",
-      "away": "Lisa Zaar",
+      "day": "8 Jun",
+      "liga": "Lexus Ilkley Open",
+      "home": "Clervie Ngounoue",
+      "away": "Iryna Shymanovich",
+      "time": "10:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "8 Jun",
+      "liga": "The HSBC Championships",
+      "home": "Leylah Fernandez",
+      "away": "Katie Boulter",
       "time": "10:15 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Open delle Puglie Trofeo",
-      "home": "You Xiaodi",
-      "away": "Leyre Romero Gormaz",
-      "time": "10:20 AM",
+      "day": "8 Jun",
+      "liga": "The HSBC Championships",
+      "home": "Francesca Jones",
+      "away": "Laura Siegemund",
+      "time": "10:30 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Makarska Open",
-      "home": "Dominika Salkova",
-      "away": "Ana Konjuh",
-      "time": "10:20 AM",
+      "day": "8 Jun",
+      "liga": "Lexus Ilkley Open",
+      "home": "Daniella Britton",
+      "away": "Viktorija Golubic",
+      "time": "10:30 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Lexus Birmingham Open",
-      "home": "Katie Swan",
-      "away": "Ajla Tomljanovic",
-      "time": "10:50 AM",
+      "day": "8 Jun",
+      "liga": "Lexus Ilkley Open",
+      "home": "Tatiana Prozorova",
+      "away": "Veronika Podrez",
+      "time": "10:30 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Lexus Birmingham Open",
-      "home": "Joanna Garland",
-      "away": "Gabriela Knutson",
-      "time": "10:50 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Makarska Open",
-      "home": "Noma Noha Akugue",
-      "away": "Miriam Bulgaru",
-      "time": "10:50 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Makarska Open",
-      "home": "Teodora Kostovic",
-      "away": "Simona Waltert",
-      "time": "10:55 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Amistosos",
-      "home": "Croatia",
-      "away": "Belgium",
-      "time": "11:00 AM",
-      "venue": "Stadion HNK Rijeka",
-      "sport": "futbol"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Lexus Birmingham Open",
-      "home": "Maddison Inglis",
-      "away": "Celine Naef",
+      "day": "8 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Angela Fita Boluda",
+      "away": "Jeline Vandromme",
       "time": "11:00 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Open delle Puglie Trofeo",
-      "home": "Dang Yiming",
-      "away": "Laura Mair",
+      "day": "8 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Jennifer Ruggeri",
+      "away": "Martina Trevisan",
       "time": "11:00 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Lexus Birmingham Open",
-      "home": "Alina Charaeva",
-      "away": "Alexandra Eala",
+      "day": "8 Jun",
+      "liga": "The HSBC Championships",
+      "home": "Antonia Ruzic",
+      "away": "Iva Jovic",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Lexus Birmingham Open",
-      "home": "Elvina Kalieva",
+      "day": "8 Jun",
+      "liga": "The HSBC Championships",
+      "home": "Marta Kostyuk",
       "away": "Mika Stojsavljevic",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Open delle Puglie Trofeo",
-      "home": "Lisa Pigato",
-      "away": "Darya Astakhova",
+      "day": "8 Jun",
+      "liga": "The HSBC Championships",
+      "home": "Maddison Inglis",
+      "away": "Sorana Cirstea",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Open delle Puglie Trofeo",
-      "home": "Giorgia Pedone",
-      "away": "Mayar Sherif",
+      "day": "8 Jun",
+      "liga": "The HSBC Championships",
+      "home": "Polina Kudermetova",
+      "away": "Marie Bouzkova",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Open delle Puglie Trofeo",
-      "home": "Sofia Costoulas",
-      "away": "Tatiana Pieri",
+      "day": "8 Jun",
+      "liga": "The HSBC Championships",
+      "home": "Alexandra Eala",
+      "away": "Zhang Shuai",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Open delle Puglie Trofeo",
-      "home": "Nika Radisic",
-      "away": "Chloe Paquet",
+      "day": "8 Jun",
+      "liga": "The HSBC Championships",
+      "home": "Tatjana Maria",
+      "away": "Maria Sakkari",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Open delle Puglie Trofeo",
-      "home": "Tatiana Prozorova",
-      "away": "Carole Monnet",
+      "day": "8 Jun",
+      "liga": "The HSBC Championships",
+      "home": "Anna Blinkova",
+      "away": "Emma Raducanu",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Makarska Open",
-      "home": "Maya Joint",
-      "away": "Katarzyna Kawa",
+      "day": "8 Jun",
+      "liga": "Lexus Ilkley Open",
+      "home": "Mary Stoiana",
+      "away": "Kayla Day",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Makarska Open",
-      "home": "Mia Ristic",
-      "away": "Lola Radivojevic",
+      "day": "8 Jun",
+      "liga": "Lexus Ilkley Open",
+      "home": "Dalma Galfi",
+      "away": "Emerson Jones",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Makarska Open",
-      "home": "Tara Wuerth",
-      "away": "Rebecca Sramkova",
+      "day": "8 Jun",
+      "liga": "Lexus Ilkley Open",
+      "home": "Elizabeth Mandlik",
+      "away": "Mingge Xu",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Makarska Open",
-      "home": "Laura Samson",
-      "away": "Andrea Lazaro Garcia",
+      "day": "8 Jun",
+      "liga": "Lexus Ilkley Open",
+      "home": "Ashlyn Krueger",
+      "away": "Elvina Kalieva",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Makarska Open",
-      "home": "Lucija Ciric Bagaric",
-      "away": "Barbora Palicova",
-      "time": "11:00 PM",
+      "day": "8 Jun",
+      "liga": "Lexus Ilkley Open",
+      "home": "Akasha Urhobo",
+      "away": "Mananchaya Sawangkaew",
+      "time": "12:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Makarska Open",
-      "home": "Darja Semenistaja",
-      "away": "Tena Lukas",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Lexus Birmingham Open",
+      "day": "8 Jun",
+      "liga": "Lexus Ilkley Open",
       "home": "Linda Fruhvirtova",
-      "away": "Tatjana Maria",
-      "time": "11:20 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Lexus Birmingham Open",
-      "home": "Himeno Sakatsume",
-      "away": "Ashlyn Krueger",
-      "time": "11:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Lexus Birmingham Open",
-      "home": "Alicia Dudeney",
-      "away": "Taylah Preston",
-      "time": "11:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Amistosos",
-      "home": "Georgia",
-      "away": "Romania",
+      "away": "Darja Vidmanova",
       "time": "12:00 PM",
-      "venue": "Mikheil Meskhi Stadioni",
-      "sport": "futbol"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Amistosos",
-      "home": "Morocco",
-      "away": "Madagascar",
-      "time": "12:00 PM",
-      "venue": "Stade Prince Moulay Abdallah",
-      "sport": "futbol"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Open delle Puglie Trofeo",
-      "home": "Lucia Bronzetti",
-      "away": "Vittoria Paganetti",
-      "time": "1:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Makarska Open",
-      "home": "Victoria Jimenez Kasintseva",
-      "away": "Sara Sorribes Tormo",
-      "time": "1:00 PM",
+      "day": "8 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Lisa Pigato",
+      "away": "Katarzyna Kawa",
+      "time": "1:30 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "2 Jun",
-      "liga": "Roland Garros",
-      "home": "Joao Fonseca",
-      "away": "Jakub Mensik",
-      "time": "1:15 PM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Amistosos",
-      "home": "Wales",
-      "away": "Ghana",
-      "time": "1:45 PM",
-      "venue": "Cardiff City Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Amistosos",
-      "home": "Haiti",
-      "away": "New Zealand",
-      "time": "7:00 PM",
-      "venue": "Chase Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Makarska Open",
-      "home": "Kajsa Rinaldo Persson",
-      "away": "Leolia Jeanjean",
-      "time": "8:40 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "2 Jun",
-      "liga": "Makarska Open",
-      "home": "Jule Niemeier",
-      "away": "Caijsa Hennemann",
-      "time": "9:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "3 Jun",
-      "liga": "Roland Garros",
-      "home": "Mirra Andreeva",
-      "away": "Marta Kostyuk",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "3 Jun",
-      "liga": "Amistosos",
-      "home": "Gibraltar",
-      "away": "British Virgin Islands",
-      "time": "12:00 PM",
-      "venue": "Europa Point Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "3 Jun",
-      "liga": "Amistosos",
-      "home": "Albania",
-      "away": "Israel",
-      "time": "1:00 PM",
-      "venue": "Air Albania Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "3 Jun",
-      "liga": "Amistosos",
-      "home": "Congo DR",
-      "away": "Denmark",
-      "time": "1:00 PM",
-      "venue": "Stade Maurice Dufrasne",
-      "sport": "futbol"
-    },
-    {
-      "day": "3 Jun",
-      "liga": "Roland Garros",
-      "home": "Matteo Arnaldi",
-      "away": "Matteo Berrettini",
-      "time": "1:15 PM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "3 Jun",
-      "liga": "Amistosos",
-      "home": "Luxembourg",
-      "away": "Italy",
-      "time": "1:45 PM",
-      "venue": "Stade de Luxembourg",
-      "sport": "futbol"
-    },
-    {
-      "day": "3 Jun",
+      "day": "8 Jun",
       "liga": "Amistosos",
       "home": "Netherlands",
-      "away": "Algeria",
+      "away": "Uzbekistan",
       "time": "1:45 PM",
-      "venue": "De Kuip",
+      "venue": "Icahn Stadium",
       "sport": "futbol"
     },
     {
-      "day": "3 Jun",
+      "day": "8 Jun",
       "liga": "Amistosos",
-      "home": "Poland",
-      "away": "Nigeria",
-      "time": "1:45 PM",
-      "venue": "PGE Narodowy",
+      "home": "France",
+      "away": "Northern Ireland",
+      "time": "2:10 PM",
+      "venue": "Decathlon Arena - Stade Pierre-Mauroy",
       "sport": "futbol"
     },
     {
-      "day": "3 Jun",
-      "liga": "Roland Garros",
-      "home": "Maja Chwalinska",
-      "away": "Anna Kalinskaya",
-      "time": "4:00 AM",
+      "day": "8 Jun",
+      "liga": "Libéma Open",
+      "home": "Denis Shapovalov",
+      "away": "Marin Cilic",
+      "time": "7:35 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "8 Jun",
+      "liga": "Lexus Ilkley Open",
+      "home": "Momoko Kobori",
+      "away": "Celine Naef",
+      "time": "8:05 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "3 Jun",
-      "liga": "Roland Garros",
-      "home": "Diana Shnaider",
-      "away": "Aryna Sabalenka",
-      "time": "5:30 AM",
+      "day": "8 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Jazmin Ortenzi",
+      "away": "Kaitlin Quevedo",
+      "time": "8:10 AM",
       "venue": "Women's Singles",
-      "sport": "tenis",
+      "sport": "tenis"
+    },
+    {
+      "day": "8 Jun",
+      "liga": "Lexus Ilkley Open",
+      "home": "Himeno Sakatsume",
+      "away": "Alicia Dudeney",
+      "time": "8:45 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "8 Jun",
+      "liga": "Amistosos",
+      "home": "Peru",
+      "away": "Spain",
+      "time": "9:00 PM",
+      "venue": "Estadio Cuauhtémoc",
+      "sport": "futbol",
       "importante": true
     },
     {
-      "day": "3 Jun",
-      "liga": "Amistosos",
-      "home": "Philippines",
-      "away": "Guam",
-      "time": "6:30 AM",
-      "venue": "Rizal Memorial Stadium",
-      "sport": "futbol"
+      "day": "8 Jun",
+      "liga": "Lexus Ilkley Open",
+      "home": "Edie Griffiths",
+      "away": "Vendula Valdmannova",
+      "time": "9:05 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
-      "day": "3 Jun",
-      "liga": "Roland Garros",
-      "home": "Flavio Cobolli",
-      "away": "Felix Auger-Aliassime",
-      "time": "7:00 AM",
+      "day": "8 Jun",
+      "liga": "Boss Open",
+      "home": "Giovanni Mpetshi Perricard",
+      "away": "Roman Safiullin",
+      "time": "9:10 AM",
       "venue": "Men's Singles",
       "sport": "tenis"
     },
     {
-      "day": "3 Jun",
+      "day": "8 Jun",
+      "liga": "Boss Open",
+      "home": "Fabian Marozsan",
+      "away": "Gauthier Onclin",
+      "time": "9:10 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "8 Jun",
+      "liga": "Libéma Open",
+      "home": "Clara Tauson",
+      "away": "Mia Pohankova",
+      "time": "9:15 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "8 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Tiantsoa Rakotomanga Rajaonah",
+      "away": "Noma Noha Akugue",
+      "time": "9:50 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
       "liga": "Amistosos",
-      "home": "Kyrgyz Republic",
-      "away": "Kenya",
-      "time": "7:30 AM",
-      "venue": "Dolen Omurzakov Stadium",
+      "home": "Armenia",
+      "away": "Moldova",
+      "time": "10:00 AM",
+      "venue": "Vazgen Sargsyan Republican Stadium",
       "sport": "futbol"
     },
     {
-      "day": "3 Jun",
+      "day": "9 Jun",
       "liga": "Amistosos",
-      "home": "Panama",
-      "away": "Dominican Republic",
-      "time": "7:45 PM",
-      "venue": "Estadio Rommel Fernández Gutiérrez",
-      "sport": "futbol"
+      "home": "Congo DR",
+      "away": "Chile",
+      "time": "10:00 AM",
+      "venue": "Municipal de La Línea de la Concepción",
+      "sport": "futbol",
+      "importante": true
     },
     {
-      "day": "3 Jun",
-      "liga": "Amistosos",
-      "home": "South Korea",
-      "away": "El Salvador",
-      "time": "8:00 PM",
-      "venue": "",
-      "sport": "futbol"
+      "day": "9 Jun",
+      "liga": "Boss Open",
+      "home": "Corentin Moutet",
+      "away": "Nick Kyrgios",
+      "time": "10:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
     },
     {
-      "day": "4 Jun",
-      "liga": "Amistosos",
-      "home": "Iran",
-      "away": "Mali",
+      "day": "9 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Jessica Pieri",
+      "away": "Victoria Jimenez Kasintseva",
       "time": "10:30 AM",
-      "venue": "Mardan Stadyumu",
-      "sport": "futbol"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
-      "day": "4 Jun",
+      "day": "9 Jun",
       "liga": "Amistosos",
-      "home": "Burundi",
-      "away": "Equatorial Guinea",
+      "home": "Equatorial Guinea",
+      "away": "Comoros",
       "time": "11:00 AM",
       "venue": "Stade de Marrakech",
       "sport": "futbol"
     },
     {
-      "day": "4 Jun",
-      "liga": "Amistosos",
-      "home": "Northern Ireland",
-      "away": "Guinea",
-      "time": "11:00 AM",
-      "venue": "Municipal de La Línea de la Concepción",
-      "sport": "futbol"
-    },
-    {
-      "day": "4 Jun",
-      "liga": "Amistosos",
-      "home": "Slovenia",
-      "away": "Cyprus",
-      "time": "11:00 AM",
-      "venue": "Stadion Stozice",
-      "sport": "futbol"
-    },
-    {
-      "day": "4 Jun",
+      "day": "9 Jun",
       "liga": "Amistosos",
       "home": "Tanzania",
-      "away": "Uganda",
-      "time": "11:00 PM",
-      "venue": "",
-      "sport": "futbol"
-    },
-    {
-      "day": "4 Jun",
-      "liga": "Amistosos",
-      "home": "Andorra",
-      "away": "Liechtenstein",
-      "time": "12:00 PM",
-      "venue": "Estadi de la FAF d'Encamp",
-      "sport": "futbol"
-    },
-    {
-      "day": "4 Jun",
-      "liga": "Amistosos",
-      "home": "Sweden",
-      "away": "Greece",
-      "time": "12:00 PM",
-      "venue": "Friends Arena",
-      "sport": "futbol"
-    },
-    {
-      "day": "4 Jun",
-      "liga": "Amistosos",
-      "home": "Spain",
-      "away": "Iraq",
-      "time": "2:00 PM",
-      "venue": "Riazor",
-      "sport": "futbol"
-    },
-    {
-      "day": "4 Jun",
-      "liga": "Amistosos",
-      "home": "France",
-      "away": "Ivory Coast",
-      "time": "2:10 PM",
-      "venue": "Stade de la Beaujoire",
-      "sport": "futbol"
-    },
-    {
-      "day": "4 Jun",
-      "liga": "Amistosos",
-      "home": "Cambodia",
-      "away": "Bhutan",
-      "time": "7:00 AM",
-      "venue": "National Olympic Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "4 Jun",
-      "liga": "Amistosos",
-      "home": "Czechia",
-      "away": "Guatemala",
-      "time": "7:00 PM",
-      "venue": "Red Bull Arena",
-      "sport": "futbol"
-    },
-    {
-      "day": "4 Jun",
-      "liga": "Amistosos",
-      "home": "Lesotho",
-      "away": "Kenya",
-      "time": "8:00 AM",
-      "venue": "Lucas Masterpieces Moripe Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "4 Jun",
-      "liga": "Amistosos",
-      "home": "Mexico",
-      "away": "Serbia",
-      "time": "9:00 PM",
-      "venue": "Estadio Nemesio Díez Riega",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Belarus",
-      "away": "Syria",
-      "time": "11:00 AM",
-      "venue": "",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Georgia",
-      "away": "Bahrain",
-      "time": "11:00 AM",
-      "venue": "Mikheil Meskhi Stadioni",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Slovakia",
-      "away": "Montenegro",
-      "time": "11:30 AM",
-      "venue": "Košická futbalová aréna (KFA)",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Moldova",
-      "away": "Bulgaria",
-      "time": "12:00 PM",
-      "venue": "Stadionul Zimbru",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Russia",
-      "away": "Burkina Faso",
-      "time": "12:00 PM",
-      "venue": "Volgograd Arena",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "San Marino",
-      "away": "Bangladesh",
-      "time": "12:00 PM",
-      "venue": "San Marino Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Hungary",
-      "away": "Finland",
-      "time": "12:45 PM",
-      "venue": "Puskás Aréna",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Azerbaijan",
-      "away": "Malta",
-      "time": "1:00 PM",
-      "venue": "Szombathelyi Haladás Stadion",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Paraguay",
-      "away": "Nicaragua",
-      "time": "5:15 PM",
-      "venue": "Defensores del Chaco",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Puerto Rico",
-      "away": "Saudi Arabia",
-      "time": "6:00 PM",
-      "venue": "Q2 Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Singapore",
-      "away": "China",
-      "time": "6:30 AM",
-      "venue": "Jalan Besar Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Canada",
-      "away": "Republic of Ireland",
-      "time": "6:30 PM",
-      "venue": "Stade Saputo",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Angola",
-      "away": "Botswana",
-      "time": "7:00 AM",
-      "venue": "",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Hong Kong",
-      "away": "Mongolia",
-      "time": "7:00 AM",
-      "venue": "Hong Kong Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Haiti",
-      "away": "Peru",
-      "time": "7:00 PM",
-      "venue": "Nu Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Thailand",
-      "away": "Kuwait",
-      "time": "7:30 AM",
-      "venue": "BG Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "5 Jun",
-      "liga": "Amistosos",
-      "home": "Indonesia",
-      "away": "Oman",
-      "time": "8:00 AM",
-      "venue": "Gelora Bung Karno Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "6 Jun",
-      "liga": "Amistosos",
-      "home": "Armenia",
-      "away": "Kazakhstan",
-      "time": "11:00 AM",
-      "venue": "Vazgen Sargsyan Republican Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "6 Jun",
-      "liga": "Amistosos",
-      "home": "Comoros",
       "away": "Rwanda",
       "time": "11:00 AM",
       "venue": "Stade de Marrakech",
       "sport": "futbol"
     },
     {
-      "day": "6 Jun",
+      "day": "9 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Mayar Sherif",
+      "away": "Giorgia Pedone",
+      "time": "11:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Boss Open",
+      "home": "Taylor Fritz",
+      "away": "Martin Landaluce",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Daria Snigur",
+      "away": "Panna Udvardy",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
       "liga": "Amistosos",
-      "home": "Gibraltar",
-      "away": "Cayman Islands",
+      "home": "Belarus",
+      "away": "Burkina Faso",
+      "time": "11:30 AM",
+      "venue": "",
+      "sport": "futbol"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Amistosos",
+      "home": "Hungary",
+      "away": "Kazakhstan",
       "time": "12:00 PM",
-      "venue": "Europa Point Stadium",
+      "venue": "Nagyerdei Stadium",
       "sport": "futbol"
     },
     {
-      "day": "6 Jun",
+      "day": "9 Jun",
       "liga": "Amistosos",
-      "home": "Portugal",
-      "away": "Chile",
-      "time": "12:45 PM",
-      "venue": "Estádio do Jamor",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "6 Jun",
-      "liga": "Amistosos",
-      "home": "Romania",
-      "away": "Wales",
-      "time": "12:45 PM",
-      "venue": "Stadionul Steaua",
+      "home": "Russia",
+      "away": "Trinidad and Tobago",
+      "time": "12:00 PM",
+      "venue": "Kaliningrad Stadium",
       "sport": "futbol"
     },
     {
-      "day": "6 Jun",
+      "day": "9 Jun",
       "liga": "Amistosos",
-      "home": "Albania",
-      "away": "Luxembourg",
+      "home": "Azerbaijan",
+      "away": "San Marino",
       "time": "1:00 PM",
-      "venue": "Air Albania Stadium",
+      "venue": "Szombathelyi Haladás Stadion",
       "sport": "futbol"
     },
     {
-      "day": "6 Jun",
-      "liga": "Amistosos",
-      "home": "United States",
-      "away": "Germany",
+      "day": "9 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Varvara Lepchenko",
+      "away": "Noemi Basiletti",
       "time": "1:30 PM",
-      "venue": "Soldier Field",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Boss Open",
+      "home": "Aleksandar Kovacevic",
+      "away": "Yannick Hanfmann",
+      "time": "4:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Boss Open",
+      "home": "Sho Shimabukuro",
+      "away": "Quentin Halys",
+      "time": "4:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Boss Open",
+      "home": "Marcos Giron",
+      "away": "Roberto Bautista Agut",
+      "time": "4:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Martin Damm",
+      "away": "Jaume Munar",
+      "time": "4:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Adrian Mannarino",
+      "away": "Gabriel Diallo",
+      "time": "4:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Janice Tjen",
+      "away": "Greet Minnen",
+      "time": "4:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Sara Bejlek",
+      "away": "Dayana Yastremska",
+      "time": "4:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Zeynep Sonmez",
+      "away": "Katie Volynets",
+      "time": "4:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Amistosos",
+      "home": "Cambodia",
+      "away": "Hong Kong",
+      "time": "5:00 AM",
+      "venue": "National Olympic Stadium",
       "sport": "futbol"
     },
     {
-      "day": "6 Jun",
+      "day": "9 Jun",
+      "liga": "Boss Open",
+      "home": "Alexis Galarneau",
+      "away": "Jan-Lennard Struff",
+      "time": "5:30 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Jenson Brooksby",
+      "away": "Zhang Zhizhen",
+      "time": "5:30 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Botic Van De Zandschulp",
+      "away": "Tallon Griekspoor",
+      "time": "5:30 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Elena-Gabriela Ruse",
+      "away": "Tamara Korpatsch",
+      "time": "5:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Hanne Vandewinkel",
+      "away": "Nikola Bartunkova",
+      "time": "5:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Renata Zarazua",
+      "away": "Barbora Krejcikova",
+      "time": "5:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Darja Semenistaja",
+      "away": "Marina Bassols Ribera",
+      "time": "6:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Federica Urgesi",
+      "away": "Tamara Zidansek",
+      "time": "6:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
       "liga": "Amistosos",
-      "home": "Australia",
-      "away": "Switzerland",
-      "time": "2:00 PM",
-      "venue": "Snapdragon Stadium",
+      "home": "Saudi Arabia",
+      "away": "Senegal",
+      "time": "6:00 PM",
+      "venue": "Toyota Field",
       "sport": "futbol"
     },
     {
-      "day": "6 Jun",
+      "day": "9 Jun",
       "liga": "Amistosos",
-      "home": "Panama",
-      "away": "Bosnia-Herzegovina",
-      "time": "2:00 PM",
-      "venue": "Energizer Park",
-      "sport": "futbol"
-    },
-    {
-      "day": "6 Jun",
-      "liga": "Amistosos",
-      "home": "Bolivia",
-      "away": "Scotland",
-      "time": "3:00 PM",
-      "venue": "Red Bull Arena",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "6 Jun",
-      "liga": "Amistosos",
-      "home": "England",
-      "away": "New Zealand",
-      "time": "3:00 PM",
-      "venue": "Raymond James Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "6 Jun",
-      "liga": "Amistosos",
-      "home": "Qatar",
-      "away": "El Salvador",
-      "time": "3:00 PM",
-      "venue": "BMO Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "6 Jun",
-      "liga": "Amistosos",
-      "home": "Brazil",
-      "away": "Egypt",
-      "time": "5:00 PM",
-      "venue": "Huntington Bank Field",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "6 Jun",
-      "liga": "Amistosos",
-      "home": "Venezuela",
-      "away": "Türkiye",
-      "time": "5:00 PM",
-      "venue": "Chase Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "6 Jun",
-      "liga": "Amistosos",
-      "home": "Myanmar",
-      "away": "Guam",
+      "home": "Philippines",
+      "away": "Myanmar",
       "time": "6:30 AM",
       "venue": "Rizal Memorial Stadium",
       "sport": "futbol"
     },
     {
-      "day": "6 Jun",
+      "day": "9 Jun",
+      "liga": "Amistosos",
+      "home": "China",
+      "away": "Thailand",
+      "time": "6:35 AM",
+      "venue": "",
+      "sport": "futbol"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Amistosos",
+      "home": "Angola",
+      "away": "Central African Republic",
+      "time": "7:00 AM",
+      "venue": "",
+      "sport": "futbol"
+    },
+    {
+      "day": "9 Jun",
       "liga": "Amistosos",
       "home": "Ethiopia",
       "away": "Malawi",
@@ -947,124 +644,361 @@
       "sport": "futbol"
     },
     {
-      "day": "6 Jun",
+      "day": "9 Jun",
+      "liga": "Amistosos",
+      "home": "Oman",
+      "away": "Kuwait",
+      "time": "7:00 AM",
+      "venue": "Rajamangala National Stadium",
+      "sport": "futbol"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Boss Open",
+      "home": "Rinky Hijikata",
+      "away": "Tom Gentzsch",
+      "time": "7:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Marton Fucsovics",
+      "away": "Hubert Hurkacz",
+      "time": "7:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Ajla Tomljanovic",
+      "away": "Jessica Bouzas Maneiro",
+      "time": "7:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Alice Tubello",
+      "away": "Dominika Salkova",
+      "time": "7:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Zizou Bergs",
+      "away": "James McCabe",
+      "time": "7:30 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Catherine McNally",
+      "away": "Emma Navarro",
+      "time": "7:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Lucia Bronzetti",
+      "away": "Gao Xinyu",
+      "time": "7:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Nuria Brancaccio",
+      "away": "Victoria Bosio",
+      "time": "7:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Amistosos",
+      "home": "Indonesia",
+      "away": "Mozambique",
+      "time": "8:00 AM",
+      "venue": "Gelora Bung Karno Stadium",
+      "sport": "futbol"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Boss Open",
+      "home": "Frances Tiafoe",
+      "away": "Daniel Altmaier",
+      "time": "8:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
       "liga": "Amistosos",
       "home": "Argentina",
-      "away": "Honduras",
-      "time": "7:00 PM",
-      "venue": "Kyle Field",
+      "away": "Iceland",
+      "time": "8:00 PM",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "6 Jun",
+      "day": "9 Jun",
       "liga": "Amistosos",
-      "home": "Curaçao",
-      "away": "Aruba",
-      "time": "7:00 PM",
-      "venue": "Stadion Ergilio Hato",
+      "home": "Iraq",
+      "away": "Venezuela",
+      "time": "8:00 PM",
+      "venue": "SeatGeek Stadium",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Kamil Majchrzak",
+      "away": "Otto Virtanen",
+      "time": "8:30 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Solana Sierra",
+      "away": "Lois Boisson",
+      "time": "8:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "You Xiaodi",
+      "away": "Leyre Romero Gormaz",
+      "time": "8:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Amistosos",
+      "home": "Bahrain",
+      "away": "Syria",
+      "time": "9:00 AM",
+      "venue": "Gloria Sports Arena",
       "sport": "futbol"
     },
     {
-      "day": "6 Jun",
-      "liga": "Amistosos",
-      "home": "Belgium",
-      "away": "Tunisia",
-      "time": "8:00 AM",
-      "venue": "King Baudouin Stadium",
-      "sport": "futbol"
+      "day": "9 Jun",
+      "liga": "Boss Open",
+      "home": "James Duckworth",
+      "away": "Diego Dedura",
+      "time": "9:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
     },
     {
-      "day": "6 Jun",
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Wu Yibing",
+      "away": "Thijs Boogaard",
+      "time": "9:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Libéma Open",
+      "home": "Suzan Lamens",
+      "away": "Anastasia Potapova",
+      "time": "9:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
+      "liga": "Memorial Eugenio Fontana",
+      "home": "Julia Grabher",
+      "away": "Andrea Lazaro Garcia",
+      "time": "9:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jun",
       "liga": "Amistosos",
-      "home": "Palestine",
-      "away": "Kenya",
+      "home": "Kyrgyz Republic",
+      "away": "Palestine",
       "time": "9:30 AM",
       "venue": "Dolen Omurzakov Stadium",
       "sport": "futbol"
     },
     {
-      "day": "7 Jun",
+      "day": "10 Jun",
       "liga": "Amistosos",
-      "home": "Denmark",
-      "away": "Ukraine",
-      "time": "11:30 AM",
-      "venue": "Nature Energy Park",
-      "sport": "futbol"
-    },
-    {
-      "day": "7 Jun",
-      "liga": "Amistosos",
-      "home": "Kosovo",
-      "away": "Andorra",
-      "time": "12:00 PM",
-      "venue": "Stadiumi Fadil Vokrri",
-      "sport": "futbol"
-    },
-    {
-      "day": "7 Jun",
-      "liga": "Amistosos",
-      "home": "Croatia",
-      "away": "Slovenia",
-      "time": "1:45 PM",
-      "venue": "Stadion Andjelko Herjavec",
-      "sport": "futbol"
-    },
-    {
-      "day": "7 Jun",
-      "liga": "Amistosos",
-      "home": "Greece",
-      "away": "Italy",
-      "time": "2:00 PM",
-      "venue": "Pankritio Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "7 Jun",
-      "liga": "Amistosos",
-      "home": "Morocco",
-      "away": "Norway",
-      "time": "2:00 PM",
-      "venue": "Red Bull Arena",
-      "sport": "futbol"
-    },
-    {
-      "day": "7 Jun",
-      "liga": "Amistosos",
-      "home": "Ecuador",
+      "home": "Austria",
       "away": "Guatemala",
+      "time": "11:00 PM",
+      "venue": "Rose Bowl",
+      "sport": "futbol"
+    },
+    {
+      "day": "10 Jun",
+      "liga": "Amistosos",
+      "home": "Portugal",
+      "away": "Nigeria",
+      "time": "2:45 PM",
+      "venue": "Estádio Dr. Magalhaes Pessoa",
+      "sport": "futbol"
+    },
+    {
+      "day": "10 Jun",
+      "liga": "Amistosos",
+      "home": "England",
+      "away": "Costa Rica",
       "time": "3:00 PM",
-      "venue": "ScottsMiracle-Gro Field",
+      "venue": "Inter&Co Stadium",
+      "sport": "futbol"
+    },
+    {
+      "day": "10 Jun",
+      "liga": "Amistosos",
+      "home": "Bolivia",
+      "away": "Algeria",
+      "time": "7:00 PM",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "7 Jun",
-      "liga": "Amistosos",
-      "home": "Colombia",
-      "away": "Jordan",
+      "day": "11 Jun",
+      "liga": "Mundial 2026",
+      "home": "Mexico",
+      "away": "South Africa",
+      "time": "2:00 PM",
+      "venue": "Estadio Banorte",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "11 Jun",
+      "liga": "Mundial 2026",
+      "home": "South Korea",
+      "away": "Czechia",
+      "time": "9:00 PM",
+      "venue": "Estadio Akron",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "12 Jun",
+      "liga": "Mundial 2026",
+      "home": "Canada",
+      "away": "Bosnia-Herzegovina",
+      "time": "2:00 PM",
+      "venue": "BMO Field",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "12 Jun",
+      "liga": "Mundial 2026",
+      "home": "United States",
+      "away": "Paraguay",
+      "time": "8:00 PM",
+      "venue": "SoFi Stadium",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "13 Jun",
+      "liga": "Mundial 2026",
+      "home": "Australia",
+      "away": "Türkiye",
+      "time": "11:00 PM",
+      "venue": "BC Place",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "13 Jun",
+      "liga": "Mundial 2026",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "time": "2:00 PM",
+      "venue": "Levi's Stadium",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "13 Jun",
+      "liga": "Mundial 2026",
+      "home": "Brazil",
+      "away": "Morocco",
+      "time": "5:00 PM",
+      "venue": "MetLife Stadium",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "13 Jun",
+      "liga": "Mundial 2026",
+      "home": "Haiti",
+      "away": "Scotland",
+      "time": "8:00 PM",
+      "venue": "Gillette Stadium",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "14 Jun",
+      "liga": "Mundial 2026",
+      "home": "Germany",
+      "away": "Curaçao",
+      "time": "12:00 PM",
+      "venue": "NRG Stadium",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "14 Jun",
+      "liga": "Mundial 2026",
+      "home": "Netherlands",
+      "away": "Japan",
+      "time": "3:00 PM",
+      "venue": "AT&T Stadium",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "14 Jun",
+      "liga": "Mundial 2026",
+      "home": "Ivory Coast",
+      "away": "Ecuador",
       "time": "6:00 PM",
-      "venue": "Snapdragon Stadium",
+      "venue": "Lincoln Financial Field",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "7 Jun",
-      "liga": "Amistosos",
-      "home": "Kenya",
-      "away": "Lesotho",
-      "time": "8:00 AM",
-      "venue": "Lucas Masterpieces Moripe Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "7 Jun",
-      "liga": "Amistosos",
-      "home": "Liechtenstein",
-      "away": "Cyprus",
-      "time": "8:00 AM",
-      "venue": "Rheinpark Stadion",
-      "sport": "futbol"
+      "day": "14 Jun",
+      "liga": "Mundial 2026",
+      "home": "Sweden",
+      "away": "Tunisia",
+      "time": "9:00 PM",
+      "venue": "Estadio BBVA",
+      "sport": "futbol",
+      "importante": true
     }
   ]
 }
