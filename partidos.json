@@ -1,7 +1,26 @@
 {
-  "_actualizado": "2026-06-15",
-  "_nota": "Generado automáticamente vía ESPN API. Agrega importante:true manualmente si quieres.",
+  "_actualizado": "2026-06-16",
+  "_semana": "2026-06-15 / 2026-06-21",
+  "_nota": "Fútbol: football-data.org UTC→Perú (auto). Tenis: manual.",
   "matches": [
+    {
+      "day": "14 Jun",
+      "liga": "Mundial 2026",
+      "home": "Sweden",
+      "away": "Tunisia",
+      "time": "9:00 PM",
+      "venue": "",
+      "sport": "futbol"
+    },
+    {
+      "day": "15 Jun",
+      "liga": "Lexus Nottingham Open",
+      "home": "Francesca Jones",
+      "away": "Talia Gibson",
+      "time": "8:40 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
     {
       "day": "15 Jun",
       "liga": "Terra Wortmann Open",
@@ -71,7 +90,7 @@
       "home": "Spain",
       "away": "Cape Verde",
       "time": "11:00 AM",
-      "venue": "Mercedes-Benz Stadium",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
@@ -81,33 +100,6 @@
       "home": "Taylah Preston",
       "away": "Anna Blinkova",
       "time": "11:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "15 Jun",
-      "liga": "VANDA Pharmaceuticals Berlin Tennis Open",
-      "home": "Wang Xinyu",
-      "away": "Madison Keys",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "15 Jun",
-      "liga": "VANDA Pharmaceuticals Berlin Tennis Open",
-      "home": "Alexandra Eala",
-      "away": "Donna Vekic",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "15 Jun",
-      "liga": "VANDA Pharmaceuticals Berlin Tennis Open",
-      "home": "Anna Kalinskaya",
-      "away": "Elina Svitolina",
-      "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
@@ -153,7 +145,7 @@
       "home": "Belgium",
       "away": "Egypt",
       "time": "2:00 PM",
-      "venue": "Lumen Field",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
@@ -163,7 +155,7 @@
       "home": "Saudi Arabia",
       "away": "Uruguay",
       "time": "5:00 PM",
-      "venue": "Hard Rock Stadium",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
@@ -173,165 +165,35 @@
       "home": "Iran",
       "away": "New Zealand",
       "time": "8:00 PM",
-      "venue": "SoFi Stadium",
-      "sport": "futbol",
-      "importante": true
+      "venue": "",
+      "sport": "futbol"
     },
     {
       "day": "15 Jun",
-      "liga": "Lexus Nottingham Open",
-      "home": "Francesca Jones",
-      "away": "Talia Gibson",
-      "time": "8:40 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Jun",
-      "liga": "HSBC Championships",
-      "home": "Marin Cilic",
-      "away": "Ugo Humbert",
-      "time": "10:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Jun",
-      "liga": "HSBC Championships",
-      "home": "Alejandro Tabilo",
-      "away": "Rinky Hijikata",
-      "time": "10:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Jun",
-      "liga": "HSBC Championships",
-      "home": "Jiri Lehecka",
-      "away": "Kamil Majchrzak",
-      "time": "10:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Jun",
-      "liga": "Figueira Da Foz Ladies Open",
-      "home": "Allura Zamarripa",
-      "away": "Jeline Vandromme",
-      "time": "10:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Jun",
-      "liga": "Figueira Da Foz Ladies Open",
-      "home": "Aliona Falei",
-      "away": "Martyna Kubka",
-      "time": "10:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Jun",
-      "liga": "Internazionali Femminili Di Brescia",
-      "home": "You Xiaodi",
-      "away": "Ane Mintegi Del Olmo",
-      "time": "10:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Jun",
-      "liga": "Internazionali Femminili Di Brescia",
-      "home": "Martina Trevisan",
-      "away": "Carole Monnet",
-      "time": "11:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Jun",
-      "liga": "Mundial 2026",
-      "home": "Austria",
-      "away": "Jordan",
-      "time": "11:00 PM",
-      "venue": "Levi's Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "16 Jun",
-      "liga": "Terra Wortmann Open",
-      "home": "Taylor Fritz",
-      "away": "Zizou Bergs",
-      "time": "11:00 PM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Jun",
-      "liga": "Terra Wortmann Open",
-      "home": "Nick Kyrgios",
-      "away": "Ben Shelton",
-      "time": "11:00 PM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Jun",
-      "liga": "Terra Wortmann Open",
-      "home": "Felix Auger-Aliassime",
-      "away": "Learner Tien",
-      "time": "11:00 PM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Jun",
-      "liga": "HSBC Championships",
-      "home": "Botic Van De Zandschulp",
-      "away": "Tommy Paul",
-      "time": "11:00 PM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Jun",
       "liga": "VANDA Pharmaceuticals Berlin Tennis Open",
-      "home": "Ekaterina Alexandrova",
-      "away": "Aryna Sabalenka",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis",
-      "importante": true
-    },
-    {
-      "day": "16 Jun",
-      "liga": "Lexus Nottingham Open",
-      "home": "Emma Navarro",
-      "away": "Yuliia Starodubtseva",
+      "home": "Wang Xinyu",
+      "away": "Madison Keys",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "16 Jun",
-      "liga": "Figueira Da Foz Ladies Open",
-      "home": "Sachia Vickery",
-      "away": "Ayla Aksu",
+      "day": "15 Jun",
+      "liga": "VANDA Pharmaceuticals Berlin Tennis Open",
+      "home": "Alexandra Eala",
+      "away": "Donna Vekic",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "16 Jun",
-      "liga": "Mundial 2026",
-      "home": "France",
-      "away": "Senegal",
-      "time": "2:00 PM",
-      "venue": "MetLife Stadium",
-      "sport": "futbol",
-      "importante": true
+      "day": "15 Jun",
+      "liga": "VANDA Pharmaceuticals Berlin Tennis Open",
+      "home": "Anna Kalinskaya",
+      "away": "Elina Svitolina",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
       "day": "16 Jun",
@@ -422,16 +284,6 @@
       "time": "5:00 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
-    },
-    {
-      "day": "16 Jun",
-      "liga": "Mundial 2026",
-      "home": "Iraq",
-      "away": "Norway",
-      "time": "5:00 PM",
-      "venue": "Gillette Stadium",
-      "sport": "futbol",
-      "importante": true
     },
     {
       "day": "16 Jun",
@@ -651,16 +503,6 @@
     },
     {
       "day": "16 Jun",
-      "liga": "Mundial 2026",
-      "home": "Argentina",
-      "away": "Algeria",
-      "time": "8:00 PM",
-      "venue": "GEHA Field at Arrowhead Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "16 Jun",
       "liga": "HSBC Championships",
       "home": "Alejandro Davidovich Fokina",
       "away": "Cameron Norrie",
@@ -732,12 +574,177 @@
       "sport": "tenis"
     },
     {
+      "day": "16 Jun",
+      "liga": "HSBC Championships",
+      "home": "Marin Cilic",
+      "away": "Ugo Humbert",
+      "time": "10:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "HSBC Championships",
+      "home": "Alejandro Tabilo",
+      "away": "Rinky Hijikata",
+      "time": "10:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "HSBC Championships",
+      "home": "Jiri Lehecka",
+      "away": "Kamil Majchrzak",
+      "time": "10:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "Figueira Da Foz Ladies Open",
+      "home": "Allura Zamarripa",
+      "away": "Jeline Vandromme",
+      "time": "10:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "Figueira Da Foz Ladies Open",
+      "home": "Aliona Falei",
+      "away": "Martyna Kubka",
+      "time": "10:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "Internazionali Femminili Di Brescia",
+      "home": "You Xiaodi",
+      "away": "Ane Mintegi Del Olmo",
+      "time": "10:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "Internazionali Femminili Di Brescia",
+      "home": "Martina Trevisan",
+      "away": "Carole Monnet",
+      "time": "11:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "Mundial 2026",
+      "home": "France",
+      "away": "Senegal",
+      "time": "2:00 PM",
+      "venue": "",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "16 Jun",
+      "liga": "Mundial 2026",
+      "home": "Iraq",
+      "away": "Norway",
+      "time": "5:00 PM",
+      "venue": "",
+      "sport": "futbol"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "Mundial 2026",
+      "home": "Argentina",
+      "away": "Algeria",
+      "time": "8:00 PM",
+      "venue": "",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "16 Jun",
+      "liga": "Mundial 2026",
+      "home": "Austria",
+      "away": "Jordan",
+      "time": "11:00 PM",
+      "venue": "",
+      "sport": "futbol"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "Terra Wortmann Open",
+      "home": "Taylor Fritz",
+      "away": "Zizou Bergs",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "Terra Wortmann Open",
+      "home": "Nick Kyrgios",
+      "away": "Ben Shelton",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "Terra Wortmann Open",
+      "home": "Felix Auger-Aliassime",
+      "away": "Learner Tien",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "HSBC Championships",
+      "home": "Botic Van De Zandschulp",
+      "away": "Tommy Paul",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "VANDA Pharmaceuticals Berlin Tennis Open",
+      "home": "Ekaterina Alexandrova",
+      "away": "Aryna Sabalenka",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis",
+      "importante": true
+    },
+    {
+      "day": "16 Jun",
+      "liga": "Lexus Nottingham Open",
+      "home": "Emma Navarro",
+      "away": "Yuliia Starodubtseva",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "16 Jun",
+      "liga": "Figueira Da Foz Ladies Open",
+      "home": "Sachia Vickery",
+      "away": "Ayla Aksu",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
       "day": "17 Jun",
       "liga": "Mundial 2026",
       "home": "Portugal",
       "away": "Congo DR",
       "time": "12:00 PM",
-      "venue": "NRG Stadium",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
@@ -747,7 +754,7 @@
       "home": "England",
       "away": "Croatia",
       "time": "3:00 PM",
-      "venue": "AT&T Stadium",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
@@ -757,9 +764,8 @@
       "home": "Ghana",
       "away": "Panama",
       "time": "6:00 PM",
-      "venue": "BMO Field",
-      "sport": "futbol",
-      "importante": true
+      "venue": "",
+      "sport": "futbol"
     },
     {
       "day": "17 Jun",
@@ -767,7 +773,7 @@
       "home": "Uzbekistan",
       "away": "Colombia",
       "time": "9:00 PM",
-      "venue": "Estadio Banorte",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
@@ -777,19 +783,17 @@
       "home": "Czechia",
       "away": "South Africa",
       "time": "11:00 AM",
-      "venue": "Mercedes-Benz Stadium",
-      "sport": "futbol",
-      "importante": true
+      "venue": "",
+      "sport": "futbol"
     },
     {
       "day": "18 Jun",
       "liga": "Mundial 2026",
       "home": "Switzerland",
-      "away": "Bosnia-Herzegovina",
+      "away": "Bosnia-H.",
       "time": "2:00 PM",
-      "venue": "SoFi Stadium",
-      "sport": "futbol",
-      "importante": true
+      "venue": "",
+      "sport": "futbol"
     },
     {
       "day": "18 Jun",
@@ -797,39 +801,26 @@
       "home": "Canada",
       "away": "Qatar",
       "time": "5:00 PM",
-      "venue": "BC Place",
-      "sport": "futbol",
-      "importante": true
+      "venue": "",
+      "sport": "futbol"
     },
     {
       "day": "18 Jun",
       "liga": "Mundial 2026",
       "home": "Mexico",
-      "away": "South Korea",
+      "away": "Korea Republic",
       "time": "8:00 PM",
-      "venue": "Estadio Akron",
-      "sport": "futbol",
-      "importante": true
+      "venue": "",
+      "sport": "futbol"
     },
     {
       "day": "19 Jun",
       "liga": "Mundial 2026",
-      "home": "Türkiye",
-      "away": "Paraguay",
-      "time": "10:00 PM",
-      "venue": "Levi's Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "19 Jun",
-      "liga": "Mundial 2026",
-      "home": "United States",
+      "home": "USA",
       "away": "Australia",
       "time": "2:00 PM",
-      "venue": "Lumen Field",
-      "sport": "futbol",
-      "importante": true
+      "venue": "",
+      "sport": "futbol"
     },
     {
       "day": "19 Jun",
@@ -837,9 +828,8 @@
       "home": "Scotland",
       "away": "Morocco",
       "time": "5:00 PM",
-      "venue": "Gillette Stadium",
-      "sport": "futbol",
-      "importante": true
+      "venue": "",
+      "sport": "futbol"
     },
     {
       "day": "19 Jun",
@@ -847,17 +837,17 @@
       "home": "Brazil",
       "away": "Haiti",
       "time": "7:30 PM",
-      "venue": "Lincoln Financial Field",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "20 Jun",
+      "day": "19 Jun",
       "liga": "Mundial 2026",
-      "home": "Tunisia",
-      "away": "Japan",
-      "time": "11:00 PM",
-      "venue": "Estadio BBVA",
+      "home": "Turkey",
+      "away": "Paraguay",
+      "time": "10:00 PM",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
@@ -867,7 +857,7 @@
       "home": "Netherlands",
       "away": "Sweden",
       "time": "12:00 PM",
-      "venue": "NRG Stadium",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
@@ -877,7 +867,7 @@
       "home": "Germany",
       "away": "Ivory Coast",
       "time": "3:00 PM",
-      "venue": "BMO Field",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
@@ -887,47 +877,7 @@
       "home": "Ecuador",
       "away": "Curaçao",
       "time": "7:00 PM",
-      "venue": "GEHA Field at Arrowhead Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "21 Jun",
-      "liga": "Mundial 2026",
-      "home": "Spain",
-      "away": "Saudi Arabia",
-      "time": "11:00 AM",
-      "venue": "Mercedes-Benz Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "21 Jun",
-      "liga": "Mundial 2026",
-      "home": "Belgium",
-      "away": "Iran",
-      "time": "2:00 PM",
-      "venue": "SoFi Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "21 Jun",
-      "liga": "Mundial 2026",
-      "home": "Uruguay",
-      "away": "Cape Verde",
-      "time": "5:00 PM",
-      "venue": "Hard Rock Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "21 Jun",
-      "liga": "Mundial 2026",
-      "home": "New Zealand",
-      "away": "Egypt",
-      "time": "8:00 PM",
-      "venue": "BC Place",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     }
