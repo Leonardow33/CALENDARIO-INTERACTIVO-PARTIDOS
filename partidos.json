@@ -1,1217 +1,564 @@
 {
-  "_actualizado": "2026-06-29",
+  "_actualizado": "2026-07-06",
   "_nota": "Generado automáticamente vía ESPN API. Agrega importante:true manualmente si quieres.",
   "matches": [
     {
-      "day": "29 Jun",
+      "day": "6 Jul",
       "liga": "Wimbledon",
-      "home": "Nicolas Mejia",
-      "away": "Adolfo Daniel Vallejo",
+      "home": "Arthur Fery",
+      "away": "Grigor Dimitrov",
       "time": "10:00 AM",
       "venue": "Men's Singles",
       "sport": "tenis"
     },
     {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Rinky Hijikata",
-      "away": "Jesper de Jong",
-      "time": "10:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Anastasia Zakharova",
-      "away": "Karolina Muchova",
-      "time": "10:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "McCartney Kessler",
-      "away": "Oleksandra Oliynykova",
-      "time": "10:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Nikola Bartunkova",
-      "away": "Peyton Stearns",
-      "time": "10:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Juan Manuel Cerundolo",
-      "away": "Alejandro Davidovich Fokina",
-      "time": "10:15 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Aleksandr Shevchenko",
-      "away": "Felix Auger-Aliassime",
-      "time": "10:15 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Lilli Tagger",
-      "away": "Lanlana Tararudee",
-      "time": "10:15 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Anna Kalinskaya",
-      "away": "Magdalena Frech",
-      "time": "10:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Daria Kasatkina",
-      "away": "Mimi Xu",
-      "time": "10:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Janice Tjen",
-      "away": "Leylah Fernandez",
-      "time": "10:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Teodora Kostovic",
-      "away": "Aryna Sabalenka",
-      "time": "10:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis",
-      "importante": true
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Zheng Qinwen",
-      "away": "Katerina Siniakova",
-      "time": "10:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Novak Djokovic",
-      "away": "Wu Yibing",
-      "time": "11:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis",
-      "importante": true
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Anna Bondar",
-      "away": "Solana Sierra",
-      "time": "11:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Hannah Klugman",
-      "away": "Barbora Krejcikova",
-      "time": "11:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Emiliana Arango",
-      "away": "Anastasia Gasanova",
-      "time": "11:15 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Jack Pinnington Jones",
-      "away": "Brandon Nakashima",
-      "time": "11:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Coco Gauff",
-      "away": "Tamara Korpatsch",
-      "time": "11:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis",
-      "importante": true
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Diane Parry",
-      "away": "Francesca Jones",
-      "time": "11:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Aoi Ito",
-      "away": "Dayana Yastremska",
-      "time": "11:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Anastasia Potapova",
-      "away": "Jessica Bouzas Maneiro",
-      "time": "11:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Mirra Andreeva",
-      "away": "Magda Linette",
-      "time": "11:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Mundial 2026",
-      "home": "Brazil",
-      "away": "Japan",
-      "time": "12:00 PM",
-      "venue": "NRG Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Panna Udvardy",
-      "away": "Ekaterina Alexandrova",
-      "time": "12:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Mundial 2026",
-      "home": "Germany",
-      "away": "Paraguay",
-      "time": "3:30 PM",
-      "venue": "Gillette Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Cameron Norrie",
-      "away": "Michael Zheng",
-      "time": "6:50 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Sebastian Ofner",
-      "away": "Hamad Medjedovic",
-      "time": "7:20 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Miomir Kecmanovic",
-      "away": "Jannik Sinner",
-      "time": "7:35 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis",
-      "importante": true
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Zhang Shuai",
-      "away": "Bianca Andreescu",
-      "time": "7:55 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Mundial 2026",
-      "home": "Netherlands",
-      "away": "Morocco",
-      "time": "8:00 PM",
-      "venue": "Estadio BBVA",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Joao Fonseca",
-      "away": "Roberto Bautista Agut",
-      "time": "8:05 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Tristan Boyer",
-      "away": "Nuno Borges",
-      "time": "8:10 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Oliver Tarvet",
-      "away": "Arthur Rinderknech",
-      "time": "8:15 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Darja Semenistaja",
-      "away": "Antonia Ruzic",
-      "time": "8:20 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Dino Prizmic",
-      "away": "Adam Walton",
-      "time": "9:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Luciano Darderi",
-      "away": "Ethan Quinn",
-      "time": "9:05 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Sebastian Baez",
-      "away": "Jan-Lennard Struff",
-      "time": "9:10 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Martin Landaluce",
-      "away": "SoonWoo Kwon",
-      "time": "9:15 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Stefanos Tsitsipas",
-      "away": "Hugo Gaston",
-      "time": "9:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Hanne Vandewinkel",
-      "away": "Claire Liu",
-      "time": "9:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Naomi Osaka",
-      "away": "Elsa Jacquemot",
-      "time": "9:40 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Fabian Marozsan",
-      "away": "Thiago Agustin Tirante",
-      "time": "9:45 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "29 Jun",
-      "liga": "Wimbledon",
-      "home": "Daniil Medvedev",
-      "away": "Marin Cilic",
-      "time": "9:55 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Terence Atmane",
-      "away": "Frances Tiafoe",
-      "time": "10:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Jan Choinski",
-      "away": "Vit Kopriva",
-      "time": "10:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Daniel Altmaier",
-      "away": "Alex Molcan",
-      "time": "10:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Flavio Cobolli",
-      "away": "Mariano Navone",
-      "time": "10:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "James Duckworth",
-      "away": "Tallon Griekspoor",
-      "time": "10:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Alexei Popyrin",
-      "away": "Jiri Lehecka",
-      "time": "10:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Matteo Berrettini",
-      "away": "Stan Wawrinka",
-      "time": "10:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
+      "day": "6 Jul",
       "liga": "Wimbledon",
       "home": "Linda Noskova",
-      "away": "Ella Seidel",
+      "away": "Madison Keys",
+      "time": "10:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Nordea Open",
+      "home": "Kaitlin Quevedo",
+      "away": "Tiana Tian Deng",
+      "time": "10:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Oceane Dodin",
+      "away": "Francesca Curmi",
       "time": "10:30 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "30 Jun",
+      "day": "6 Jul",
       "liga": "Wimbledon",
-      "home": "Simona Waltert",
-      "away": "Camila Osorio",
-      "time": "10:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Liudmila Samsonova",
-      "away": "Polina Kudermetova",
-      "time": "10:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Eva Lys",
-      "away": "Diana Shnaider",
-      "time": "10:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Mariam Bolkvadze",
-      "away": "Ajla Tomljanovic",
-      "time": "10:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Marta Kostyuk",
-      "away": "Nadia Podoroska",
+      "home": "Alexander Bublik",
+      "away": "Taylor Fritz",
       "time": "11:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Donna Vekic",
-      "away": "Ashlyn Krueger",
-      "time": "11:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Maya Joint",
-      "away": "Serena Williams",
-      "time": "11:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Pablo Carreno Busta",
-      "away": "Rafael Jodar",
-      "time": "11:00 PM",
       "venue": "Men's Singles",
       "sport": "tenis"
     },
     {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Ignacio Buse",
-      "away": "Jenson Brooksby",
-      "time": "11:00 PM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Botic Van De Zandschulp",
-      "away": "Roman Safiullin",
-      "time": "11:00 PM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Learner Tien",
-      "away": "Marton Fucsovics",
-      "time": "11:00 PM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Iva Jovic",
-      "away": "Tatjana Maria",
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Carol Zhao",
+      "away": "Lucrezia Stefanini",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Mananchaya Sawangkaew",
-      "away": "Alycia Parks",
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Carolyn Ansari",
+      "away": "Darja Vidmanova",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Sara Sorribes Tormo",
-      "away": "Jessica Pegula",
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Cadence Brace",
+      "away": "Katherine Sebov",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Wang Xinyu",
-      "away": "Belinda Bencic",
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Greet Minnen",
+      "away": "Mei Yamaguchi",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "30 Jun",
-      "liga": "Mundial 2026",
-      "home": "Ivory Coast",
-      "away": "Norway",
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Reese Brantmeier",
+      "away": "Sachia Vickery",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Elizabeth Mandlik",
+      "away": "Momoko Kobori",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Caroline Dolehide",
+      "away": "Mananchaya Sawangkaew",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Hayu Kinoshita",
+      "away": "Iryna Shymanovich",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Mary Stoiana",
+      "away": "Katrina Scott",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Anna Rogers",
+      "away": "Sahaja Yamalapalli",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Wimbledon",
+      "home": "Alexander Zverev",
+      "away": "Jiri Lehecka",
       "time": "12:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Kayla Cross",
+      "away": "Sayaka Ishii",
+      "time": "12:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Tatjana Maria",
+      "away": "Olivia Lincer",
+      "time": "12:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Alana Smith",
+      "away": "Kylie Collins",
+      "time": "1:30 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Ana Sofia Sanchez",
+      "away": "Madison Brengle",
+      "time": "1:30 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Mundial 2026",
+      "home": "Portugal",
+      "away": "Spain",
+      "time": "2:00 PM",
       "venue": "AT&T Stadium",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "30 Jun",
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Ariana Arseneault",
+      "away": "Katie Volynets",
+      "time": "3:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "home": "Clervie Ngounoue",
+      "away": "Lea Ma",
+      "time": "3:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Rebeka Masarova",
+      "away": "Julia Grabher",
+      "time": "6:25 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "6 Jul",
       "liga": "Mundial 2026",
-      "home": "France",
-      "away": "Sweden",
-      "time": "4:00 PM",
-      "venue": "MetLife Stadium",
+      "home": "United States",
+      "away": "Belgium",
+      "time": "7:00 PM",
+      "venue": "Lumen Field",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "30 Jun",
+      "day": "6 Jul",
       "liga": "Wimbledon",
-      "home": "Jaime Faria",
-      "away": "Sho Shimabukuro",
-      "time": "5:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Harry Wendelken",
-      "away": "Valentin Royer",
-      "time": "5:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Alejandro Tabilo",
-      "away": "Kamil Majchrzak",
-      "time": "5:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Giovanni Mpetshi Perricard",
-      "away": "Yannick Hanfmann",
-      "time": "5:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Titouan Droguet",
-      "away": "Adrian Mannarino",
-      "time": "5:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Marie Bouzkova",
-      "away": "Talia Gibson",
-      "time": "5:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Tyra Caterina Grant",
-      "away": "Katie Boulter",
-      "time": "5:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Robin Montgomery",
-      "away": "Jasmine Paolini",
-      "time": "5:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Kamilla Rakhimova",
-      "away": "Anhelina Kalinina",
-      "time": "5:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Clara Tauson",
-      "away": "Maria Sakkari",
-      "time": "5:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Madison Keys",
-      "away": "Kayla Day",
-      "time": "5:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Katie Swan",
-      "away": "Irina-Camelia Begu",
-      "time": "5:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Karolina Pliskova",
-      "away": "Tereza Valentova",
-      "time": "5:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Sofia Kenin",
-      "away": "Petra Marcinko",
-      "time": "5:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Lina Gjorcheska",
-      "away": "Amanda Anisimova",
-      "time": "5:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Arthur Fery",
-      "away": "Damir Dzumhur",
-      "time": "6:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Ben Shelton",
-      "away": "Otto Virtanen",
-      "time": "6:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Alexander Bublik",
-      "away": "Thanasi Kokkinakis",
-      "time": "6:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Vilius Gaubas",
-      "away": "Kyrian Jacquet",
-      "time": "6:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Jacob Fearnley",
-      "away": "Alex Michelsen",
-      "time": "6:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Quentin Halys",
-      "away": "Matteo Arnaldi",
-      "time": "6:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Roman Andres Burruchaga",
+      "home": "Flavio Cobolli",
       "away": "Alex de Minaur",
-      "time": "6:30 AM",
+      "time": "7:10 AM",
       "venue": "Men's Singles",
       "sport": "tenis"
     },
     {
-      "day": "30 Jun",
+      "day": "6 Jul",
       "liga": "Wimbledon",
-      "home": "Zachary Svajda",
-      "away": "Pablo Llamas Ruiz",
-      "time": "6:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Billy Harris",
-      "away": "Karen Khachanov",
-      "time": "6:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Zizou Bergs",
-      "away": "Ugo Humbert",
-      "time": "7:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Dusan Lajovic",
-      "away": "Taylor Fritz",
-      "time": "7:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Gabriel Diallo",
-      "away": "Benjamin Bonzi",
-      "time": "7:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Francisco Cerundolo",
-      "away": "Jaume Munar",
-      "time": "7:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Maria Timofeeva",
-      "away": "Beatriz Haddad Maia",
-      "time": "7:00 AM",
+      "home": "Alexandra Eala",
+      "away": "Jasmine Paolini",
+      "time": "7:35 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Viktorija Golubic",
-      "away": "Iryna Shymanovich",
-      "time": "7:00 AM",
+      "day": "6 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Erika Andreeva",
+      "away": "Anna Blinkova",
+      "time": "7:35 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Alina Korneeva",
-      "away": "Kimberly Birrell",
-      "time": "7:00 AM",
+      "day": "6 Jul",
+      "liga": "Nordea Open",
+      "home": "Katarzyna Kawa",
+      "away": "Simona Waltert",
+      "time": "8:40 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Iga Swiatek",
-      "away": "Taylor Townsend",
-      "time": "7:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis",
-      "importante": true
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Mundial 2026",
-      "home": "Mexico",
-      "away": "Ecuador",
-      "time": "8:00 PM",
-      "venue": "Estadio Banorte",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Tomas Martin Etcheverry",
-      "away": "Lorenzo Sonego",
-      "time": "8:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Mackenzie McDonald",
-      "away": "Patrick Kypson",
-      "time": "8:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Marcos Giron",
-      "away": "Corentin Moutet",
-      "time": "8:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Grigor Dimitrov",
-      "away": "Dane Sweeny",
-      "time": "8:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Toby Samuel",
-      "away": "Jakub Mensik",
-      "time": "8:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Arthur Fils",
-      "away": "Raphael Collignon",
-      "time": "8:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Leolia Jeanjean",
-      "away": "Veronika Erjavec",
-      "time": "8:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
+      "day": "6 Jul",
+      "liga": "Nordea Open",
       "home": "Paula Badosa",
-      "away": "Emma Navarro",
-      "time": "8:30 AM",
+      "away": "Marina Bassols Ribera",
+      "time": "8:45 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Anna Blinkova",
-      "away": "Yuliia Starodubtseva",
-      "time": "8:30 AM",
+      "day": "6 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Dominika Salkova",
+      "away": "Caroline Werner",
+      "time": "9:40 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Sinja Kraus",
-      "away": "Oksana Selekhmeteva",
-      "time": "8:30 AM",
+      "day": "7 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Clara Burel",
+      "away": "Petra Marcinko",
+      "time": "10:30 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Daria Snigur",
-      "away": "Elina Svitolina",
-      "time": "8:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Renata Zarazua",
-      "away": "Alexandra Eala",
-      "time": "8:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Alexander Zverev",
-      "away": "Alexander Blockx",
-      "time": "9:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Elena Rybakina",
-      "away": "Lois Boisson",
-      "time": "9:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis",
-      "importante": true
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Laura Siegemund",
-      "away": "Elise Mertens",
-      "time": "9:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Catherine McNally",
-      "away": "Elena-Gabriela Ruse",
-      "time": "9:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "30 Jun",
-      "liga": "Wimbledon",
-      "home": "Sara Bejlek",
-      "away": "Sorana Cirstea",
-      "time": "9:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "1 Jul",
+      "day": "7 Jul",
       "liga": "Mundial 2026",
-      "home": "England",
-      "away": "Congo DR",
+      "home": "Argentina",
+      "away": "Egypt",
       "time": "11:00 AM",
       "venue": "Mercedes-Benz Stadium",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "1 Jul",
-      "liga": "Mundial 2026",
-      "home": "Belgium",
-      "away": "Senegal",
-      "time": "3:00 PM",
-      "venue": "Lumen Field",
-      "sport": "futbol",
-      "importante": true
+      "day": "7 Jul",
+      "liga": "Nordea Open",
+      "home": "Irene Burillo",
+      "away": "Moyuka Uchijima",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
-      "day": "1 Jul",
-      "liga": "Mundial 2026",
-      "home": "United States",
-      "away": "Bosnia-Herzegovina",
-      "time": "7:00 PM",
-      "venue": "Levi's Stadium",
-      "sport": "futbol",
-      "importante": true
+      "day": "7 Jul",
+      "liga": "Nordea Open",
+      "home": "Leyre Romero Gormaz",
+      "away": "Miriam Bulgaru",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
-      "day": "2 Jul",
+      "day": "7 Jul",
       "liga": "Mundial 2026",
       "home": "Switzerland",
-      "away": "Algeria",
-      "time": "10:00 PM",
+      "away": "Colombia",
+      "time": "3:00 PM",
       "venue": "BC Place",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "2 Jul",
+      "day": "7 Jul",
+      "liga": "Nordea Open",
+      "home": "Caijsa Hennemann",
+      "away": "June Bjork",
+      "time": "4:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Nordea Open",
+      "home": "Lola Radivojevic",
+      "away": "Mona Barthel",
+      "time": "4:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Nordea Open",
+      "home": "Grace Bernstein",
+      "away": "Aneta Laboutkova",
+      "time": "4:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Leolia Jeanjean",
+      "away": "Amandine Monnot",
+      "time": "4:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Laura Pigossi",
+      "away": "Maria Lourdes Carle",
+      "time": "4:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Mayar Sherif",
+      "away": "Yasmine Kabbaj",
+      "time": "4:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Nordea Open",
+      "home": "Tamara Korpatsch",
+      "away": "Linea Bajraliu",
+      "time": "5:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Nordea Open",
+      "home": "Claire Liu",
+      "away": "Sinja Kraus",
+      "time": "5:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Ren Yufei",
+      "away": "Alice Tubello",
+      "time": "5:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Alice Rame",
+      "away": "Francesca Jones",
+      "time": "5:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Diana Martynov",
+      "away": "Jeline Vandromme",
+      "time": "5:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Nordea Open",
+      "home": "Kajsa Rinaldo Persson",
+      "away": "Dalma Galfi",
+      "time": "6:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Wimbledon",
+      "home": "Jan-Lennard Struff",
+      "away": "Jannik Sinner",
+      "time": "7:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis",
+      "importante": true
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Oksana Selekhmeteva",
+      "away": "Yelyzaveta Kotliar",
+      "time": "7:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Elsa Jacquemot",
+      "away": "Aurora Zantedeschi",
+      "time": "7:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Alicia Herrero Linana",
+      "away": "Elina Avanesyan",
+      "time": "7:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Wimbledon",
+      "home": "Coco Gauff",
+      "away": "Jessica Pegula",
+      "time": "7:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis",
+      "importante": true
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Nordea Open",
+      "home": "Varvara Lepchenko",
+      "away": "Lisa Zaar",
+      "time": "8:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Grand Est Open 88",
+      "home": "Lisa Pigato",
+      "away": "Angela Fita Boluda",
+      "time": "8:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Wimbledon",
+      "home": "Novak Djokovic",
+      "away": "Felix Auger-Aliassime",
+      "time": "9:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis",
+      "importante": true
+    },
+    {
+      "day": "7 Jul",
+      "liga": "Wimbledon",
+      "home": "Karolina Muchova",
+      "away": "Naomi Osaka",
+      "time": "9:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "9 Jul",
       "liga": "Mundial 2026",
-      "home": "Spain",
-      "away": "Austria",
+      "home": "France",
+      "away": "Morocco",
+      "time": "3:00 PM",
+      "venue": "Gillette Stadium",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "10 Jul",
+      "liga": "Mundial 2026",
+      "home": "Round of 16 5 Winner",
+      "away": "Round of 16 6 Winner",
       "time": "2:00 PM",
       "venue": "SoFi Stadium",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "2 Jul",
+      "day": "11 Jul",
       "liga": "Mundial 2026",
-      "home": "Portugal",
-      "away": "Croatia",
-      "time": "6:00 PM",
-      "venue": "BMO Field",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "3 Jul",
-      "liga": "Mundial 2026",
-      "home": "Australia",
-      "away": "Egypt",
-      "time": "1:00 PM",
-      "venue": "AT&T Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "3 Jul",
-      "liga": "Mundial 2026",
-      "home": "Argentina",
-      "away": "Cape Verde",
-      "time": "5:00 PM",
+      "home": "Norway",
+      "away": "England",
+      "time": "4:00 PM",
       "venue": "Hard Rock Stadium",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "3 Jul",
+      "day": "11 Jul",
       "liga": "Mundial 2026",
-      "home": "Colombia",
-      "away": "Ghana",
-      "time": "8:30 PM",
+      "home": "Round of 16 7 Winner",
+      "away": "Round of 16 8 Winner",
+      "time": "8:00 PM",
       "venue": "GEHA Field at Arrowhead Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "4 Jul",
-      "liga": "Mundial 2026",
-      "home": "Canada",
-      "away": "Round of 32 3 Winner",
-      "time": "12:00 PM",
-      "venue": "NRG Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "4 Jul",
-      "liga": "Mundial 2026",
-      "home": "Round of 32 2 Winner",
-      "away": "Round of 32 5 Winner",
-      "time": "4:00 PM",
-      "venue": "Lincoln Financial Field",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "5 Jul",
-      "liga": "Mundial 2026",
-      "home": "Round of 32 4 Winner",
-      "away": "Round of 32 6 Winner",
-      "time": "3:00 PM",
-      "venue": "MetLife Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "5 Jul",
-      "liga": "Mundial 2026",
-      "home": "Round of 32 7 Winner",
-      "away": "Round of 32 8 Winner",
-      "time": "7:00 PM",
-      "venue": "Estadio Banorte",
       "sport": "futbol",
       "importante": true
     }
