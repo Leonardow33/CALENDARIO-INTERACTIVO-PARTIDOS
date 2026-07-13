@@ -1,191 +1,920 @@
 {
-  "_actualizado": "2026-07-06",
+  "_actualizado": "2026-07-13",
   "_nota": "Generado automáticamente vía ESPN API. Agrega importante:true manualmente si quieres.",
   "matches": [
     {
-      "day": "6 Jul",
-      "liga": "Wimbledon",
-      "home": "Arthur Fery",
-      "away": "Grigor Dimitrov",
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Lanlana Tararudee",
+      "away": "Kyoka Okamura",
       "time": "10:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Susan Bandecchi",
+      "away": "Anastasia Gasanova",
+      "time": "10:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "EFG Swiss Open Gstaad",
+      "home": "Jaume Munar",
+      "away": "Dominic Stricker",
+      "time": "10:30 AM",
       "venue": "Men's Singles",
       "sport": "tenis"
     },
     {
-      "day": "6 Jul",
-      "liga": "Wimbledon",
-      "home": "Linda Noskova",
-      "away": "Madison Keys",
-      "time": "10:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Nordea Open",
-      "home": "Kaitlin Quevedo",
-      "away": "Tiana Tian Deng",
-      "time": "10:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Oceane Dodin",
-      "away": "Francesca Curmi",
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Noma Noha Akugue",
+      "away": "Alice Rame",
       "time": "10:30 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "6 Jul",
-      "liga": "Wimbledon",
-      "home": "Alexander Bublik",
-      "away": "Taylor Fritz",
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Elizara Yaneva",
+      "away": "Oksana Selekhmeteva",
+      "time": "10:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Plava Laguna Croatia Open Umag",
+      "home": "Marco Trungelliti",
+      "away": "Kyrian Jacquet",
       "time": "11:00 AM",
       "venue": "Men's Singles",
       "sport": "tenis"
     },
     {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Carol Zhao",
-      "away": "Lucrezia Stefanini",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Carolyn Ansari",
-      "away": "Darja Vidmanova",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Cadence Brace",
-      "away": "Katherine Sebov",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Greet Minnen",
-      "away": "Mei Yamaguchi",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Reese Brantmeier",
-      "away": "Sachia Vickery",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Elizabeth Mandlik",
-      "away": "Momoko Kobori",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Caroline Dolehide",
-      "away": "Mananchaya Sawangkaew",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Hayu Kinoshita",
-      "away": "Iryna Shymanovich",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Mary Stoiana",
-      "away": "Katrina Scott",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Anna Rogers",
-      "away": "Sahaja Yamalapalli",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Wimbledon",
-      "home": "Alexander Zverev",
-      "away": "Jiri Lehecka",
-      "time": "12:00 PM",
+      "day": "13 Jul",
+      "liga": "Plava Laguna Croatia Open Umag",
+      "home": "Luca Van Assche",
+      "away": "Dusan Lajovic",
+      "time": "11:00 AM",
       "venue": "Men's Singles",
       "sport": "tenis"
     },
     {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Kayla Cross",
-      "away": "Sayaka Ishii",
-      "time": "12:00 PM",
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Sara Bejlek",
+      "away": "Viktoria Morvayova",
+      "time": "11:00 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Harriet Dart",
+      "away": "Mina Hodzic",
+      "time": "11:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Nordea Open",
+      "home": "Thiago Agustin Tirante",
+      "away": "Sebastian Ofner",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Nordea Open",
+      "home": "Hugo Gaston",
+      "away": "Daniel Altmaier",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Nordea Open",
+      "home": "Andrea Pellegrino",
+      "away": "Nicolai Budkov Kjaer",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Nordea Open",
+      "home": "Grigor Dimitrov",
+      "away": "Dalibor Svrcina",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Nordea Open",
+      "home": "Moise Kouame",
+      "away": "Nuno Borges",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Nordea Open",
+      "home": "Nikoloz Basilashvili",
+      "away": "Jan Choinski",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Nordea Open",
+      "home": "Sebastian Baez",
+      "away": "Max Dahlin",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "EFG Swiss Open Gstaad",
+      "home": "Stan Wawrinka",
+      "away": "Jaime Faria",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "EFG Swiss Open Gstaad",
+      "home": "Quentin Halys",
+      "away": "Federico Cina",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "EFG Swiss Open Gstaad",
+      "home": "Zdenek Kolar",
+      "away": "Juan Manuel Cerundolo",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "EFG Swiss Open Gstaad",
+      "home": "Yannick Hanfmann",
+      "away": "Pedro Martinez",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "EFG Swiss Open Gstaad",
+      "home": "Ignacio Buse",
+      "away": "Stefanos Tsitsipas",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "EFG Swiss Open Gstaad",
+      "home": "Dylan Dietrich",
+      "away": "Jerome Kym",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "EFG Swiss Open Gstaad",
+      "home": "Aleksandr Shevchenko",
+      "away": "Alexandre Muller",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Plava Laguna Croatia Open Umag",
+      "home": "Camilo Ugo Carabelli",
+      "away": "Marko Topo",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Plava Laguna Croatia Open Umag",
+      "home": "Valentin Royer",
+      "away": "Alex Molcan",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Plava Laguna Croatia Open Umag",
+      "home": "Juan Carlos Prado Angelo",
+      "away": "Fabian Marozsan",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Plava Laguna Croatia Open Umag",
+      "home": "Alexander Blockx",
+      "away": "Titouan Droguet",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Plava Laguna Croatia Open Umag",
+      "home": "Niels McDonald",
+      "away": "Federico Agustin Gomez",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Plava Laguna Croatia Open Umag",
+      "home": "Daniel Merida",
+      "away": "Ziga Sesko",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Plava Laguna Croatia Open Umag",
+      "home": "Pablo Carreno Busta",
+      "away": "Matej Dodig",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Plava Laguna Croatia Open Umag",
+      "home": "Roman Andres Burruchaga",
+      "away": "Marco Cecchinato",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Sofia Costoulas",
+      "away": "Tereza Valentova",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Alina Korneeva",
+      "away": "Aoi Ito",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Aliaksandra Sasnovich",
+      "away": "Anna Blinkova",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Viktoriya Tomova",
+      "away": "Barbora Krejcikova",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Miriana Tona",
+      "away": "Sapfo Sakellaridi",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Ann Li",
+      "away": "Maria Timofeeva",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Rebeka Masarova",
+      "away": "Carole Monnet",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Nao Hibino",
+      "away": "Clara Tauson",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Unicredit Iasi Open",
+      "home": "Dalma Galfi",
+      "away": "Mayar Sherif",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Unicredit Iasi Open",
+      "home": "Simona Waltert",
+      "away": "Katarzyna Kawa",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Unicredit Iasi Open",
+      "home": "Leolia Jeanjean",
+      "away": "Yulia Putintseva",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Unicredit Iasi Open",
+      "home": "Tamara Zidansek",
+      "away": "Emiliana Arango",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Unicredit Iasi Open",
+      "home": "Anhelina Kalinina",
+      "away": "Paula Badosa",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Unicredit Iasi Open",
+      "home": "Elena-Gabriela Ruse",
+      "away": "Kaitlin Quevedo",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Tyra Caterina Grant",
+      "away": "Martina Trevisan",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Aurora Zantedeschi",
+      "away": "Fiona Ferro",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Darja Semenistaja",
+      "away": "Julia Riera",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Jennifer Ruggeri",
+      "away": "Teodora Kostovic",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Noemi Basiletti",
+      "away": "Danka Kovinic",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Eva Vedder",
+      "away": "Francesca Pace",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Lucia Bronzetti",
+      "away": "Alessandra Mazzola",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Jessica Pieri",
+      "away": "Nuria Brancaccio",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Vendula Valdmannova",
+      "away": "Ayla Aksu",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Yuan Yue",
+      "away": "Aliona Falei",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Vera Zvonareva",
+      "away": "Polina Iatcenko",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Mariia Tkacheva",
+      "away": "Anastasia Zakharova",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Cagla Buyukakcay",
+      "away": "Viktoria Hruncakova",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Isabella Shinikova",
+      "away": "Alexandra Shubladze",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Priska Nugroho",
+      "away": "Daria Khomutsianskaya",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Weronika Falkowska",
+      "away": "Deniz Dilek",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Lucie Havlickova",
+      "away": "Harmony Tan",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Gao Xinyu",
+      "away": "Linda Fruhvirtova",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
+      "home": "Anna-Lena Friedsam",
+      "away": "Marina Bassols Ribera",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
+      "home": "Arantxa Rus",
+      "away": "Leonie Rabl",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
+      "home": "Kathinka von Deichmann",
+      "away": "Maria Lourdes Carle",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
       "home": "Tatjana Maria",
-      "away": "Olivia Lincer",
-      "time": "12:00 PM",
+      "away": "Martina Colmegna",
+      "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Alana Smith",
-      "away": "Kylie Collins",
-      "time": "1:30 PM",
+      "day": "13 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
+      "home": "Laura Samson",
+      "away": "Laura Pigossi",
+      "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Ana Sofia Sanchez",
-      "away": "Madison Brengle",
-      "time": "1:30 PM",
+      "day": "13 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
+      "home": "Arabella Koller",
+      "away": "Mona Barthel",
+      "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "6 Jul",
+      "day": "13 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
+      "home": "Jeline Vandromme",
+      "away": "Vivian Wolff",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
+      "home": "Sinja Kraus",
+      "away": "Caijsa Hennemann",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Maria Sakkari",
+      "away": "Polina Kudermetova",
+      "time": "11:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Federica Urgesi",
+      "away": "Yelyzaveta Kotliar",
+      "time": "11:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Elena Malygina",
+      "away": "Sofya Lansere",
+      "time": "11:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Elena Micic",
+      "away": "Martha Matoula",
+      "time": "12:30 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Alycia Parks",
+      "away": "Valentini Grammatikopoulou",
+      "time": "1:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Plava Laguna Croatia Open Umag",
+      "home": "Dino Prizmic",
+      "away": "Vit Kopriva",
+      "time": "2:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Nordea Open",
+      "home": "Taro Daniel",
+      "away": "Carlos Sanchez Jover",
+      "time": "6:30 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Nordea Open",
+      "home": "Miguel Damas",
+      "away": "Thomas Faurel",
+      "time": "6:30 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
+      "home": "Ekaterina Perelygina",
+      "away": "Yasmine Kabbaj",
+      "time": "6:50 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Unicredit Iasi Open",
+      "home": "Alevtina Ibragimova",
+      "away": "Varvara Lepchenko",
+      "time": "7:05 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Unicredit Iasi Open",
+      "home": "Sara Sorribes Tormo",
+      "away": "Anna Bondar",
+      "time": "7:15 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Karman Thandi",
+      "away": "Kristina Penickova",
+      "time": "7:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Carol Young Suh Lee",
+      "away": "Hanne Vandewinkel",
+      "time": "7:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
+      "home": "Eva Bennemann",
+      "away": "Anastasia Tikhonova",
+      "time": "7:50 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "EFG Swiss Open Gstaad",
+      "home": "Timofey Skatov",
+      "away": "Raphael Collignon",
+      "time": "7:55 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
+      "home": "Gina Feistel",
+      "away": "Julia Avdeeva",
+      "time": "8:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Nordea Open",
+      "home": "Vilius Gaubas",
+      "away": "Jesper de Jong",
+      "time": "8:30 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Tatiana Prozorova",
+      "away": "Bai Zhuoxuan",
+      "time": "8:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Enka Open",
+      "home": "Irem Kurt",
+      "away": "Gabriela Knutson",
+      "time": "8:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
+      "home": "Victoria Bosio",
+      "away": "Veronika Erjavec",
+      "time": "8:50 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Plava Laguna Croatia Open Umag",
+      "home": "Henrique Rocha",
+      "away": "Damir Dzumhur",
+      "time": "9:00 AM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Darya Astakhova",
+      "away": "Kajsa Rinaldo Persson",
+      "time": "9:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "ATV Bancomat Tennis Open",
+      "home": "Deborah Chiesa",
+      "away": "Lina Gjorcheska",
+      "time": "9:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Jessica Bouzas Maneiro",
+      "away": "Zheng Qinwen",
+      "time": "9:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Mai Hontama",
+      "away": "Magda Linette",
+      "time": "9:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Vanda Pharmaceuticals Athens Open",
+      "home": "Lilli Tagger",
+      "away": "Marianne Argyrokastriti",
+      "time": "9:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Unicredit Iasi Open",
+      "home": "Petra Marcinko",
+      "away": "Nadia Podoroska",
+      "time": "9:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "13 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
+      "home": "Dalila Jakupovic",
+      "away": "Polona Hercog",
+      "time": "9:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "14 Jul",
+      "liga": "EFG Swiss Open Gstaad",
+      "home": "Clement Tabur",
+      "away": "Arthur Rinderknech",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "14 Jul",
+      "liga": "Generali Open Ladies Kitzbühel",
+      "home": "Mia Ristic",
+      "away": "Erika Andreeva",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "14 Jul",
       "liga": "Mundial 2026",
-      "home": "Portugal",
+      "home": "France",
       "away": "Spain",
       "time": "2:00 PM",
       "venue": "AT&T Stadium",
@@ -193,372 +922,118 @@
       "importante": true
     },
     {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Ariana Arseneault",
-      "away": "Katie Volynets",
-      "time": "3:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Cerity Partners Hall of Fame Open for the Van Alen Cup Presented by the Margaret Fund",
-      "home": "Clervie Ngounoue",
-      "away": "Lea Ma",
-      "time": "3:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Rebeka Masarova",
-      "away": "Julia Grabher",
-      "time": "6:25 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
+      "day": "15 Jul",
       "liga": "Mundial 2026",
-      "home": "United States",
-      "away": "Belgium",
-      "time": "7:00 PM",
-      "venue": "Lumen Field",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Wimbledon",
-      "home": "Flavio Cobolli",
-      "away": "Alex de Minaur",
-      "time": "7:10 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Wimbledon",
-      "home": "Alexandra Eala",
-      "away": "Jasmine Paolini",
-      "time": "7:35 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Erika Andreeva",
-      "away": "Anna Blinkova",
-      "time": "7:35 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Nordea Open",
-      "home": "Katarzyna Kawa",
-      "away": "Simona Waltert",
-      "time": "8:40 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Nordea Open",
-      "home": "Paula Badosa",
-      "away": "Marina Bassols Ribera",
-      "time": "8:45 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "6 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Dominika Salkova",
-      "away": "Caroline Werner",
-      "time": "9:40 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Clara Burel",
-      "away": "Petra Marcinko",
-      "time": "10:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Mundial 2026",
-      "home": "Argentina",
-      "away": "Egypt",
-      "time": "11:00 AM",
+      "home": "England",
+      "away": "Argentina",
+      "time": "2:00 PM",
       "venue": "Mercedes-Benz Stadium",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "7 Jul",
-      "liga": "Nordea Open",
-      "home": "Irene Burillo",
-      "away": "Moyuka Uchijima",
+      "day": "18 Jul",
+      "liga": "Liga 1 Perú",
+      "home": "ADT",
+      "away": "Universitario",
       "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
+      "venue": "",
+      "sport": "futbol",
+      "importante": true
     },
     {
-      "day": "7 Jul",
-      "liga": "Nordea Open",
-      "home": "Leyre Romero Gormaz",
-      "away": "Miriam Bulgaru",
+      "day": "18 Jul",
+      "liga": "Liga 1 Perú",
+      "home": "Alianza Lima",
+      "away": "Sport Huancayo",
       "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Mundial 2026",
-      "home": "Switzerland",
-      "away": "Colombia",
-      "time": "3:00 PM",
-      "venue": "BC Place",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "7 Jul",
-      "liga": "Nordea Open",
-      "home": "Caijsa Hennemann",
-      "away": "June Bjork",
-      "time": "4:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
+      "day": "18 Jul",
+      "liga": "Liga 1 Perú",
+      "home": "Atlético Grau",
+      "away": "UTC",
+      "time": "11:00 PM",
+      "venue": "",
+      "sport": "futbol"
     },
     {
-      "day": "7 Jul",
-      "liga": "Nordea Open",
-      "home": "Lola Radivojevic",
-      "away": "Mona Barthel",
-      "time": "4:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Nordea Open",
-      "home": "Grace Bernstein",
-      "away": "Aneta Laboutkova",
-      "time": "4:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Leolia Jeanjean",
-      "away": "Amandine Monnot",
-      "time": "4:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Laura Pigossi",
-      "away": "Maria Lourdes Carle",
-      "time": "4:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Mayar Sherif",
-      "away": "Yasmine Kabbaj",
-      "time": "4:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Nordea Open",
-      "home": "Tamara Korpatsch",
-      "away": "Linea Bajraliu",
-      "time": "5:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Nordea Open",
-      "home": "Claire Liu",
-      "away": "Sinja Kraus",
-      "time": "5:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Ren Yufei",
-      "away": "Alice Tubello",
-      "time": "5:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Alice Rame",
-      "away": "Francesca Jones",
-      "time": "5:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Diana Martynov",
-      "away": "Jeline Vandromme",
-      "time": "5:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Nordea Open",
-      "home": "Kajsa Rinaldo Persson",
-      "away": "Dalma Galfi",
-      "time": "6:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Wimbledon",
-      "home": "Jan-Lennard Struff",
-      "away": "Jannik Sinner",
-      "time": "7:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis",
-      "importante": true
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Oksana Selekhmeteva",
-      "away": "Yelyzaveta Kotliar",
-      "time": "7:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Elsa Jacquemot",
-      "away": "Aurora Zantedeschi",
-      "time": "7:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Alicia Herrero Linana",
-      "away": "Elina Avanesyan",
-      "time": "7:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Wimbledon",
-      "home": "Coco Gauff",
-      "away": "Jessica Pegula",
-      "time": "7:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis",
-      "importante": true
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Nordea Open",
-      "home": "Varvara Lepchenko",
-      "away": "Lisa Zaar",
-      "time": "8:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Grand Est Open 88",
-      "home": "Lisa Pigato",
-      "away": "Angela Fita Boluda",
-      "time": "8:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Wimbledon",
-      "home": "Novak Djokovic",
-      "away": "Felix Auger-Aliassime",
-      "time": "9:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis",
-      "importante": true
-    },
-    {
-      "day": "7 Jul",
-      "liga": "Wimbledon",
-      "home": "Karolina Muchova",
-      "away": "Naomi Osaka",
-      "time": "9:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "9 Jul",
-      "liga": "Mundial 2026",
-      "home": "France",
-      "away": "Morocco",
-      "time": "3:00 PM",
-      "venue": "Gillette Stadium",
+      "day": "18 Jul",
+      "liga": "Liga 1 Perú",
+      "home": "Cienciano del Cusco",
+      "away": "Melgar",
+      "time": "11:00 PM",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "10 Jul",
-      "liga": "Mundial 2026",
-      "home": "Round of 16 5 Winner",
-      "away": "Round of 16 6 Winner",
-      "time": "2:00 PM",
-      "venue": "SoFi Stadium",
+      "day": "18 Jul",
+      "liga": "Liga 1 Perú",
+      "home": "Cusco FC",
+      "away": "Alianza Atlético",
+      "time": "11:00 PM",
+      "venue": "",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "11 Jul",
+      "day": "18 Jul",
+      "liga": "Liga 1 Perú",
+      "home": "Deportivo Moquegua",
+      "away": "Comerciantes Unidos",
+      "time": "11:00 PM",
+      "venue": "",
+      "sport": "futbol"
+    },
+    {
+      "day": "18 Jul",
+      "liga": "Liga 1 Perú",
+      "home": "FC Cajamarca",
+      "away": "Juan Pablo II",
+      "time": "11:00 PM",
+      "venue": "",
+      "sport": "futbol"
+    },
+    {
+      "day": "18 Jul",
+      "liga": "Liga 1 Perú",
+      "home": "Los Chankas",
+      "away": "Sport Boys",
+      "time": "11:00 PM",
+      "venue": "",
+      "sport": "futbol"
+    },
+    {
+      "day": "18 Jul",
       "liga": "Mundial 2026",
-      "home": "Norway",
-      "away": "England",
+      "home": "Semifinal 1 Loser",
+      "away": "Semifinal 2 Loser",
       "time": "4:00 PM",
       "venue": "Hard Rock Stadium",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "11 Jul",
+      "day": "19 Jul",
+      "liga": "Liga 1 Perú",
+      "home": "Sporting Cristal",
+      "away": "Deportivo Garcilaso",
+      "time": "1:00 PM",
+      "venue": "",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "19 Jul",
       "liga": "Mundial 2026",
-      "home": "Round of 16 7 Winner",
-      "away": "Round of 16 8 Winner",
-      "time": "8:00 PM",
-      "venue": "GEHA Field at Arrowhead Stadium",
+      "home": "Semifinal 1 Winner",
+      "away": "Semifinal 2 Winner",
+      "time": "2:00 PM",
+      "venue": "MetLife Stadium",
       "sport": "futbol",
       "importante": true
     }
