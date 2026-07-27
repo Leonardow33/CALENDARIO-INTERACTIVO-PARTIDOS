@@ -1,769 +1,932 @@
 {
-  "_actualizado": "2026-07-20",
+  "_actualizado": "2026-07-27",
   "_nota": "Generado automáticamente vía ESPN API. Agrega importante:true manualmente si quieres.",
   "matches": [
     {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Lola Radivojevic",
-      "away": "Sofya Lansere",
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Tallon Griekspoor",
+      "away": "Alejandro Tabilo",
       "time": "10:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Erika Andreeva",
-      "away": "Lina Gjorcheska",
-      "time": "10:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Deborah Chiesa",
-      "away": "Yasmine Kabbaj",
-      "time": "10:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Moyuka Uchijima",
-      "away": "Anna Bondar",
-      "time": "10:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Millennium Estoril Open",
-      "home": "Pedro Martinez",
-      "away": "Henrique Rocha",
-      "time": "10:30 AM",
       "venue": "Men's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "Livesport Prague Open",
-      "home": "Maya Joint",
-      "away": "Laura Samson",
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Clara Tauson",
+      "away": "Elisabetta Cocciaretto",
+      "time": "10:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Magda Linette",
+      "away": "Leylah Fernandez",
+      "time": "10:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Linda Fruhvirtova",
+      "away": "Anastasia Zakharova",
+      "time": "10:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Whitney Osuigwe",
+      "away": "Maya Joint",
+      "time": "10:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Viktorija Golubic",
+      "away": "Katie Volynets",
+      "time": "10:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mifel Tennis Open by Telcel Oppo",
+      "home": "Adam Walton",
+      "away": "Dalibor Svrcina",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mifel Tennis Open by Telcel Oppo",
+      "home": "Rodrigo Pacheco Mendez",
+      "away": "Sho Shimabukuro",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mifel Tennis Open by Telcel Oppo",
+      "home": "Rinky Hijikata",
+      "away": "Denis Shapovalov",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mifel Tennis Open by Telcel Oppo",
+      "home": "Arthur Gea",
+      "away": "SoonWoo Kwon",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mifel Tennis Open by Telcel Oppo",
+      "home": "James Duckworth",
+      "away": "Aidan Mayo",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mifel Tennis Open by Telcel Oppo",
+      "home": "Martin Landaluce",
+      "away": "Michael Zheng",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mifel Tennis Open by Telcel Oppo",
+      "home": "Corentin Moutet",
+      "away": "Jenson Brooksby",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mifel Tennis Open by Telcel Oppo",
+      "home": "Grigor Dimitrov",
+      "away": "Moise Kouame",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mifel Tennis Open by Telcel Oppo",
+      "home": "Darwin Blanch",
+      "away": "Chak Lam Coleman Wong",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Rafael Jodar",
+      "away": "Arthur Fils",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Learner Tien",
+      "away": "Adrian Mannarino",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Jack Draper",
+      "away": "Alex Michelsen",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Tommy Paul",
+      "away": "Kamil Majchrzak",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Jakub Mensik",
+      "away": "Trevor Svajda",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Tomas Martin Etcheverry",
+      "away": "Brandon Nakashima",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Cruz Hewitt",
+      "away": "Marcos Giron",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Stefanos Tsitsipas",
+      "away": "Alex de Minaur",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Ben Shelton",
+      "away": "Martin Damm",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Andres Martin",
+      "away": "Ugo Humbert",
+      "time": "11:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Polina Kudermetova",
+      "away": "Cristina Bucsa",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "Livesport Prague Open",
-      "home": "Yuan Yue",
-      "away": "Nikola Bartunkova",
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Venus Williams",
+      "away": "Anastasia Potapova",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "Livesport Prague Open",
-      "home": "Barbora Krejcikova",
-      "away": "Linda Fruhvirtova",
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Anna Kalinskaya",
+      "away": "Daria Kasatkina",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "Livesport Prague Open",
-      "home": "Mai Hontama",
-      "away": "Diane Parry",
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Ann Li",
+      "away": "Magdalena Frech",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "Livesport Prague Open",
-      "home": "Lanlana Tararudee",
-      "away": "Jana Kovackova",
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Wang Xinyu",
+      "away": "Julieta Pareja",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "Livesport Prague Open",
-      "home": "Sara Bejlek",
-      "away": "Anna Blinkova",
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Zheng Qinwen",
+      "away": "Alexandra Eala",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "Livesport Prague Open",
-      "home": "Aliaksandra Sasnovich",
-      "away": "Maria Timofeeva",
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Sofia Costoulas",
+      "away": "Lizette Cabrera",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "Livesport Prague Open",
-      "home": "Lilli Tagger",
-      "away": "Gao Xinyu",
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Caroline Dolehide",
+      "away": "Lu Jia-Jing",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "Livesport Prague Open",
-      "home": "Tereza Valentova",
-      "away": "Priscilla Hon",
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Annabelle Xu",
+      "away": "Ariana Arseneault",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Nao Hibino",
+      "away": "Teah Chavez",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Kayla Cross",
+      "away": "Harriet Dart",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Kristina Liutova",
+      "away": "Ekaterina Alexandrova",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Kimberly Birrell",
+      "away": "Ma YeXin",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "McCartney Kessler",
+      "away": "Renata Zarazua",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Cadence Brace",
+      "away": "Zeynep Sonmez",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Catherine McNally",
+      "away": "Wang Xiyu",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Peyton Stearns",
+      "away": "Mary Stoiana",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Sloane Stephens",
+      "away": "Yuliia Starodubtseva",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Marina Bassols Ribera",
+      "away": "Darja Vidmanova",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Axeria Open 2026 powered by Intaro Sport",
       "home": "Lucia Bronzetti",
-      "away": "Ilary Pistola",
+      "away": "Miriana Tona",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Caijsa Hennemann",
+      "day": "27 Jul",
+      "liga": "Axeria Open 2026 powered by Intaro Sport",
+      "home": "Darja Semenistaja",
+      "away": "Mia Ristic",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Axeria Open 2026 powered by Intaro Sport",
+      "home": "Lola Radivojevic",
+      "away": "Margaux Rouvroy",
+      "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Axeria Open 2026 powered by Intaro Sport",
+      "home": "Carole Monnet",
       "away": "Miriam Bulgaru",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Anastasia Tikhonova",
-      "away": "Alice Rame",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Tyra Caterina Grant",
-      "away": "Noemi Basiletti",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Alevtina Ibragimova",
-      "away": "Tamara Zidansek",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Mina Hodzic",
-      "away": "Caroline Werner",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Clara Burel",
-      "away": "Anastasia Abbagnato",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Darya Astakhova",
+      "day": "27 Jul",
+      "liga": "Axeria Open 2026 powered by Intaro Sport",
+      "home": "Chloe Paquet",
       "away": "Francesca Jones",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Sinja Kraus",
-      "away": "Darja Semenistaja",
+      "day": "27 Jul",
+      "liga": "Axeria Open 2026 powered by Intaro Sport",
+      "home": "Rachel Gailis",
+      "away": "Lucija Ciric Bagaric",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Yulia Putintseva",
-      "away": "Mona Barthel",
+      "day": "27 Jul",
+      "liga": "Axeria Open 2026 powered by Intaro Sport",
+      "home": "Maia Ilinca Burcescu",
+      "away": "Alevtina Ibragimova",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Alina Charaeva",
-      "away": "Sara Sorribes Tormo",
+      "day": "27 Jul",
+      "liga": "Axeria Open 2026 powered by Intaro Sport",
+      "home": "Alesia Breaz",
+      "away": "Laura Samson",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Noma Noha Akugue",
-      "away": "Valentina Steiner",
+      "day": "27 Jul",
+      "liga": "Axeria Open 2026 powered by Intaro Sport",
+      "home": "Anastasiia Sobolieva",
+      "away": "Selena Janicijevic",
       "time": "11:00 PM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Victoria Jimenez Kasintseva",
-      "away": "Tamara Korpatsch",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Mayar Sherif",
-      "away": "Simona Waltert",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Jule Niemeier",
-      "away": "Maria Lourdes Carle",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Elina Avanesyan",
-      "away": "Arantxa Rus",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Veronika Erjavec",
-      "away": "Leyre Romero Gormaz",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Nastasja Schunk",
-      "away": "Oleksandra Oliynykova",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Elsa Jacquemot",
-      "away": "Tessa Johanna Brockmann",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Panna Udvardy",
-      "away": "Elena Pridankina",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Paula Badosa",
-      "away": "Katarzyna Kawa",
-      "time": "11:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Jennifer Ruggeri",
-      "away": "Amarissa Toth",
-      "time": "11:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Ane Mintegi Del Olmo",
-      "away": "Ekaterine Gorgodze",
-      "time": "11:30 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Elizara Yaneva",
-      "away": "Federica Urgesi",
-      "time": "1:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
-      "home": "Ren Yufei",
-      "away": "Fiona Ferro",
-      "time": "1:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Palermo Ladies Open",
+      "day": "27 Jul",
+      "liga": "Axeria Open 2026 powered by Intaro Sport",
       "home": "Dalila Spiteri",
-      "away": "Alessandra Mazzola",
-      "time": "2:30 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Livesport Prague Open",
-      "home": "Carol Young Suh Lee",
-      "away": "Veronika Podrez",
-      "time": "6:35 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Anhelina Kalinina",
-      "away": "Kaitlin Quevedo",
-      "time": "7:35 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Millennium Estoril Open",
-      "home": "Camilo Ugo Carabelli",
-      "away": "Titouan Droguet",
-      "time": "7:40 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Generali Open",
-      "home": "Jurij Rodionov",
-      "away": "Joel Josef Schwaerzler",
-      "time": "7:50 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Livesport Prague Open",
-      "home": "Lucie Havlickova",
-      "away": "Alycia Parks",
-      "time": "7:55 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Generali Open",
-      "home": "Federico Cina",
-      "away": "Facundo Diaz Acosta",
-      "time": "8:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Livesport Prague Open",
-      "home": "Sofia Costoulas",
-      "away": "Ayla Aksu",
-      "time": "8:20 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "MSC Hamburg Ladies Open",
-      "home": "Julia Stusek",
-      "away": "Nadia Podoroska",
-      "time": "8:45 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Generali Open",
-      "home": "Ignacio Buse",
-      "away": "Vit Kopriva",
-      "time": "9:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Millennium Estoril Open",
-      "home": "Luca Van Assche",
-      "away": "Frederico Ferreira Silva",
-      "time": "9:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "20 Jul",
-      "liga": "Livesport Prague Open",
-      "home": "Dominika Salkova",
-      "away": "Antonia Ruzic",
-      "time": "9:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Millennium Estoril Open",
-      "home": "Jaime Faria",
-      "away": "Botic Van De Zandschulp",
-      "time": "10:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Millennium Estoril Open",
-      "home": "Tiago Torres",
-      "away": "Alejandro Tabilo",
+      "away": "Yelyzaveta Kotliar",
       "time": "11:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Lorenzo Musetti",
+      "away": "Matteo Arnaldi",
+      "time": "11:30 AM",
       "venue": "Men's Singles",
       "sport": "tenis"
     },
     {
-      "day": "21 Jul",
-      "liga": "Generali Open",
-      "home": "Marco Trungelliti",
-      "away": "Juan Manuel Cerundolo",
-      "time": "4:00 AM",
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Sofia Kenin",
+      "away": "Emma Navarro",
+      "time": "11:30 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Valeria Savinykh",
+      "away": "Emma Si Yu Dong",
+      "time": "1:30 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Ellie Schoppe",
+      "away": "Katrina Scott",
+      "time": "1:30 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Zizou Bergs",
+      "away": "Taylor Fritz",
+      "time": "2:00 PM",
       "venue": "Men's Singles",
       "sport": "tenis"
     },
     {
-      "day": "21 Jul",
-      "liga": "Generali Open",
-      "home": "Aleksandr Shevchenko",
-      "away": "Jan-Lennard Struff",
-      "time": "4:00 AM",
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Zachary Svajda",
+      "away": "Aleksandar Vukic",
+      "time": "2:30 PM",
       "venue": "Men's Singles",
       "sport": "tenis"
     },
     {
-      "day": "21 Jul",
-      "liga": "Sudamericana",
-      "home": "Nacional",
-      "away": "Tigre",
-      "time": "5:00 PM",
-      "venue": "Gran Parque Central",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Generali Open",
-      "home": "Miomir Kecmanovic",
-      "away": "Sebastian Baez",
-      "time": "5:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Generali Open",
-      "home": "Quentin Halys",
-      "away": "Laslo Djere",
-      "time": "5:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Millennium Estoril Open",
-      "home": "Pablo Carreno Busta",
-      "away": "Vilius Gaubas",
-      "time": "6:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Millennium Estoril Open",
-      "home": "Jesper de Jong",
-      "away": "Jan Choinski",
-      "time": "6:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Millennium Estoril Open",
-      "home": "Tiago Pereira",
-      "away": "Gonzalo Bueno",
-      "time": "6:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Generali Open",
-      "home": "Sebastian Ofner",
-      "away": "Alex Molcan",
-      "time": "7:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Generali Open",
-      "home": "Kilian Feldbausch",
-      "away": "Adolfo Daniel Vallejo",
-      "time": "7:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Millennium Estoril Open",
-      "home": "Orlando Luz",
-      "away": "Nuno Borges",
-      "time": "7:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Millennium Estoril Open",
-      "home": "Damir Dzumhur",
-      "away": "Hugo Gaston",
-      "time": "7:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Millennium Estoril Open",
-      "home": "Taro Daniel",
-      "away": "Daniel Merida",
-      "time": "7:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Sudamericana",
-      "home": "UCV FC",
-      "away": "Santos",
-      "time": "7:30 PM",
-      "venue": "Estadio Misael Delgado",
-      "sport": "futbol"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Generali Open",
-      "home": "Raphael Collignon",
-      "away": "Daniel Altmaier",
-      "time": "8:30 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "21 Jul",
-      "liga": "Millennium Estoril Open",
-      "home": "Roman Andres Burruchaga",
-      "away": "Stan Wawrinka",
-      "time": "9:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "22 Jul",
-      "liga": "Sudamericana",
-      "home": "Independiente Medellín",
-      "away": "Vasco da Gama",
-      "time": "5:00 PM",
-      "venue": "Atanasio Girardot",
-      "sport": "futbol"
-    },
-    {
-      "day": "22 Jul",
-      "liga": "Sudamericana",
-      "home": "Lanús",
-      "away": "Cienciano del Cusco",
-      "time": "7:30 PM",
-      "venue": "Ciudad de Lanús",
-      "sport": "futbol"
-    },
-    {
-      "day": "22 Jul",
-      "liga": "Sudamericana",
-      "home": "Sporting Cristal",
-      "away": "Red Bull Bragantino",
-      "time": "7:30 PM",
-      "venue": "Estadio Nacional de Lima",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "23 Jul",
-      "liga": "Sudamericana",
-      "home": "Bolívar",
-      "away": "Grêmio",
-      "time": "5:00 PM",
-      "venue": "Estadio Hernando Siles",
-      "sport": "futbol"
-    },
-    {
-      "day": "23 Jul",
-      "liga": "Sudamericana",
-      "home": "Boca Juniors",
-      "away": "O'Higgins",
-      "time": "7:30 PM",
-      "venue": "Alberto José Armando (La Bombonera)",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "23 Jul",
-      "liga": "Sudamericana",
-      "home": "Independiente Santa Fe",
-      "away": "Caracas FC",
-      "time": "7:30 PM",
-      "venue": "Estadio Nemesio Camacho El Campín",
-      "sport": "futbol"
-    },
-    {
-      "day": "24 Jul",
-      "liga": "Liga 1 Perú",
-      "home": "Alianza Atlético",
-      "away": "Los Chankas",
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Avery Alexander",
+      "away": "Miho Kuramochi",
       "time": "3:00 PM",
-      "venue": "Estadio Campeones del '36",
-      "sport": "futbol",
-      "importante": true
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
-      "day": "24 Jul",
-      "liga": "Liga 1 Perú",
-      "home": "Universitario",
-      "away": "Cusco FC",
-      "time": "8:30 PM",
-      "venue": "Estadio Monumental de Lima",
-      "sport": "futbol",
-      "importante": true
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Shang Juncheng",
+      "away": "Kei Nishikori",
+      "time": "4:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
     },
     {
-      "day": "25 Jul",
-      "liga": "Liga 1 Perú",
-      "home": "Sport Huancayo",
-      "away": "Atlético Grau",
-      "time": "1:00 PM",
-      "venue": "Estadio Huancayo",
-      "sport": "futbol"
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Rebecca Sramkova",
+      "away": "Janice Tjen",
+      "time": "4:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
-      "day": "25 Jul",
-      "liga": "Liga 1 Perú",
-      "home": "Juan Pablo II",
-      "away": "Cienciano del Cusco",
-      "time": "3:15 PM",
-      "venue": "Complejo Deportivo Juan Pablo II",
-      "sport": "futbol"
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Hong Yi Cody Wong",
+      "away": "Wei Sijia",
+      "time": "4:30 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
-      "day": "25 Jul",
-      "liga": "Liga 1 Perú",
-      "home": "Sport Boys",
-      "away": "ADT",
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Madison Keys",
+      "away": "Liudmila Samsonova",
+      "time": "5:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Tatjana Maria",
+      "away": "Talia Gibson",
+      "time": "5:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Reese Brantmeier",
+      "away": "Iryna Shymanovich",
+      "time": "5:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Tatiana Prozorova",
+      "away": "Solana Sierra",
+      "time": "5:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Katie Boulter",
+      "away": "Ashlyn Krueger",
       "time": "5:30 PM",
-      "venue": "Estadio Miguel Grau del Callao",
-      "sport": "futbol"
+      "venue": "Women's Singles",
+      "sport": "tenis"
     },
     {
-      "day": "25 Jul",
-      "liga": "Liga 1 Perú",
-      "home": "Melgar",
-      "away": "Sporting Cristal",
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Kyoka Okamura",
+      "away": "Hayu Kinoshita",
+      "time": "6:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Mai Hontama",
+      "away": "Kayla Day",
+      "time": "6:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Mananchaya Sawangkaew",
+      "away": "En-Shuo Liang",
+      "time": "6:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mubadala DC Open",
+      "home": "Terence Atmane",
+      "away": "Frances Tiafoe",
+      "time": "6:30 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Elvina Kalieva",
+      "away": "Katherine Sebov",
+      "time": "6:30 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "The Memphis Classic",
+      "home": "Storm Hunter",
+      "away": "Camila Osorio",
+      "time": "6:30 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Carol Zhao",
+      "away": "Emerson Jones",
+      "time": "7:30 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Taylah Preston",
+      "away": "Haruka Kaji",
+      "time": "7:30 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Alexandra Vagramov",
+      "away": "Madison Brengle",
+      "time": "7:30 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Odlum Brown VanOpen",
+      "home": "Maddison Inglis",
+      "away": "Greet Minnen",
+      "time": "7:30 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Axeria Open 2026 powered by Intaro Sport",
+      "home": "Sofya Lansere",
+      "away": "Irene Burillo",
+      "time": "7:45 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mifel Tennis Open by Telcel Oppo",
+      "home": "Bernard Tomic",
+      "away": "Alex Hernandez",
       "time": "8:00 PM",
-      "venue": "Estadio Monumental de la UNSA",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mifel Tennis Open by Telcel Oppo",
+      "home": "Tristan Boyer",
+      "away": "Gabriel Diallo",
+      "time": "8:00 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Axeria Open 2026 powered by Intaro Sport",
+      "home": "Sara Sorribes Tormo",
+      "away": "Leyre Romero Gormaz",
+      "time": "8:10 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Axeria Open 2026 powered by Intaro Sport",
+      "home": "Julie Struplova",
+      "away": "Alice Rame",
+      "time": "8:35 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "27 Jul",
+      "liga": "Mifel Tennis Open by Telcel Oppo",
+      "home": "Aleksandar Kovacevic",
+      "away": "Cameron Norrie",
+      "time": "9:30 PM",
+      "venue": "Men's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "28 Jul",
+      "liga": "Sudamericana",
+      "home": "Tigre",
+      "away": "Nacional",
+      "time": "5:00 PM",
+      "venue": "Monumental de Victoria (José Dellagiovanna)",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "26 Jul",
+      "day": "28 Jul",
+      "liga": "Sudamericana",
+      "home": "Santos",
+      "away": "UCV FC",
+      "time": "7:30 PM",
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "sport": "futbol"
+    },
+    {
+      "day": "29 Jul",
+      "liga": "Sudamericana",
+      "home": "Vasco da Gama",
+      "away": "Independiente Medellín",
+      "time": "5:00 PM",
+      "venue": "Estádio São Januário",
+      "sport": "futbol"
+    },
+    {
+      "day": "29 Jul",
+      "liga": "Sudamericana",
+      "home": "Cienciano del Cusco",
+      "away": "Lanús",
+      "time": "7:30 PM",
+      "venue": "Estadio Inca Garcilaso de la Vega",
+      "sport": "futbol"
+    },
+    {
+      "day": "29 Jul",
+      "liga": "Sudamericana",
+      "home": "Red Bull Bragantino",
+      "away": "Sporting Cristal",
+      "time": "7:30 PM",
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "30 Jul",
+      "liga": "Sudamericana",
+      "home": "Grêmio",
+      "away": "Bolívar",
+      "time": "5:00 PM",
+      "venue": "Arena do Grêmio",
+      "sport": "futbol"
+    },
+    {
+      "day": "30 Jul",
+      "liga": "Sudamericana",
+      "home": "Caracas FC",
+      "away": "Independiente Santa Fe",
+      "time": "7:30 PM",
+      "venue": "",
+      "sport": "futbol"
+    },
+    {
+      "day": "30 Jul",
+      "liga": "Sudamericana",
+      "home": "O'Higgins",
+      "away": "Boca Juniors",
+      "time": "7:30 PM",
+      "venue": "Estadio El Teniente",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "31 Jul",
       "liga": "Liga 1 Perú",
-      "home": "UTC",
-      "away": "Deportivo Moquegua",
+      "home": "Los Chankas",
+      "away": "Comerciantes Unidos",
+      "time": "3:00 PM",
+      "venue": "Estadio Los Chankas",
+      "sport": "futbol"
+    },
+    {
+      "day": "1 Aug",
+      "liga": "Liga 1 Perú",
+      "home": "FC Cajamarca",
+      "away": "Sport Huancayo",
       "time": "1:00 PM",
       "venue": "Estadio Héroes de San Ramón",
       "sport": "futbol"
     },
     {
-      "day": "26 Jul",
+      "day": "1 Aug",
       "liga": "Liga 1 Perú",
-      "home": "Comerciantes Unidos",
-      "away": "Alianza Lima",
+      "home": "Atlético Grau",
+      "away": "Sport Boys",
       "time": "3:30 PM",
-      "venue": "Juan Maldonado Gamarra",
+      "venue": "",
+      "sport": "futbol"
+    },
+    {
+      "day": "1 Aug",
+      "liga": "Liga 1 Perú",
+      "home": "Cusco FC",
+      "away": "UTC",
+      "time": "6:00 PM",
+      "venue": "Estadio Inca Garcilaso de la Vega",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "26 Jul",
+      "day": "1 Aug",
       "liga": "Liga 1 Perú",
-      "home": "Deportivo Garcilaso",
-      "away": "FC Cajamarca",
-      "time": "7:00 PM",
-      "venue": "Estadio Inca Garcilaso de la Vega",
+      "home": "Alianza Lima",
+      "away": "Alianza Atlético",
+      "time": "8:30 PM",
+      "venue": "Estadio Alejandro Villanueva",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "2 Aug",
+      "liga": "Liga 1 Perú",
+      "home": "Sporting Cristal",
+      "away": "Juan Pablo II",
+      "time": "11:00 AM",
+      "venue": "Estadio Alberto Gallardo",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "2 Aug",
+      "liga": "Liga 1 Perú",
+      "home": "ADT",
+      "away": "Deportivo Garcilaso",
+      "time": "1:15 PM",
+      "venue": "Estadio Unión Tarma",
       "sport": "futbol"
+    },
+    {
+      "day": "2 Aug",
+      "liga": "Liga 1 Perú",
+      "home": "Deportivo Moquegua",
+      "away": "Melgar",
+      "time": "3:30 PM",
+      "venue": "Estadio 25 de Noviembre",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "2 Aug",
+      "liga": "Liga 1 Perú",
+      "home": "Cienciano del Cusco",
+      "away": "Universitario",
+      "time": "6:30 PM",
+      "venue": "Estadio Inca Garcilaso de la Vega",
+      "sport": "futbol",
+      "importante": true
     }
   ]
 }
