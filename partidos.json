@@ -1,499 +1,486 @@
 {
-  "_actualizado": "2026-11-16",
+  "_actualizado": "2026-11-23",
   "_nota": "Generado automáticamente vía ESPN API. Agrega importante:true manualmente si quieres.",
   "matches": [
     {
-      "day": "16 Nov",
-      "liga": "Amistosos",
-      "home": "Andorra",
-      "away": "Azerbaijan",
-      "time": "1:00 PM",
-      "venue": "Estadi de la FAF d'Encamp",
+      "day": "23 Nov",
+      "liga": "Premier League",
+      "home": "Brentford",
+      "away": "Everton",
+      "time": "3:00 PM",
+      "venue": "Gtech Community Stadium",
       "sport": "futbol"
     },
     {
-      "day": "16 Nov",
-      "liga": "Liga 1 Perú",
-      "home": "UTC",
-      "away": "Los Chankas",
-      "time": "1:00 PM",
-      "venue": "Estadio Héroes de San Ramón",
-      "sport": "futbol"
-    },
-    {
-      "day": "16 Nov",
-      "liga": "Nitto ATP Finals",
-      "home": "Flavio Cobolli",
-      "away": "Daniil Medvedev",
-      "time": "2:55 PM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Nov",
-      "liga": "Liga 1 Perú",
-      "home": "Cusco FC",
-      "away": "ADT",
-      "time": "3:15 PM",
-      "venue": "Estadio Inca Garcilaso de la Vega",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "16 Nov",
-      "liga": "Liga 1 Perú",
-      "home": "Deportivo Moquegua",
-      "away": "Atlético Grau",
-      "time": "3:15 PM",
-      "venue": "Estadio 25 de Noviembre",
-      "sport": "futbol"
-    },
-    {
-      "day": "16 Nov",
-      "liga": "LP Open by IND",
-      "home": "Anastasia Tikhonova",
-      "away": "Valeriya Strakhova",
-      "time": "4:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "16 Nov",
-      "liga": "LP Open by IND",
-      "home": "Ariana Geerlings",
-      "away": "Luisina Giovannini",
-      "time": "5:00 PM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Saudi Arabia",
-      "away": "Uzbekistan",
+      "day": "24 Nov",
+      "liga": "IEB+ Argentina Open",
+      "home": "Luna Maria Cinalli",
+      "away": "Guiomar Maristany Zuleta De Reales",
       "time": "10:30 AM",
-      "venue": "Jassim Bin Hamad Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Jordan",
-      "away": "Australia",
-      "time": "11:00 AM",
-      "venue": "Suheim bin Hamad Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Russia",
-      "away": "Venezuela",
-      "time": "11:00 AM",
-      "venue": "Krasnodar Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Iraq",
-      "away": "Iran",
-      "time": "11:15 AM",
-      "venue": "Basra International Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Kuwait",
-      "away": "Honduras",
-      "time": "11:30 AM",
-      "venue": "Al-Sadaqua Walsalam Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "LP Open by IND",
-      "home": "Antonia Vergara Rivera",
-      "away": "Fernanda Labrana",
-      "time": "12:00 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "17 Nov",
-      "liga": "LP Open by IND",
-      "home": "Veronika Erjavec",
-      "away": "Maria Lourdes Carle",
-      "time": "12:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "LP Open by IND",
-      "home": "Andrea Lazaro Garcia",
-      "away": "Barbara Gatica",
-      "time": "12:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "LP Open by IND",
-      "home": "Varvara Lepchenko",
-      "away": "Nadia Podoroska",
-      "time": "12:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "LP Open by IND",
-      "home": "Miriam Bulgaru",
-      "away": "Polona Hercog",
-      "time": "12:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "LP Open by IND",
-      "home": "Darja Semenistaja",
-      "away": "Irene Burillo",
-      "time": "12:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "LP Open by IND",
-      "home": "Laura Samson",
-      "away": "Despina Papamichail",
-      "time": "12:00 AM",
-      "venue": "Women's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "LP Open by IND",
+      "day": "24 Nov",
+      "liga": "IEB+ Argentina Open",
       "home": "Alicia Herrero Linana",
       "away": "Lucia Bronzetti",
-      "time": "12:00 AM",
+      "time": "10:30 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Tahiti",
-      "away": "Cook Islands",
-      "time": "12:30 AM",
-      "venue": "Stade Louis Ganivet",
-      "sport": "futbol"
+      "day": "24 Nov",
+      "liga": "Champions League",
+      "home": "Bodo/Glimt",
+      "away": "LASK Linz",
+      "time": "12:45 PM",
+      "venue": "Aspmyra Stadion",
+      "sport": "futbol",
+      "importante": true
     },
     {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Malaysia",
-      "away": "Yemen",
-      "time": "1:00 AM",
-      "venue": "Zhaoqing New District Sports Center Stadium",
-      "sport": "futbol"
+      "day": "24 Nov",
+      "liga": "Champions League",
+      "home": "Galatasaray",
+      "away": "Aston Villa",
+      "time": "12:45 PM",
+      "venue": "RAMS Park",
+      "sport": "futbol",
+      "importante": true
     },
     {
-      "day": "17 Nov",
-      "liga": "Nitto ATP Finals",
-      "home": "Ben Shelton",
-      "away": "Alexander Zverev",
+      "day": "24 Nov",
+      "liga": "IEB+ Argentina Open",
+      "home": "Irene Burillo",
+      "away": "Lourdes Ayala",
+      "time": "1:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "24 Nov",
+      "liga": "IEB+ Argentina Open",
+      "home": "Victoria Jimenez Kasintseva",
+      "away": "Solana Sierra",
+      "time": "1:00 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "24 Nov",
+      "liga": "IEB+ Argentina Open",
+      "home": "Leyre Romero Gormaz",
+      "away": "Nadia Podoroska",
       "time": "2:30 PM",
-      "venue": "Men's Singles",
+      "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Singapore",
-      "away": "Brazil",
-      "time": "5:00 AM",
-      "venue": "Singapore National Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Argentina",
-      "away": "Costa Rica",
-      "time": "6:00 PM",
-      "venue": "Mario Alberto Kempes",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Chile",
-      "away": "Colombia",
-      "time": "6:00 PM",
-      "venue": "Estadio Nacional Julio Martínez Prádanos",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Ecuador",
-      "away": "Bolivia",
-      "time": "6:30 PM",
-      "venue": "Estadio Banco Pichincha",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Uruguay",
-      "away": "Dominican Republic",
-      "time": "6:30 PM",
-      "venue": "Estadio Domingo Burgueño Miguel",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "China",
-      "away": "Bahrain",
-      "time": "7:00 AM",
-      "venue": "Zhaoqing New District Sports Center Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Kyrgyz Republic",
-      "away": "Vietnam",
-      "time": "7:00 AM",
-      "venue": "Thien Truong Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Lebanon",
-      "away": "Palestine",
-      "time": "8:00 AM",
-      "venue": "Basra International Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Nitto ATP Finals",
-      "home": "Rafael Jodar",
-      "away": "Arthur Fils",
-      "time": "8:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Japan",
-      "away": "Paraguay",
-      "time": "8:10 AM",
-      "venue": "Singapore National Stadium",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "Qatar",
-      "away": "South Korea",
-      "time": "9:00 AM",
-      "venue": "Abdullah bin Khalifa Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "17 Nov",
-      "liga": "Amistosos",
-      "home": "United Arab Emirates",
-      "away": "Syria",
-      "time": "9:10 AM",
-      "venue": "Hazza Bin Zayed Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "18 Nov",
-      "liga": "Nitto ATP Finals",
-      "home": "Arthur Fils",
-      "away": "Alexander Zverev",
-      "time": "12:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "18 Nov",
-      "liga": "Nitto ATP Finals",
-      "home": "Frances Tiafoe",
-      "away": "Flavio Cobolli",
-      "time": "12:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "18 Nov",
-      "liga": "Nitto ATP Finals",
-      "home": "Frances Tiafoe",
-      "away": "Daniil Medvedev",
-      "time": "12:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "18 Nov",
-      "liga": "Nitto ATP Finals",
-      "home": "Flavio Cobolli",
-      "away": "Carlos Alcaraz",
-      "time": "12:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis",
-      "importante": true
-    },
-    {
-      "day": "18 Nov",
-      "liga": "Nitto ATP Finals",
-      "home": "Daniil Medvedev",
-      "away": "Carlos Alcaraz",
-      "time": "12:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis",
-      "importante": true
-    },
-    {
-      "day": "18 Nov",
-      "liga": "Nitto ATP Finals",
-      "home": "Rafael Jodar",
-      "away": "Ben Shelton",
-      "time": "12:00 AM",
-      "venue": "Men's Singles",
-      "sport": "tenis"
-    },
-    {
-      "day": "18 Nov",
-      "liga": "LP Open by IND",
+      "day": "24 Nov",
+      "liga": "IEB+ Argentina Open",
       "home": "Sofia Costoulas",
-      "away": "Guiomar Maristany Zuleta De Reales",
+      "away": "Polona Hercog",
+      "time": "2:30 PM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "24 Nov",
+      "liga": "Champions League",
+      "home": "Arsenal",
+      "away": "Borussia Dortmund",
+      "time": "3:00 PM",
+      "venue": "Emirates Stadium",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "24 Nov",
+      "liga": "Champions League",
+      "home": "Como",
+      "away": "AEK Athens",
+      "time": "3:00 PM",
+      "venue": "Giuseppe Sinigaglia",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "24 Nov",
+      "liga": "Champions League",
+      "home": "Feyenoord Rotterdam",
+      "away": "FC Porto",
+      "time": "3:00 PM",
+      "venue": "De Kuip",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "24 Nov",
+      "liga": "Champions League",
+      "home": "Manchester City",
+      "away": "Napoli",
+      "time": "3:00 PM",
+      "venue": "Etihad Stadium",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "24 Nov",
+      "liga": "Champions League",
+      "home": "RB Leipzig",
+      "away": "Lens",
+      "time": "3:00 PM",
+      "venue": "Red Bull Arena",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "24 Nov",
+      "liga": "Champions League",
+      "home": "Real Madrid",
+      "away": "PSV Eindhoven",
+      "time": "3:00 PM",
+      "venue": "Santiago Bernabéu",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "24 Nov",
+      "liga": "Champions League",
+      "home": "Slovan Bratislava",
+      "away": "Real Betis",
+      "time": "3:00 PM",
+      "venue": "Národny Futbalovy Stadión",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "24 Nov",
+      "liga": "IEB+ Argentina Open",
+      "home": "Laura Samson",
+      "away": "Victoria Bosio",
+      "time": "9:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "24 Nov",
+      "liga": "IEB+ Argentina Open",
+      "home": "Veronika Erjavec",
+      "away": "Zhibek Kulambayeva",
+      "time": "9:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "25 Nov",
+      "liga": "IEB+ Argentina Open",
+      "home": "Maria Lourdes Carle",
+      "away": "Sol Ailin Larraya Guidi",
       "time": "12:00 AM",
       "venue": "Women's Singles",
       "sport": "tenis"
     },
     {
-      "day": "18 Nov",
-      "liga": "Liga 1 Perú",
-      "home": "Alianza Atlético",
-      "away": "Melgar",
+      "day": "25 Nov",
+      "liga": "IEB+ Argentina Open",
+      "home": "Julia Riera",
+      "away": "Ipek Oz",
+      "time": "12:00 AM",
+      "venue": "Women's Singles",
+      "sport": "tenis"
+    },
+    {
+      "day": "25 Nov",
+      "liga": "Champions League",
+      "home": "Sabah FK",
+      "away": "Barcelona",
+      "time": "12:45 PM",
+      "venue": "Baku Olympic Stadium",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "25 Nov",
+      "liga": "Champions League",
+      "home": "Slavia Prague",
+      "away": "Villarreal",
+      "time": "12:45 PM",
+      "venue": "Fortuna Arena",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "25 Nov",
+      "liga": "Champions League",
+      "home": "Atlético Madrid",
+      "away": "Viking FK",
       "time": "3:00 PM",
-      "venue": "Estadio Campeones del '36",
+      "venue": "Riyadh Air Metropolitano",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "21 Nov",
-      "liga": "Premier League",
-      "home": "AFC Bournemouth",
-      "away": "Nottingham Forest",
-      "time": "10:00 AM",
-      "venue": "Vitality Stadium",
-      "sport": "futbol"
+      "day": "25 Nov",
+      "liga": "Champions League",
+      "home": "Club Brugge",
+      "away": "Liverpool",
+      "time": "3:00 PM",
+      "venue": "Jan Breydel Stadium",
+      "sport": "futbol",
+      "importante": true
     },
     {
-      "day": "21 Nov",
-      "liga": "Premier League",
-      "home": "Aston Villa",
-      "away": "Sunderland",
-      "time": "10:00 AM",
-      "venue": "Villa Park",
-      "sport": "futbol"
+      "day": "25 Nov",
+      "liga": "Champions League",
+      "home": "Internazionale",
+      "away": "VfB Stuttgart",
+      "time": "3:00 PM",
+      "venue": "San Siro",
+      "sport": "futbol",
+      "importante": true
     },
     {
-      "day": "21 Nov",
-      "liga": "Premier League",
-      "home": "Chelsea",
-      "away": "Leeds United",
-      "time": "10:00 AM",
+      "day": "25 Nov",
+      "liga": "Champions League",
+      "home": "Lille",
+      "away": "Bayern Munich",
+      "time": "3:00 PM",
+      "venue": "Decathlon Arena - Stade Pierre-Mauroy",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "25 Nov",
+      "liga": "Champions League",
+      "home": "Paris Saint-Germain",
+      "away": "AS Roma",
+      "time": "3:00 PM",
+      "venue": "Parc des Princes",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "25 Nov",
+      "liga": "Champions League",
+      "home": "Shakhtar Donetsk",
+      "away": "Fenerbahce",
+      "time": "3:00 PM",
       "venue": "Stamford Bridge",
-      "sport": "futbol"
-    },
-    {
-      "day": "21 Nov",
-      "liga": "Premier League",
-      "home": "Coventry City",
-      "away": "Crystal Palace",
-      "time": "10:00 AM",
-      "venue": "Coventry Building Society Arena",
-      "sport": "futbol"
-    },
-    {
-      "day": "21 Nov",
-      "liga": "Premier League",
-      "home": "Tottenham Hotspur",
-      "away": "Ipswich Town",
-      "time": "10:00 AM",
-      "venue": "Tottenham Hotspur Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "21 Nov",
-      "liga": "Premier League",
-      "home": "Newcastle United",
-      "away": "Arsenal",
-      "time": "12:30 PM",
-      "venue": "St. James' Park",
-      "sport": "futbol"
-    },
-    {
-      "day": "21 Nov",
-      "liga": "Liga 1 Perú",
-      "home": "Alianza Lima",
-      "away": "FC Cajamarca",
-      "time": "3:30 PM",
-      "venue": "Estadio Alejandro Villanueva",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "21 Nov",
-      "liga": "Sudamericana",
-      "home": "Atlético-MG",
-      "away": "Boca Juniors",
-      "time": "5:30 PM",
-      "venue": "Metropolitano Roberto Meléndez",
-      "sport": "futbol",
-      "importante": true
-    },
-    {
-      "day": "21 Nov",
-      "liga": "Premier League",
-      "home": "Manchester City",
-      "away": "Fulham",
-      "time": "7:30 AM",
-      "venue": "Etihad Stadium",
-      "sport": "futbol"
-    },
-    {
-      "day": "22 Nov",
-      "liga": "Premier League",
-      "home": "Liverpool",
+      "day": "25 Nov",
+      "liga": "Champions League",
+      "home": "Sporting CP",
       "away": "Manchester United",
-      "time": "11:30 AM",
-      "venue": "Anfield",
+      "time": "3:00 PM",
+      "venue": "Estádio José Alvalade",
+      "sport": "futbol",
+      "importante": true
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Besiktas",
+      "away": "Hapoel Be'er",
+      "time": "12:45 PM",
+      "venue": "Batumi Stadium (Adjarabet Arena)",
       "sport": "futbol"
     },
     {
-      "day": "22 Nov",
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Celta Vigo",
+      "away": "AFC Bournemouth",
+      "time": "12:45 PM",
+      "venue": "Balaidos",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Dinamo Zagreb",
+      "away": "Bayer Leverkusen",
+      "time": "12:45 PM",
+      "venue": "Maksimir Stadium",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Marseille",
+      "away": "Levski Sofia",
+      "time": "12:45 PM",
+      "venue": "Stade Vélodrome",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Olympiacos",
+      "away": "AC Milan",
+      "time": "12:45 PM",
+      "venue": "Georgios Karaiskakis Stadium",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "RB Salzburg",
+      "away": "Ararat-Armenia",
+      "time": "12:45 PM",
+      "venue": "Red Bull Arena Salzburg",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Union St.-Gilloise",
+      "away": "Lech Poznan",
+      "time": "12:45 PM",
+      "venue": "King Power at Den Dreef Stadion",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Viktoria Plzen",
+      "away": "Benfica",
+      "time": "12:45 PM",
+      "venue": "Doosan Arena",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Crystal Palace",
+      "away": "Real Sociedad",
+      "time": "3:00 PM",
+      "venue": "Selhurst Park",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Ferencvaros",
+      "away": "NK Celje",
+      "time": "3:00 PM",
+      "venue": "Groupama Arena",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Juventus",
+      "away": "Omonia Nicosia",
+      "time": "3:00 PM",
+      "venue": "Allianz Stadium",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Lyon",
+      "away": "Lillestrom",
+      "time": "3:00 PM",
+      "venue": "Groupama Stadium",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "NEC Nijmegen",
+      "away": "Stade Rennais",
+      "time": "3:00 PM",
+      "venue": "Goffertstadion",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "OFI Crete",
+      "away": "Anderlecht",
+      "time": "3:00 PM",
+      "venue": "Pankritio Stadium",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Sparta Prague",
+      "away": "AZ Alkmaar",
+      "time": "3:00 PM",
+      "venue": "Generali Arena",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Sunderland",
+      "away": "Jagiellonia Bialystok",
+      "time": "3:00 PM",
+      "venue": "Stadium of Light",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "Torreense",
+      "away": "Celtic",
+      "time": "3:00 PM",
+      "venue": "Estádio Dr. Magalhaes Pessoa",
+      "sport": "futbol"
+    },
+    {
+      "day": "26 Nov",
+      "liga": "Europa League",
+      "home": "TSG Hoffenheim",
+      "away": "SK Sturm Graz",
+      "time": "3:00 PM",
+      "venue": "PreZero Arena",
+      "sport": "futbol"
+    },
+    {
+      "day": "27 Nov",
+      "liga": "Premier League",
+      "home": "Nottingham Forest",
+      "away": "Chelsea",
+      "time": "3:00 PM",
+      "venue": "The City Ground",
+      "sport": "futbol"
+    },
+    {
+      "day": "28 Nov",
+      "liga": "Premier League",
+      "home": "Leeds United",
+      "away": "Coventry City",
+      "time": "10:00 AM",
+      "venue": "Elland Road",
+      "sport": "futbol"
+    },
+    {
+      "day": "28 Nov",
+      "liga": "Premier League",
+      "home": "Manchester United",
+      "away": "Brentford",
+      "time": "10:00 AM",
+      "venue": "Old Trafford",
+      "sport": "futbol"
+    },
+    {
+      "day": "28 Nov",
+      "liga": "Premier League",
+      "home": "Ipswich Town",
+      "away": "Aston Villa",
+      "time": "12:30 PM",
+      "venue": "Portman Road",
+      "sport": "futbol"
+    },
+    {
+      "day": "28 Nov",
       "liga": "Liga 1 Perú",
       "home": "Sport Huancayo",
       "away": "Universitario",
@@ -503,22 +490,67 @@
       "importante": true
     },
     {
-      "day": "22 Nov",
-      "liga": "Liga 1 Perú",
-      "home": "Sporting Cristal",
-      "away": "Cienciano del Cusco",
+      "day": "28 Nov",
+      "liga": "Libertadores",
+      "home": "Palmeiras",
+      "away": "Estudiantes de La Plata",
       "time": "3:00 PM",
-      "venue": "Estadio Alberto Gallardo",
+      "venue": "Estadio Centenario",
       "sport": "futbol",
       "importante": true
     },
     {
-      "day": "22 Nov",
+      "day": "29 Nov",
       "liga": "Premier League",
-      "home": "Hull City",
-      "away": "Brighton & Hove Albion",
-      "time": "9:00 AM",
-      "venue": "The MKM Stadium",
+      "home": "Arsenal",
+      "away": "Manchester City",
+      "time": "11:30 AM",
+      "venue": "Emirates Stadium",
+      "sport": "futbol"
+    },
+    {
+      "day": "29 Nov",
+      "liga": "Premier League",
+      "home": "Everton",
+      "away": "Liverpool",
+      "time": "7:00 AM",
+      "venue": "Hill Dickinson Stadium",
+      "sport": "futbol"
+    },
+    {
+      "day": "29 Nov",
+      "liga": "Premier League",
+      "home": "Brighton & Hove Albion",
+      "away": "Newcastle United",
+      "time": "9:05 AM",
+      "venue": "American Express Stadium",
+      "sport": "futbol"
+    },
+    {
+      "day": "29 Nov",
+      "liga": "Premier League",
+      "home": "Crystal Palace",
+      "away": "Hull City",
+      "time": "9:05 AM",
+      "venue": "Selhurst Park",
+      "sport": "futbol"
+    },
+    {
+      "day": "29 Nov",
+      "liga": "Premier League",
+      "home": "Fulham",
+      "away": "AFC Bournemouth",
+      "time": "9:05 AM",
+      "venue": "Craven Cottage",
+      "sport": "futbol"
+    },
+    {
+      "day": "29 Nov",
+      "liga": "Premier League",
+      "home": "Sunderland",
+      "away": "Tottenham Hotspur",
+      "time": "9:05 AM",
+      "venue": "Stadium of Light",
       "sport": "futbol"
     }
   ]
